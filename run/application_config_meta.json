@@ -69,6 +69,35 @@
     "port": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
     "database": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts"
   },
+  "email": {
+    "service": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+    "secureConnection": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+    "port": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+    "auth": {
+      "user": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+      "pass": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts"
+    }
+  },
+  "redis": {
+    "clients": {
+      "foo": {
+        "port": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+        "host": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+        "password": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+        "db": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts"
+      },
+      "bar": {
+        "port": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+        "host": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+        "password": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts",
+        "db": "/Volumes/开发/www/stars/api.stars.io/config/config.local.ts"
+      }
+    },
+    "default": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "app": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "agent": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-session@3.3.0@egg-session/config/config.default.js",
     "key": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-session@3.3.0@egg-session/config/config.default.js",
@@ -194,10 +223,13 @@
       "clean": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js"
     },
     "dependencies": {
+      "@types/nodemailer": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "egg": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "egg-cors": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
+      "egg-redis": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "egg-scripts": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "egg-sequelize-ts": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
+      "ejs": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "mysql2": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js"
     },
     "devDependencies": {

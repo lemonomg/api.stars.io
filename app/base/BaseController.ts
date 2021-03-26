@@ -11,8 +11,12 @@ class BaseController extends Controller {
     /**
      * 操作成功
      */
-    success(data: any, msg: string) {
-        return { data, msg, code: '0000' }
+    success(data: any, msg = "") {
+        this.ctx.body = {
+            data,
+            msg,
+            code: '0000'
+        }
     }
     /**
      * 操作失败

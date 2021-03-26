@@ -3563,3 +3563,1209 @@
 2021-03-25 15:21:17,856 INFO 21536 [egg-watcher:application] watcher start success
 2021-03-25 15:21:17,875 INFO 21536 [egg:core] dump config after ready, 5ms
 2021-03-25 15:23:47,536 WARN 21536 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-25 15:36:23,230 INFO 21839 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:36:23,261 INFO 21839 [egg-multipart] stream mode enable
+2021-03-25 15:36:23,592 INFO 21839 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:36:23,594 INFO 21839 [egg-security] use methodnoallow middleware
+2021-03-25 15:36:23,594 INFO 21839 [egg-security] use noopen middleware
+2021-03-25 15:36:23,594 INFO 21839 [egg-security] use nosniff middleware
+2021-03-25 15:36:23,595 INFO 21839 [egg-security] use xssProtection middleware
+2021-03-25 15:36:23,595 INFO 21839 [egg-security] use xframe middleware
+2021-03-25 15:36:23,595 INFO 21839 [egg-security] use dta middleware
+2021-03-25 15:36:23,596 INFO 21839 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:36:23,605 INFO 21839 [egg:core] dump config after load, 4ms
+2021-03-25 15:36:23,615 INFO 21839 [egg-watcher:application] watcher start success
+2021-03-25 15:36:23,648 INFO 21839 [egg:core] dump config after ready, 5ms
+2021-03-25 15:38:40,704 INFO 21896 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:38:40,738 INFO 21896 [egg-multipart] stream mode enable
+2021-03-25 15:38:41,049 INFO 21896 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:38:41,051 INFO 21896 [egg-security] use methodnoallow middleware
+2021-03-25 15:38:41,052 INFO 21896 [egg-security] use noopen middleware
+2021-03-25 15:38:41,052 INFO 21896 [egg-security] use nosniff middleware
+2021-03-25 15:38:41,053 INFO 21896 [egg-security] use xssProtection middleware
+2021-03-25 15:38:41,053 INFO 21896 [egg-security] use xframe middleware
+2021-03-25 15:38:41,053 INFO 21896 [egg-security] use dta middleware
+2021-03-25 15:38:41,053 INFO 21896 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:38:41,071 INFO 21896 [egg:core] dump config after load, 10ms
+2021-03-25 15:38:41,081 INFO 21896 [egg-watcher:application] watcher start success
+2021-03-25 15:38:41,104 INFO 21896 [egg:core] dump config after ready, 4ms
+2021-03-25 15:38:48,731 INFO 21925 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:38:48,759 INFO 21925 [egg-multipart] stream mode enable
+2021-03-25 15:38:49,013 INFO 21925 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:38:49,014 INFO 21925 [egg-security] use methodnoallow middleware
+2021-03-25 15:38:49,015 INFO 21925 [egg-security] use noopen middleware
+2021-03-25 15:38:49,015 INFO 21925 [egg-security] use nosniff middleware
+2021-03-25 15:38:49,015 INFO 21925 [egg-security] use xssProtection middleware
+2021-03-25 15:38:49,016 INFO 21925 [egg-security] use xframe middleware
+2021-03-25 15:38:49,016 INFO 21925 [egg-security] use dta middleware
+2021-03-25 15:38:49,016 INFO 21925 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:38:49,025 INFO 21925 [egg:core] dump config after load, 3ms
+2021-03-25 15:38:49,035 INFO 21925 [egg-watcher:application] watcher start success
+2021-03-25 15:38:49,057 INFO 21925 [egg:core] dump config after ready, 4ms
+2021-03-25 15:39:12,497 INFO 21954 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:39:12,527 INFO 21954 [egg-multipart] stream mode enable
+2021-03-25 15:39:14,798 INFO 21954 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:39:14,800 INFO 21954 [egg-security] use methodnoallow middleware
+2021-03-25 15:39:14,800 INFO 21954 [egg-security] use noopen middleware
+2021-03-25 15:39:14,801 INFO 21954 [egg-security] use nosniff middleware
+2021-03-25 15:39:14,801 INFO 21954 [egg-security] use xssProtection middleware
+2021-03-25 15:39:14,801 INFO 21954 [egg-security] use xframe middleware
+2021-03-25 15:39:14,802 INFO 21954 [egg-security] use dta middleware
+2021-03-25 15:39:14,802 INFO 21954 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:39:14,810 INFO 21954 [egg:core] dump config after load, 4ms
+2021-03-25 15:39:14,832 INFO 21954 [egg-watcher:application] watcher start success
+2021-03-25 15:39:14,850 INFO 21954 [egg:core] dump config after ready, 4ms
+2021-03-25 15:39:33,167 INFO 21972 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:39:33,196 INFO 21972 [egg-multipart] stream mode enable
+2021-03-25 15:39:33,478 INFO 21972 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:39:33,480 INFO 21972 [egg-security] use methodnoallow middleware
+2021-03-25 15:39:33,481 INFO 21972 [egg-security] use noopen middleware
+2021-03-25 15:39:33,481 INFO 21972 [egg-security] use nosniff middleware
+2021-03-25 15:39:33,481 INFO 21972 [egg-security] use xssProtection middleware
+2021-03-25 15:39:33,482 INFO 21972 [egg-security] use xframe middleware
+2021-03-25 15:39:33,482 INFO 21972 [egg-security] use dta middleware
+2021-03-25 15:39:33,482 INFO 21972 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:39:35,484 INFO 21972 [egg:core] dump config after load, 7ms
+2021-03-25 15:39:35,496 INFO 21972 [egg-watcher:application] watcher start success
+2021-03-25 15:39:35,523 INFO 21972 [egg:core] dump config after ready, 5ms
+2021-03-25 15:39:36,024 INFO 21979 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:39:36,052 INFO 21979 [egg-multipart] stream mode enable
+2021-03-25 15:39:36,260 INFO 21979 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:39:36,262 INFO 21979 [egg-security] use methodnoallow middleware
+2021-03-25 15:39:36,262 INFO 21979 [egg-security] use noopen middleware
+2021-03-25 15:39:36,262 INFO 21979 [egg-security] use nosniff middleware
+2021-03-25 15:39:36,262 INFO 21979 [egg-security] use xssProtection middleware
+2021-03-25 15:39:36,262 INFO 21979 [egg-security] use xframe middleware
+2021-03-25 15:39:36,263 INFO 21979 [egg-security] use dta middleware
+2021-03-25 15:39:36,263 INFO 21979 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:39:38,289 INFO 21979 [egg:core] dump config after load, 8ms
+2021-03-25 15:39:38,322 INFO 21979 [egg-watcher:application] watcher start success
+2021-03-25 15:39:38,340 INFO 21979 [egg:core] dump config after ready, 4ms
+2021-03-25 15:49:22,180 INFO 22139 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:49:22,210 INFO 22139 [egg-multipart] stream mode enable
+2021-03-25 15:49:24,469 INFO 22139 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:49:24,470 INFO 22139 [egg-security] use methodnoallow middleware
+2021-03-25 15:49:24,471 INFO 22139 [egg-security] use noopen middleware
+2021-03-25 15:49:24,471 INFO 22139 [egg-security] use nosniff middleware
+2021-03-25 15:49:24,472 INFO 22139 [egg-security] use xssProtection middleware
+2021-03-25 15:49:24,472 INFO 22139 [egg-security] use xframe middleware
+2021-03-25 15:49:24,472 INFO 22139 [egg-security] use dta middleware
+2021-03-25 15:49:24,472 INFO 22139 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:49:24,480 INFO 22139 [egg:core] dump config after load, 4ms
+2021-03-25 15:49:24,501 INFO 22139 [egg-watcher:application] watcher start success
+2021-03-25 15:49:24,523 INFO 22139 [egg:core] dump config after ready, 6ms
+2021-03-25 15:49:25,048 INFO 22146 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:49:25,078 INFO 22146 [egg-multipart] stream mode enable
+2021-03-25 15:49:25,303 INFO 22146 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:49:25,305 INFO 22146 [egg-security] use methodnoallow middleware
+2021-03-25 15:49:25,305 INFO 22146 [egg-security] use noopen middleware
+2021-03-25 15:49:25,305 INFO 22146 [egg-security] use nosniff middleware
+2021-03-25 15:49:25,305 INFO 22146 [egg-security] use xssProtection middleware
+2021-03-25 15:49:25,306 INFO 22146 [egg-security] use xframe middleware
+2021-03-25 15:49:25,306 INFO 22146 [egg-security] use dta middleware
+2021-03-25 15:49:25,306 INFO 22146 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:49:25,313 INFO 22146 [egg:core] dump config after load, 3ms
+2021-03-25 15:49:25,329 INFO 22146 [egg-watcher:application] watcher start success
+2021-03-25 15:49:25,343 INFO 22146 [egg:core] dump config after ready, 3ms
+2021-03-25 15:52:05,318 INFO 22217 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:52:05,349 INFO 22217 [egg-multipart] stream mode enable
+2021-03-25 15:52:05,631 INFO 22217 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:52:05,633 INFO 22217 [egg-security] use methodnoallow middleware
+2021-03-25 15:52:05,633 INFO 22217 [egg-security] use noopen middleware
+2021-03-25 15:52:05,634 INFO 22217 [egg-security] use nosniff middleware
+2021-03-25 15:52:05,634 INFO 22217 [egg-security] use xssProtection middleware
+2021-03-25 15:52:05,634 INFO 22217 [egg-security] use xframe middleware
+2021-03-25 15:52:05,635 INFO 22217 [egg-security] use dta middleware
+2021-03-25 15:52:05,635 INFO 22217 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:52:07,678 INFO 22217 [egg:core] dump config after load, 7ms
+2021-03-25 15:52:07,691 INFO 22217 [egg-watcher:application] watcher start success
+2021-03-25 15:52:07,736 INFO 22217 [egg:core] dump config after ready, 5ms
+2021-03-25 15:52:38,679 INFO 22238 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:52:38,709 INFO 22238 [egg-multipart] stream mode enable
+2021-03-25 15:52:39,001 INFO 22238 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:52:39,003 INFO 22238 [egg-security] use methodnoallow middleware
+2021-03-25 15:52:39,003 INFO 22238 [egg-security] use noopen middleware
+2021-03-25 15:52:39,004 INFO 22238 [egg-security] use nosniff middleware
+2021-03-25 15:52:39,004 INFO 22238 [egg-security] use xssProtection middleware
+2021-03-25 15:52:39,005 INFO 22238 [egg-security] use xframe middleware
+2021-03-25 15:52:39,005 INFO 22238 [egg-security] use dta middleware
+2021-03-25 15:52:39,005 INFO 22238 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:52:40,992 INFO 22238 [egg:core] dump config after load, 3ms
+2021-03-25 15:52:41,005 INFO 22238 [egg-watcher:application] watcher start success
+2021-03-25 15:52:41,036 INFO 22238 [egg:core] dump config after ready, 5ms
+2021-03-25 15:52:41,542 INFO 22245 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:52:41,571 INFO 22245 [egg-multipart] stream mode enable
+2021-03-25 15:52:41,782 INFO 22245 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:52:41,783 INFO 22245 [egg-security] use methodnoallow middleware
+2021-03-25 15:52:41,783 INFO 22245 [egg-security] use noopen middleware
+2021-03-25 15:52:41,784 INFO 22245 [egg-security] use nosniff middleware
+2021-03-25 15:52:41,784 INFO 22245 [egg-security] use xssProtection middleware
+2021-03-25 15:52:41,784 INFO 22245 [egg-security] use xframe middleware
+2021-03-25 15:52:41,784 INFO 22245 [egg-security] use dta middleware
+2021-03-25 15:52:41,784 INFO 22245 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:52:43,678 INFO 22245 [egg:core] dump config after load, 5ms
+2021-03-25 15:52:43,698 INFO 22245 [egg-watcher:application] watcher start success
+2021-03-25 15:52:43,716 INFO 22245 [egg:core] dump config after ready, 5ms
+2021-03-25 15:52:52,796 INFO 22264 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:52:52,826 INFO 22264 [egg-multipart] stream mode enable
+2021-03-25 15:52:53,038 INFO 22264 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:52:53,040 INFO 22264 [egg-security] use methodnoallow middleware
+2021-03-25 15:52:53,040 INFO 22264 [egg-security] use noopen middleware
+2021-03-25 15:52:53,040 INFO 22264 [egg-security] use nosniff middleware
+2021-03-25 15:52:53,040 INFO 22264 [egg-security] use xssProtection middleware
+2021-03-25 15:52:53,040 INFO 22264 [egg-security] use xframe middleware
+2021-03-25 15:52:53,040 INFO 22264 [egg-security] use dta middleware
+2021-03-25 15:52:53,041 INFO 22264 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:52:55,086 INFO 22264 [egg:core] dump config after load, 7ms
+2021-03-25 15:52:55,100 INFO 22264 [egg-watcher:application] watcher start success
+2021-03-25 15:52:55,132 INFO 22264 [egg:core] dump config after ready, 4ms
+2021-03-25 15:53:27,632 INFO 22286 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:53:27,662 INFO 22286 [egg-multipart] stream mode enable
+2021-03-25 15:53:27,871 INFO 22286 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:53:27,872 INFO 22286 [egg-security] use methodnoallow middleware
+2021-03-25 15:53:27,872 INFO 22286 [egg-security] use noopen middleware
+2021-03-25 15:53:27,873 INFO 22286 [egg-security] use nosniff middleware
+2021-03-25 15:53:27,873 INFO 22286 [egg-security] use xssProtection middleware
+2021-03-25 15:53:27,873 INFO 22286 [egg-security] use xframe middleware
+2021-03-25 15:53:27,873 INFO 22286 [egg-security] use dta middleware
+2021-03-25 15:53:27,873 INFO 22286 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:53:29,867 INFO 22286 [egg:core] dump config after load, 4ms
+2021-03-25 15:53:29,879 INFO 22286 [egg-watcher:application] watcher start success
+2021-03-25 15:53:29,911 INFO 22286 [egg:core] dump config after ready, 4ms
+2021-03-25 15:54:08,839 INFO 22315 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 15:54:08,865 INFO 22315 [egg-multipart] stream mode enable
+2021-03-25 15:54:09,075 INFO 22315 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 15:54:09,076 INFO 22315 [egg-security] use methodnoallow middleware
+2021-03-25 15:54:09,076 INFO 22315 [egg-security] use noopen middleware
+2021-03-25 15:54:09,077 INFO 22315 [egg-security] use nosniff middleware
+2021-03-25 15:54:09,077 INFO 22315 [egg-security] use xssProtection middleware
+2021-03-25 15:54:09,077 INFO 22315 [egg-security] use xframe middleware
+2021-03-25 15:54:09,077 INFO 22315 [egg-security] use dta middleware
+2021-03-25 15:54:09,077 INFO 22315 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 15:54:09,085 INFO 22315 [egg:core] dump config after load, 4ms
+2021-03-25 15:54:09,095 INFO 22315 [egg-watcher:application] watcher start success
+2021-03-25 15:54:09,117 INFO 22315 [egg:core] dump config after ready, 3ms
+2021-03-25 16:00:53,188 INFO 22524 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:00:53,219 INFO 22524 [egg-multipart] stream mode enable
+2021-03-25 16:00:53,509 INFO 22524 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:00:53,511 INFO 22524 [egg-security] use methodnoallow middleware
+2021-03-25 16:00:53,511 INFO 22524 [egg-security] use noopen middleware
+2021-03-25 16:00:53,512 INFO 22524 [egg-security] use nosniff middleware
+2021-03-25 16:00:53,512 INFO 22524 [egg-security] use xssProtection middleware
+2021-03-25 16:00:53,512 INFO 22524 [egg-security] use xframe middleware
+2021-03-25 16:00:53,513 INFO 22524 [egg-security] use dta middleware
+2021-03-25 16:00:53,513 INFO 22524 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:00:55,573 INFO 22524 [egg:core] dump config after load, 7ms
+2021-03-25 16:00:55,587 INFO 22524 [egg-watcher:application] watcher start success
+2021-03-25 16:00:55,661 INFO 22524 [egg:core] dump config after ready, 6ms
+2021-03-25 16:01:21,400 INFO 22544 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:01:21,430 INFO 22544 [egg-multipart] stream mode enable
+2021-03-25 16:01:21,745 INFO 22544 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:01:21,746 INFO 22544 [egg-security] use methodnoallow middleware
+2021-03-25 16:01:21,747 INFO 22544 [egg-security] use noopen middleware
+2021-03-25 16:01:21,747 INFO 22544 [egg-security] use nosniff middleware
+2021-03-25 16:01:21,748 INFO 22544 [egg-security] use xssProtection middleware
+2021-03-25 16:01:21,748 INFO 22544 [egg-security] use xframe middleware
+2021-03-25 16:01:21,748 INFO 22544 [egg-security] use dta middleware
+2021-03-25 16:01:21,748 INFO 22544 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:01:23,740 INFO 22544 [egg:core] dump config after load, 6ms
+2021-03-25 16:01:23,753 INFO 22544 [egg-watcher:application] watcher start success
+2021-03-25 16:01:23,780 INFO 22544 [egg:core] dump config after ready, 5ms
+2021-03-25 16:01:39,645 INFO 22559 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:01:39,671 INFO 22559 [egg-multipart] stream mode enable
+2021-03-25 16:01:40,058 INFO 22559 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:01:40,059 INFO 22559 [egg-security] use methodnoallow middleware
+2021-03-25 16:01:40,060 INFO 22559 [egg-security] use noopen middleware
+2021-03-25 16:01:40,061 INFO 22559 [egg-security] use nosniff middleware
+2021-03-25 16:01:40,061 INFO 22559 [egg-security] use xssProtection middleware
+2021-03-25 16:01:40,061 INFO 22559 [egg-security] use xframe middleware
+2021-03-25 16:01:40,062 INFO 22559 [egg-security] use dta middleware
+2021-03-25 16:01:40,062 INFO 22559 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:01:40,104 INFO 22559 [egg:core] dump config after load, 4ms
+2021-03-25 16:01:40,128 INFO 22559 [egg-watcher:application] watcher start success
+2021-03-25 16:01:40,159 INFO 22559 [egg:core] dump config after ready, 10ms
+2021-03-25 16:02:53,581 INFO 22605 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:02:53,611 INFO 22605 [egg-multipart] stream mode enable
+2021-03-25 16:02:53,890 INFO 22605 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:02:53,892 INFO 22605 [egg-security] use methodnoallow middleware
+2021-03-25 16:02:53,892 INFO 22605 [egg-security] use noopen middleware
+2021-03-25 16:02:53,892 INFO 22605 [egg-security] use nosniff middleware
+2021-03-25 16:02:53,893 INFO 22605 [egg-security] use xssProtection middleware
+2021-03-25 16:02:53,893 INFO 22605 [egg-security] use xframe middleware
+2021-03-25 16:02:53,893 INFO 22605 [egg-security] use dta middleware
+2021-03-25 16:02:53,893 INFO 22605 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:02:55,931 INFO 22605 [egg:core] dump config after load, 7ms
+2021-03-25 16:02:55,952 INFO 22605 [egg-watcher:application] watcher start success
+2021-03-25 16:02:55,973 INFO 22605 [egg:core] dump config after ready, 6ms
+2021-03-25 16:03:07,451 INFO 22624 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:03:07,483 INFO 22624 [egg-multipart] stream mode enable
+2021-03-25 16:03:07,778 INFO 22624 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:03:07,780 INFO 22624 [egg-security] use methodnoallow middleware
+2021-03-25 16:03:07,780 INFO 22624 [egg-security] use noopen middleware
+2021-03-25 16:03:07,781 INFO 22624 [egg-security] use nosniff middleware
+2021-03-25 16:03:07,781 INFO 22624 [egg-security] use xssProtection middleware
+2021-03-25 16:03:07,782 INFO 22624 [egg-security] use xframe middleware
+2021-03-25 16:03:07,782 INFO 22624 [egg-security] use dta middleware
+2021-03-25 16:03:07,782 INFO 22624 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:03:09,794 INFO 22624 [egg:core] dump config after load, 7ms
+2021-03-25 16:03:09,815 INFO 22624 [egg-watcher:application] watcher start success
+2021-03-25 16:03:09,838 INFO 22624 [egg:core] dump config after ready, 9ms
+2021-03-25 16:05:19,130 INFO 22705 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:05:19,156 INFO 22705 [egg-multipart] stream mode enable
+2021-03-25 16:05:19,466 INFO 22705 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:05:19,468 INFO 22705 [egg-security] use methodnoallow middleware
+2021-03-25 16:05:19,468 INFO 22705 [egg-security] use noopen middleware
+2021-03-25 16:05:19,469 INFO 22705 [egg-security] use nosniff middleware
+2021-03-25 16:05:19,469 INFO 22705 [egg-security] use xssProtection middleware
+2021-03-25 16:05:19,470 INFO 22705 [egg-security] use xframe middleware
+2021-03-25 16:05:19,470 INFO 22705 [egg-security] use dta middleware
+2021-03-25 16:05:19,470 INFO 22705 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:05:19,479 INFO 22705 [egg:core] dump config after load, 4ms
+2021-03-25 16:05:19,504 INFO 22705 [egg-watcher:application] watcher start success
+2021-03-25 16:05:19,532 INFO 22705 [egg:core] dump config after ready, 7ms
+2021-03-25 16:05:28,817 INFO 22711 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:05:28,845 INFO 22711 [egg-multipart] stream mode enable
+2021-03-25 16:05:29,105 INFO 22711 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:05:29,107 INFO 22711 [egg-security] use methodnoallow middleware
+2021-03-25 16:05:29,107 INFO 22711 [egg-security] use noopen middleware
+2021-03-25 16:05:29,107 INFO 22711 [egg-security] use nosniff middleware
+2021-03-25 16:05:29,108 INFO 22711 [egg-security] use xssProtection middleware
+2021-03-25 16:05:29,108 INFO 22711 [egg-security] use xframe middleware
+2021-03-25 16:05:29,108 INFO 22711 [egg-security] use dta middleware
+2021-03-25 16:05:29,108 INFO 22711 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:05:29,116 INFO 22711 [egg:core] dump config after load, 4ms
+2021-03-25 16:05:29,138 INFO 22711 [egg-watcher:application] watcher start success
+2021-03-25 16:05:29,158 INFO 22711 [egg:core] dump config after ready, 5ms
+2021-03-25 16:05:29,690 INFO 22718 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:05:29,723 INFO 22718 [egg-multipart] stream mode enable
+2021-03-25 16:05:29,938 INFO 22718 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:05:29,940 INFO 22718 [egg-security] use methodnoallow middleware
+2021-03-25 16:05:29,940 INFO 22718 [egg-security] use noopen middleware
+2021-03-25 16:05:29,941 INFO 22718 [egg-security] use nosniff middleware
+2021-03-25 16:05:29,941 INFO 22718 [egg-security] use xssProtection middleware
+2021-03-25 16:05:29,941 INFO 22718 [egg-security] use xframe middleware
+2021-03-25 16:05:29,941 INFO 22718 [egg-security] use dta middleware
+2021-03-25 16:05:29,941 INFO 22718 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:05:29,949 INFO 22718 [egg:core] dump config after load, 4ms
+2021-03-25 16:05:29,966 INFO 22718 [egg-watcher:application] watcher start success
+2021-03-25 16:05:29,982 INFO 22718 [egg:core] dump config after ready, 5ms
+2021-03-25 16:11:40,882 INFO 22919 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:11:40,909 INFO 22919 [egg-multipart] stream mode enable
+2021-03-25 16:11:41,208 INFO 22919 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:11:41,209 INFO 22919 [egg-security] use methodnoallow middleware
+2021-03-25 16:11:41,210 INFO 22919 [egg-security] use noopen middleware
+2021-03-25 16:11:41,210 INFO 22919 [egg-security] use nosniff middleware
+2021-03-25 16:11:41,211 INFO 22919 [egg-security] use xssProtection middleware
+2021-03-25 16:11:41,211 INFO 22919 [egg-security] use xframe middleware
+2021-03-25 16:11:41,211 INFO 22919 [egg-security] use dta middleware
+2021-03-25 16:11:41,211 INFO 22919 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:11:41,221 INFO 22919 [egg:core] dump config after load, 6ms
+2021-03-25 16:11:41,237 INFO 22919 [egg-watcher:application] watcher start success
+2021-03-25 16:11:41,279 INFO 22919 [egg:core] dump config after ready, 5ms
+2021-03-25 16:12:43,190 INFO 22963 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:12:43,216 INFO 22963 [egg-multipart] stream mode enable
+2021-03-25 16:12:43,574 INFO 22963 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:12:43,575 INFO 22963 [egg-security] use methodnoallow middleware
+2021-03-25 16:12:43,576 INFO 22963 [egg-security] use noopen middleware
+2021-03-25 16:12:43,577 INFO 22963 [egg-security] use nosniff middleware
+2021-03-25 16:12:43,577 INFO 22963 [egg-security] use xssProtection middleware
+2021-03-25 16:12:43,577 INFO 22963 [egg-security] use xframe middleware
+2021-03-25 16:12:43,578 INFO 22963 [egg-security] use dta middleware
+2021-03-25 16:12:43,578 INFO 22963 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:12:43,626 INFO 22963 [egg:core] dump config after load, 3ms
+2021-03-25 16:12:43,637 INFO 22963 [egg-watcher:application] watcher start success
+2021-03-25 16:12:43,667 INFO 22963 [egg:core] dump config after ready, 5ms
+2021-03-25 16:12:59,354 INFO 22984 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:12:59,381 INFO 22984 [egg-multipart] stream mode enable
+2021-03-25 16:12:59,648 INFO 22984 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:12:59,649 INFO 22984 [egg-security] use methodnoallow middleware
+2021-03-25 16:12:59,650 INFO 22984 [egg-security] use noopen middleware
+2021-03-25 16:12:59,650 INFO 22984 [egg-security] use nosniff middleware
+2021-03-25 16:12:59,651 INFO 22984 [egg-security] use xssProtection middleware
+2021-03-25 16:12:59,651 INFO 22984 [egg-security] use xframe middleware
+2021-03-25 16:12:59,651 INFO 22984 [egg-security] use dta middleware
+2021-03-25 16:12:59,651 INFO 22984 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:12:59,659 INFO 22984 [egg:core] dump config after load, 3ms
+2021-03-25 16:12:59,670 INFO 22984 [egg-watcher:application] watcher start success
+2021-03-25 16:12:59,704 INFO 22984 [egg:core] dump config after ready, 6ms
+2021-03-25 16:16:33,250 INFO 23170 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:16:33,277 INFO 23170 [egg-multipart] stream mode enable
+2021-03-25 16:16:33,701 INFO 23170 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:16:33,706 INFO 23170 [egg-security] use methodnoallow middleware
+2021-03-25 16:16:33,707 INFO 23170 [egg-security] use noopen middleware
+2021-03-25 16:16:33,707 INFO 23170 [egg-security] use nosniff middleware
+2021-03-25 16:16:33,708 INFO 23170 [egg-security] use xssProtection middleware
+2021-03-25 16:16:33,708 INFO 23170 [egg-security] use xframe middleware
+2021-03-25 16:16:33,708 INFO 23170 [egg-security] use dta middleware
+2021-03-25 16:16:33,708 INFO 23170 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:16:33,755 INFO 23170 [egg:core] dump config after load, 4ms
+2021-03-25 16:16:33,776 INFO 23170 [egg-watcher:application] watcher start success
+2021-03-25 16:16:33,808 INFO 23170 [egg:core] dump config after ready, 15ms
+2021-03-25 16:17:31,276 INFO 23193 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:17:31,308 INFO 23193 [egg-multipart] stream mode enable
+2021-03-25 16:17:33,595 INFO 23193 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:17:33,596 INFO 23193 [egg-security] use methodnoallow middleware
+2021-03-25 16:17:33,597 INFO 23193 [egg-security] use noopen middleware
+2021-03-25 16:17:33,597 INFO 23193 [egg-security] use nosniff middleware
+2021-03-25 16:17:33,597 INFO 23193 [egg-security] use xssProtection middleware
+2021-03-25 16:17:33,598 INFO 23193 [egg-security] use xframe middleware
+2021-03-25 16:17:33,598 INFO 23193 [egg-security] use dta middleware
+2021-03-25 16:17:33,598 INFO 23193 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:17:33,606 INFO 23193 [egg:core] dump config after load, 4ms
+2021-03-25 16:17:33,621 INFO 23193 [egg-watcher:application] watcher start success
+2021-03-25 16:17:33,650 INFO 23193 [egg:core] dump config after ready, 7ms
+2021-03-25 16:21:23,436 INFO 23317 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:21:23,463 INFO 23317 [egg-multipart] stream mode enable
+2021-03-25 16:21:23,713 INFO 23317 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:21:23,714 INFO 23317 [egg-security] use methodnoallow middleware
+2021-03-25 16:21:23,715 INFO 23317 [egg-security] use noopen middleware
+2021-03-25 16:21:23,715 INFO 23317 [egg-security] use nosniff middleware
+2021-03-25 16:21:23,716 INFO 23317 [egg-security] use xssProtection middleware
+2021-03-25 16:21:23,716 INFO 23317 [egg-security] use xframe middleware
+2021-03-25 16:21:23,716 INFO 23317 [egg-security] use dta middleware
+2021-03-25 16:21:23,716 INFO 23317 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:21:23,724 INFO 23317 [egg:core] dump config after load, 3ms
+2021-03-25 16:21:23,735 INFO 23317 [egg-watcher:application] watcher start success
+2021-03-25 16:21:23,771 INFO 23317 [egg:core] dump config after ready, 9ms
+2021-03-25 16:21:59,072 INFO 23362 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:21:59,105 INFO 23362 [egg-multipart] stream mode enable
+2021-03-25 16:21:59,416 INFO 23362 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:21:59,418 INFO 23362 [egg-security] use methodnoallow middleware
+2021-03-25 16:21:59,418 INFO 23362 [egg-security] use noopen middleware
+2021-03-25 16:21:59,419 INFO 23362 [egg-security] use nosniff middleware
+2021-03-25 16:21:59,419 INFO 23362 [egg-security] use xssProtection middleware
+2021-03-25 16:21:59,419 INFO 23362 [egg-security] use xframe middleware
+2021-03-25 16:21:59,420 INFO 23362 [egg-security] use dta middleware
+2021-03-25 16:21:59,420 INFO 23362 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:22:01,500 INFO 23362 [egg:core] dump config after load, 20ms
+2021-03-25 16:22:01,519 INFO 23362 [egg-watcher:application] watcher start success
+2021-03-25 16:22:01,547 INFO 23362 [egg:core] dump config after ready, 6ms
+2021-03-25 16:22:17,813 INFO 23385 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:22:17,843 INFO 23385 [egg-multipart] stream mode enable
+2021-03-25 16:22:18,088 INFO 23385 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:22:18,089 INFO 23385 [egg-security] use methodnoallow middleware
+2021-03-25 16:22:18,090 INFO 23385 [egg-security] use noopen middleware
+2021-03-25 16:22:18,090 INFO 23385 [egg-security] use nosniff middleware
+2021-03-25 16:22:18,090 INFO 23385 [egg-security] use xssProtection middleware
+2021-03-25 16:22:18,091 INFO 23385 [egg-security] use xframe middleware
+2021-03-25 16:22:18,091 INFO 23385 [egg-security] use dta middleware
+2021-03-25 16:22:18,091 INFO 23385 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:22:20,231 INFO 23385 [egg:core] dump config after load, 4ms
+2021-03-25 16:22:20,255 INFO 23385 [egg-watcher:application] watcher start success
+2021-03-25 16:22:20,281 INFO 23385 [egg:core] dump config after ready, 6ms
+2021-03-25 16:27:51,843 INFO 23505 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:27:51,874 INFO 23505 [egg-multipart] stream mode enable
+2021-03-25 16:27:54,370 INFO 23505 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:27:54,371 INFO 23505 [egg-security] use methodnoallow middleware
+2021-03-25 16:27:54,372 INFO 23505 [egg-security] use noopen middleware
+2021-03-25 16:27:54,372 INFO 23505 [egg-security] use nosniff middleware
+2021-03-25 16:27:54,372 INFO 23505 [egg-security] use xssProtection middleware
+2021-03-25 16:27:54,373 INFO 23505 [egg-security] use xframe middleware
+2021-03-25 16:27:54,373 INFO 23505 [egg-security] use dta middleware
+2021-03-25 16:27:54,373 INFO 23505 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:27:54,381 INFO 23505 [egg:core] dump config after load, 4ms
+2021-03-25 16:27:54,394 INFO 23505 [egg-watcher:application] watcher start success
+2021-03-25 16:27:54,425 INFO 23505 [egg:core] dump config after ready, 4ms
+2021-03-25 16:27:56,641 INFO 23516 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:27:56,668 INFO 23516 [egg-multipart] stream mode enable
+2021-03-25 16:27:59,028 INFO 23516 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:27:59,030 INFO 23516 [egg-security] use methodnoallow middleware
+2021-03-25 16:27:59,030 INFO 23516 [egg-security] use noopen middleware
+2021-03-25 16:27:59,030 INFO 23516 [egg-security] use nosniff middleware
+2021-03-25 16:27:59,030 INFO 23516 [egg-security] use xssProtection middleware
+2021-03-25 16:27:59,030 INFO 23516 [egg-security] use xframe middleware
+2021-03-25 16:27:59,031 INFO 23516 [egg-security] use dta middleware
+2021-03-25 16:27:59,031 INFO 23516 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:27:59,038 INFO 23516 [egg:core] dump config after load, 4ms
+2021-03-25 16:27:59,058 INFO 23516 [egg-watcher:application] watcher start success
+2021-03-25 16:27:59,078 INFO 23516 [egg:core] dump config after ready, 5ms
+2021-03-25 16:28:17,671 INFO 23534 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:28:17,701 INFO 23534 [egg-multipart] stream mode enable
+2021-03-25 16:28:17,941 INFO 23534 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:28:17,943 INFO 23534 [egg-security] use methodnoallow middleware
+2021-03-25 16:28:17,943 INFO 23534 [egg-security] use noopen middleware
+2021-03-25 16:28:17,944 INFO 23534 [egg-security] use nosniff middleware
+2021-03-25 16:28:17,944 INFO 23534 [egg-security] use xssProtection middleware
+2021-03-25 16:28:17,944 INFO 23534 [egg-security] use xframe middleware
+2021-03-25 16:28:17,945 INFO 23534 [egg-security] use dta middleware
+2021-03-25 16:28:17,945 INFO 23534 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:28:20,064 INFO 23534 [egg:core] dump config after load, 4ms
+2021-03-25 16:28:20,091 INFO 23534 [egg-watcher:application] watcher start success
+2021-03-25 16:28:20,111 INFO 23534 [egg:core] dump config after ready, 5ms
+2021-03-25 16:28:37,331 INFO 23570 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:28:37,361 INFO 23570 [egg-multipart] stream mode enable
+2021-03-25 16:28:37,589 INFO 23570 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:28:37,591 INFO 23570 [egg-security] use methodnoallow middleware
+2021-03-25 16:28:37,591 INFO 23570 [egg-security] use noopen middleware
+2021-03-25 16:28:37,591 INFO 23570 [egg-security] use nosniff middleware
+2021-03-25 16:28:37,591 INFO 23570 [egg-security] use xssProtection middleware
+2021-03-25 16:28:37,591 INFO 23570 [egg-security] use xframe middleware
+2021-03-25 16:28:37,592 INFO 23570 [egg-security] use dta middleware
+2021-03-25 16:28:37,592 INFO 23570 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:28:39,639 INFO 23570 [egg:core] dump config after load, 3ms
+2021-03-25 16:28:39,664 INFO 23570 [egg-watcher:application] watcher start success
+2021-03-25 16:28:39,685 INFO 23570 [egg:core] dump config after ready, 6ms
+2021-03-25 16:28:55,414 INFO 23588 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:28:55,444 INFO 23588 [egg-multipart] stream mode enable
+2021-03-25 16:28:55,666 INFO 23588 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:28:55,668 INFO 23588 [egg-security] use methodnoallow middleware
+2021-03-25 16:28:55,669 INFO 23588 [egg-security] use noopen middleware
+2021-03-25 16:28:55,669 INFO 23588 [egg-security] use nosniff middleware
+2021-03-25 16:28:55,669 INFO 23588 [egg-security] use xssProtection middleware
+2021-03-25 16:28:55,669 INFO 23588 [egg-security] use xframe middleware
+2021-03-25 16:28:55,669 INFO 23588 [egg-security] use dta middleware
+2021-03-25 16:28:55,669 INFO 23588 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:28:57,643 INFO 23588 [egg:core] dump config after load, 7ms
+2021-03-25 16:28:57,664 INFO 23588 [egg-watcher:application] watcher start success
+2021-03-25 16:28:57,684 INFO 23588 [egg:core] dump config after ready, 5ms
+2021-03-25 16:37:07,554 INFO 23808 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:37:07,585 INFO 23808 [egg-multipart] stream mode enable
+2021-03-25 16:37:08,110 INFO 23808 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:37:08,112 INFO 23808 [egg-security] use methodnoallow middleware
+2021-03-25 16:37:08,112 INFO 23808 [egg-security] use noopen middleware
+2021-03-25 16:37:08,113 INFO 23808 [egg-security] use nosniff middleware
+2021-03-25 16:37:08,113 INFO 23808 [egg-security] use xssProtection middleware
+2021-03-25 16:37:08,113 INFO 23808 [egg-security] use xframe middleware
+2021-03-25 16:37:08,114 INFO 23808 [egg-security] use dta middleware
+2021-03-25 16:37:08,114 INFO 23808 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:37:08,157 INFO 23808 [egg:core] dump config after load, 4ms
+2021-03-25 16:37:08,174 INFO 23808 [egg-watcher:application] watcher start success
+2021-03-25 16:37:08,220 INFO 23808 [egg:core] dump config after ready, 5ms
+2021-03-25 16:37:20,783 INFO 23837 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:37:20,822 INFO 23837 [egg-multipart] stream mode enable
+2021-03-25 16:37:21,119 INFO 23837 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:37:21,121 INFO 23837 [egg-security] use methodnoallow middleware
+2021-03-25 16:37:21,121 INFO 23837 [egg-security] use noopen middleware
+2021-03-25 16:37:21,122 INFO 23837 [egg-security] use nosniff middleware
+2021-03-25 16:37:21,122 INFO 23837 [egg-security] use xssProtection middleware
+2021-03-25 16:37:21,122 INFO 23837 [egg-security] use xframe middleware
+2021-03-25 16:37:21,123 INFO 23837 [egg-security] use dta middleware
+2021-03-25 16:37:21,123 INFO 23837 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:37:21,132 INFO 23837 [egg:core] dump config after load, 4ms
+2021-03-25 16:37:21,150 INFO 23837 [egg-watcher:application] watcher start success
+2021-03-25 16:37:21,165 INFO 23837 [egg:core] dump config after ready, 4ms
+2021-03-25 16:37:45,523 INFO 23856 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 16:37:45,551 INFO 23856 [egg-multipart] stream mode enable
+2021-03-25 16:37:45,842 INFO 23856 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 16:37:45,845 INFO 23856 [egg-security] use methodnoallow middleware
+2021-03-25 16:37:45,845 INFO 23856 [egg-security] use noopen middleware
+2021-03-25 16:37:45,845 INFO 23856 [egg-security] use nosniff middleware
+2021-03-25 16:37:45,846 INFO 23856 [egg-security] use xssProtection middleware
+2021-03-25 16:37:45,846 INFO 23856 [egg-security] use xframe middleware
+2021-03-25 16:37:45,846 INFO 23856 [egg-security] use dta middleware
+2021-03-25 16:37:45,847 INFO 23856 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 16:37:47,910 INFO 23856 [egg:core] dump config after load, 3ms
+2021-03-25 16:37:47,925 INFO 23856 [egg-watcher:application] watcher start success
+2021-03-25 16:37:47,957 INFO 23856 [egg:core] dump config after ready, 6ms
+2021-03-25 17:04:12,985 WARN 23856 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-25 17:05:24,128 WARN 23856 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-25 17:05:24,129 WARN 23856 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-25 17:17:14,913 INFO 24804 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:17:14,941 INFO 24804 [egg-multipart] stream mode enable
+2021-03-25 17:17:15,227 INFO 24804 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:17:15,228 INFO 24804 [egg-security] use methodnoallow middleware
+2021-03-25 17:17:15,229 INFO 24804 [egg-security] use noopen middleware
+2021-03-25 17:17:15,229 INFO 24804 [egg-security] use nosniff middleware
+2021-03-25 17:17:15,229 INFO 24804 [egg-security] use xssProtection middleware
+2021-03-25 17:17:15,230 INFO 24804 [egg-security] use xframe middleware
+2021-03-25 17:17:15,230 INFO 24804 [egg-security] use dta middleware
+2021-03-25 17:17:15,230 INFO 24804 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:17:15,240 INFO 24804 [egg:core] dump config after load, 3ms
+2021-03-25 17:17:15,255 INFO 24804 [egg-watcher:application] watcher start success
+2021-03-25 17:17:15,301 INFO 24804 [egg:core] dump config after ready, 5ms
+2021-03-25 17:26:03,922 INFO 25158 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:26:03,951 INFO 25158 [egg-multipart] stream mode enable
+2021-03-25 17:26:04,179 INFO 25158 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-25 17:26:04,180 INFO 25158 [egg-redis] server connecting redis://:***@localhost:7001/1
+2021-03-25 17:26:04,265 INFO 25158 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:26:04,267 INFO 25158 [egg-security] use methodnoallow middleware
+2021-03-25 17:26:04,267 INFO 25158 [egg-security] use noopen middleware
+2021-03-25 17:26:04,268 INFO 25158 [egg-security] use nosniff middleware
+2021-03-25 17:26:04,268 INFO 25158 [egg-security] use xssProtection middleware
+2021-03-25 17:26:04,268 INFO 25158 [egg-security] use xframe middleware
+2021-03-25 17:26:04,269 INFO 25158 [egg-security] use dta middleware
+2021-03-25 17:26:04,269 INFO 25158 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:26:04,279 INFO 25158 [egg:core] dump config after load, 4ms
+2021-03-25 17:26:04,295 ERROR 25158 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7001
+}
+2021-03-25 17:26:04,295 ERROR 25158 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7001
+name: "ECONNREFUSEDError"
+pid: 25158
+hostname: maoyuxindembp
+
+2021-03-25 17:26:04,296 INFO 25158 [egg-redis] client connect success
+2021-03-25 17:26:04,302 INFO 25158 [egg:core] dump config after ready, 4ms
+2021-03-25 17:26:04,304 INFO 25158 [egg-redis] instance[0] status OK, client ready
+2021-03-25 17:26:04,306 INFO 25158 [egg-watcher:application] watcher start success
+2021-03-25 17:27:48,255 INFO 25244 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:27:48,285 INFO 25244 [egg-multipart] stream mode enable
+2021-03-25 17:27:48,505 INFO 25244 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-25 17:27:48,506 INFO 25244 [egg-redis] server connecting redis://:***@localhost:7001/1
+2021-03-25 17:27:48,575 INFO 25244 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:27:48,578 INFO 25244 [egg-security] use methodnoallow middleware
+2021-03-25 17:27:48,578 INFO 25244 [egg-security] use noopen middleware
+2021-03-25 17:27:48,578 INFO 25244 [egg-security] use nosniff middleware
+2021-03-25 17:27:48,579 INFO 25244 [egg-security] use xssProtection middleware
+2021-03-25 17:27:48,579 INFO 25244 [egg-security] use xframe middleware
+2021-03-25 17:27:48,579 INFO 25244 [egg-security] use dta middleware
+2021-03-25 17:27:48,579 INFO 25244 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:27:48,590 INFO 25244 [egg:core] dump config after load, 4ms
+2021-03-25 17:27:48,611 INFO 25244 [egg-redis] client connect success
+2021-03-25 17:27:48,612 INFO 25244 [egg-redis] client connect success
+2021-03-25 17:27:48,614 INFO 25244 [egg-redis] instance[0] status OK, client ready
+2021-03-25 17:27:48,622 INFO 25244 [egg-watcher:application] watcher start success
+2021-03-25 17:27:48,626 INFO 25244 [egg-redis] instance[1] status OK, client ready
+2021-03-25 17:27:48,627 ERROR 25244 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25244
+hostname: maoyuxindembp
+
+2021-03-25 17:27:48,652 INFO 25244 [egg:core] dump config after ready, 4ms
+2021-03-25 17:28:59,176 INFO 25288 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:28:59,207 INFO 25288 [egg-multipart] stream mode enable
+2021-03-25 17:28:59,435 INFO 25288 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-25 17:28:59,436 INFO 25288 [egg-redis] server connecting redis://:***@localhost:7003/1
+2021-03-25 17:28:59,509 INFO 25288 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:28:59,512 INFO 25288 [egg-security] use methodnoallow middleware
+2021-03-25 17:28:59,513 INFO 25288 [egg-security] use noopen middleware
+2021-03-25 17:28:59,514 INFO 25288 [egg-security] use nosniff middleware
+2021-03-25 17:28:59,515 INFO 25288 [egg-security] use xssProtection middleware
+2021-03-25 17:28:59,516 INFO 25288 [egg-security] use xframe middleware
+2021-03-25 17:28:59,516 INFO 25288 [egg-security] use dta middleware
+2021-03-25 17:28:59,516 INFO 25288 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:28:59,530 INFO 25288 [egg:core] dump config after load, 4ms
+2021-03-25 17:28:59,546 INFO 25288 [egg-redis] client connect success
+2021-03-25 17:28:59,546 INFO 25288 [egg-redis] client connect success
+2021-03-25 17:28:59,548 INFO 25288 [egg-redis] instance[1] status OK, client ready
+2021-03-25 17:28:59,550 ERROR 25288 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25288
+hostname: maoyuxindembp
+
+2021-03-25 17:28:59,550 INFO 25288 [egg-redis] instance[0] status OK, client ready
+2021-03-25 17:28:59,560 INFO 25288 [egg-watcher:application] watcher start success
+2021-03-25 17:28:59,582 INFO 25288 [egg:core] dump config after ready, 5ms
+2021-03-25 17:30:01,779 INFO 25326 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:30:01,811 INFO 25326 [egg-multipart] stream mode enable
+2021-03-25 17:30:02,083 INFO 25326 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-25 17:30:02,084 INFO 25326 [egg-redis] server connecting redis://:***@localhost:7003/1
+2021-03-25 17:30:02,162 INFO 25326 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:30:02,164 INFO 25326 [egg-security] use methodnoallow middleware
+2021-03-25 17:30:02,164 INFO 25326 [egg-security] use noopen middleware
+2021-03-25 17:30:02,165 INFO 25326 [egg-security] use nosniff middleware
+2021-03-25 17:30:02,165 INFO 25326 [egg-security] use xssProtection middleware
+2021-03-25 17:30:02,165 INFO 25326 [egg-security] use xframe middleware
+2021-03-25 17:30:02,166 INFO 25326 [egg-security] use dta middleware
+2021-03-25 17:30:02,166 INFO 25326 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:30:02,177 INFO 25326 [egg:core] dump config after load, 4ms
+2021-03-25 17:30:02,191 INFO 25326 [egg-redis] client connect success
+2021-03-25 17:30:02,191 INFO 25326 [egg-redis] client connect success
+2021-03-25 17:30:02,193 INFO 25326 [egg-redis] instance[0] status OK, client ready
+2021-03-25 17:30:02,193 INFO 25326 [egg-redis] instance[1] status OK, client ready
+2021-03-25 17:30:02,195 ERROR 25326 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25326
+hostname: maoyuxindembp
+
+2021-03-25 17:30:02,205 INFO 25326 [egg-watcher:application] watcher start success
+2021-03-25 17:30:02,235 INFO 25326 [egg:core] dump config after ready, 4ms
+2021-03-25 17:30:32,015 INFO 25352 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:30:32,043 INFO 25352 [egg-multipart] stream mode enable
+2021-03-25 17:30:32,297 INFO 25352 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-25 17:30:32,298 INFO 25352 [egg-redis] server connecting redis://:***@localhost:7003/3
+2021-03-25 17:30:32,381 INFO 25352 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:30:32,383 INFO 25352 [egg-security] use methodnoallow middleware
+2021-03-25 17:30:32,383 INFO 25352 [egg-security] use noopen middleware
+2021-03-25 17:30:32,384 INFO 25352 [egg-security] use nosniff middleware
+2021-03-25 17:30:32,384 INFO 25352 [egg-security] use xssProtection middleware
+2021-03-25 17:30:32,385 INFO 25352 [egg-security] use xframe middleware
+2021-03-25 17:30:32,385 INFO 25352 [egg-security] use dta middleware
+2021-03-25 17:30:32,385 INFO 25352 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:30:32,394 INFO 25352 [egg:core] dump config after load, 4ms
+2021-03-25 17:30:32,410 INFO 25352 [egg-redis] client connect success
+2021-03-25 17:30:32,410 INFO 25352 [egg-redis] client connect success
+2021-03-25 17:30:32,412 INFO 25352 [egg-redis] instance[1] status OK, client ready
+2021-03-25 17:30:32,414 ERROR 25352 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["3"]}
+pid: 25352
+hostname: maoyuxindembp
+
+2021-03-25 17:30:32,414 INFO 25352 [egg-redis] instance[0] status OK, client ready
+2021-03-25 17:30:32,426 INFO 25352 [egg-watcher:application] watcher start success
+2021-03-25 17:30:32,448 INFO 25352 [egg:core] dump config after ready, 5ms
+2021-03-25 17:30:33,755 INFO 25361 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:30:33,787 INFO 25361 [egg-multipart] stream mode enable
+2021-03-25 17:30:33,989 INFO 25361 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-25 17:30:33,990 INFO 25361 [egg-redis] server connecting redis://:***@localhost:7003/3
+2021-03-25 17:30:34,039 INFO 25361 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:30:34,041 INFO 25361 [egg-security] use methodnoallow middleware
+2021-03-25 17:30:34,041 INFO 25361 [egg-security] use noopen middleware
+2021-03-25 17:30:34,041 INFO 25361 [egg-security] use nosniff middleware
+2021-03-25 17:30:34,041 INFO 25361 [egg-security] use xssProtection middleware
+2021-03-25 17:30:34,042 INFO 25361 [egg-security] use xframe middleware
+2021-03-25 17:30:34,042 INFO 25361 [egg-security] use dta middleware
+2021-03-25 17:30:34,042 INFO 25361 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:30:34,052 INFO 25361 [egg:core] dump config after load, 5ms
+2021-03-25 17:30:34,065 INFO 25361 [egg-redis] client connect success
+2021-03-25 17:30:34,066 INFO 25361 [egg-redis] client connect success
+2021-03-25 17:30:34,067 INFO 25361 [egg-redis] instance[0] status OK, client ready
+2021-03-25 17:30:34,068 INFO 25361 [egg-redis] instance[1] status OK, client ready
+2021-03-25 17:30:34,069 ERROR 25361 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["3"]}
+pid: 25361
+hostname: maoyuxindembp
+
+2021-03-25 17:30:34,077 INFO 25361 [egg-watcher:application] watcher start success
+2021-03-25 17:30:34,092 INFO 25361 [egg:core] dump config after ready, 4ms
+2021-03-25 17:31:43,095 INFO 25398 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-25 17:31:43,121 INFO 25398 [egg-multipart] stream mode enable
+2021-03-25 17:31:43,340 INFO 25398 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-25 17:31:43,341 INFO 25398 [egg-redis] server connecting redis://:***@localhost:7000/1
+2021-03-25 17:31:43,415 INFO 25398 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-25 17:31:43,417 INFO 25398 [egg-security] use methodnoallow middleware
+2021-03-25 17:31:43,417 INFO 25398 [egg-security] use noopen middleware
+2021-03-25 17:31:43,417 INFO 25398 [egg-security] use nosniff middleware
+2021-03-25 17:31:43,418 INFO 25398 [egg-security] use xssProtection middleware
+2021-03-25 17:31:43,418 INFO 25398 [egg-security] use xframe middleware
+2021-03-25 17:31:43,419 INFO 25398 [egg-security] use dta middleware
+2021-03-25 17:31:43,419 INFO 25398 [egg-security] compose 6 middlewares into one security middleware
+2021-03-25 17:31:43,427 INFO 25398 [egg:core] dump config after load, 4ms
+2021-03-25 17:31:43,442 INFO 25398 [egg-redis] client connect success
+2021-03-25 17:31:43,442 INFO 25398 [egg-redis] client connect success
+2021-03-25 17:31:43,444 INFO 25398 [egg-redis] instance[1] status OK, client ready
+2021-03-25 17:31:43,446 ERROR 25398 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25398
+hostname: maoyuxindembp
+
+2021-03-25 17:31:43,446 INFO 25398 [egg-redis] instance[0] status OK, client ready
+2021-03-25 17:31:43,458 INFO 25398 [egg-watcher:application] watcher start success
+2021-03-25 17:31:43,480 INFO 25398 [egg:core] dump config after ready, 4ms
+2021-03-26 12:38:04,320 INFO 3718 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:38:04,354 INFO 3718 [egg-multipart] stream mode enable
+2021-03-26 12:38:04,572 INFO 3718 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:38:04,573 INFO 3718 [egg-redis] server connecting redis://:***@localhost:7000/1
+2021-03-26 12:38:06,827 INFO 3718 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:38:06,829 INFO 3718 [egg-security] use methodnoallow middleware
+2021-03-26 12:38:06,829 INFO 3718 [egg-security] use noopen middleware
+2021-03-26 12:38:06,830 INFO 3718 [egg-security] use nosniff middleware
+2021-03-26 12:38:06,830 INFO 3718 [egg-security] use xssProtection middleware
+2021-03-26 12:38:06,831 INFO 3718 [egg-security] use xframe middleware
+2021-03-26 12:38:06,831 INFO 3718 [egg-security] use dta middleware
+2021-03-26 12:38:06,831 INFO 3718 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:38:06,893 INFO 3718 [egg:core] dump config after load, 5ms
+2021-03-26 12:38:06,913 ERROR 3718 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7000
+}
+2021-03-26 12:38:06,913 ERROR 3718 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,913 ERROR 3718 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7000
+}
+2021-03-26 12:38:06,915 ERROR 3718 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,923 INFO 3718 [egg:core] dump config after ready, 5ms
+2021-03-26 12:38:06,925 INFO 3718 [egg-watcher:application] watcher start success
+2021-03-26 12:38:42,525 INFO 3786 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:38:42,553 INFO 3786 [egg-multipart] stream mode enable
+2021-03-26 12:38:42,749 INFO 3786 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:38:42,750 INFO 3786 [egg-redis] server connecting redis://:***@localhost:7000/1
+2021-03-26 12:38:42,802 INFO 3786 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:38:42,803 INFO 3786 [egg-security] use methodnoallow middleware
+2021-03-26 12:38:42,804 INFO 3786 [egg-security] use noopen middleware
+2021-03-26 12:38:42,804 INFO 3786 [egg-security] use nosniff middleware
+2021-03-26 12:38:42,804 INFO 3786 [egg-security] use xssProtection middleware
+2021-03-26 12:38:42,804 INFO 3786 [egg-security] use xframe middleware
+2021-03-26 12:38:42,804 INFO 3786 [egg-security] use dta middleware
+2021-03-26 12:38:42,804 INFO 3786 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:38:42,813 INFO 3786 [egg:core] dump config after load, 4ms
+2021-03-26 12:38:42,828 INFO 3786 [egg-redis] client connect success
+2021-03-26 12:38:42,828 INFO 3786 [egg-redis] client connect success
+2021-03-26 12:38:42,833 INFO 3786 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:38:42,835 ERROR 3786 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 3786
+hostname: maoyuxindembp
+
+2021-03-26 12:38:42,841 INFO 3786 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:38:42,843 INFO 3786 [egg-watcher:application] watcher start success
+2021-03-26 12:38:42,860 INFO 3786 [egg:core] dump config after ready, 4ms
+2021-03-26 12:38:54,339 INFO 3795 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:38:54,364 INFO 3795 [egg-multipart] stream mode enable
+2021-03-26 12:38:54,579 INFO 3795 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:38:54,581 INFO 3795 [egg-redis] server connecting redis://:***@localhost:7001/1
+2021-03-26 12:38:54,649 INFO 3795 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:38:54,651 INFO 3795 [egg-security] use methodnoallow middleware
+2021-03-26 12:38:54,652 INFO 3795 [egg-security] use noopen middleware
+2021-03-26 12:38:54,653 INFO 3795 [egg-security] use nosniff middleware
+2021-03-26 12:38:54,653 INFO 3795 [egg-security] use xssProtection middleware
+2021-03-26 12:38:54,653 INFO 3795 [egg-security] use xframe middleware
+2021-03-26 12:38:54,654 INFO 3795 [egg-security] use dta middleware
+2021-03-26 12:38:54,654 INFO 3795 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:38:54,670 INFO 3795 [egg:core] dump config after load, 8ms
+2021-03-26 12:38:54,686 INFO 3795 [egg-redis] client connect success
+2021-03-26 12:38:54,686 INFO 3795 [egg-redis] client connect success
+2021-03-26 12:38:54,689 INFO 3795 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:38:54,690 ERROR 3795 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 3795
+hostname: maoyuxindembp
+
+2021-03-26 12:38:54,691 INFO 3795 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:38:54,706 INFO 3795 [egg-watcher:application] watcher start success
+2021-03-26 12:38:54,724 INFO 3795 [egg:core] dump config after ready, 5ms
+2021-03-26 12:39:20,431 INFO 3815 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:39:20,456 INFO 3815 [egg-multipart] stream mode enable
+2021-03-26 12:39:20,673 INFO 3815 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:39:20,674 INFO 3815 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:39:20,749 INFO 3815 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:39:20,751 INFO 3815 [egg-security] use methodnoallow middleware
+2021-03-26 12:39:20,751 INFO 3815 [egg-security] use noopen middleware
+2021-03-26 12:39:20,752 INFO 3815 [egg-security] use nosniff middleware
+2021-03-26 12:39:20,752 INFO 3815 [egg-security] use xssProtection middleware
+2021-03-26 12:39:20,753 INFO 3815 [egg-security] use xframe middleware
+2021-03-26 12:39:20,753 INFO 3815 [egg-security] use dta middleware
+2021-03-26 12:39:20,753 INFO 3815 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:39:20,761 INFO 3815 [egg:core] dump config after load, 3ms
+2021-03-26 12:39:20,776 INFO 3815 [egg-redis] client connect success
+2021-03-26 12:39:20,776 INFO 3815 [egg-redis] client connect success
+2021-03-26 12:39:20,779 INFO 3815 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:39:20,779 INFO 3815 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:39:20,790 INFO 3815 [egg-watcher:application] watcher start success
+2021-03-26 12:39:20,808 INFO 3815 [egg:core] dump config after ready, 5ms
+2021-03-26 12:46:48,513 INFO 3938 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:46:48,543 INFO 3938 [egg-multipart] stream mode enable
+2021-03-26 12:46:48,813 INFO 3938 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:46:48,814 INFO 3938 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:46:51,020 INFO 3938 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:46:51,022 INFO 3938 [egg-security] use methodnoallow middleware
+2021-03-26 12:46:51,022 INFO 3938 [egg-security] use noopen middleware
+2021-03-26 12:46:51,023 INFO 3938 [egg-security] use nosniff middleware
+2021-03-26 12:46:51,023 INFO 3938 [egg-security] use xssProtection middleware
+2021-03-26 12:46:51,023 INFO 3938 [egg-security] use xframe middleware
+2021-03-26 12:46:51,023 INFO 3938 [egg-security] use dta middleware
+2021-03-26 12:46:51,023 INFO 3938 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:46:51,032 INFO 3938 [egg:core] dump config after load, 4ms
+2021-03-26 12:46:51,055 INFO 3938 [egg-redis] client connect success
+2021-03-26 12:46:51,055 INFO 3938 [egg-redis] client connect success
+2021-03-26 12:46:51,058 INFO 3938 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:46:51,058 INFO 3938 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:46:51,068 INFO 3938 [egg-watcher:application] watcher start success
+2021-03-26 12:46:51,088 INFO 3938 [egg:core] dump config after ready, 5ms
+2021-03-26 12:49:58,953 INFO 3984 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:49:58,983 INFO 3984 [egg-multipart] stream mode enable
+2021-03-26 12:49:59,214 INFO 3984 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:49:59,215 INFO 3984 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:50:01,324 INFO 3984 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:50:01,325 INFO 3984 [egg-security] use methodnoallow middleware
+2021-03-26 12:50:01,326 INFO 3984 [egg-security] use noopen middleware
+2021-03-26 12:50:01,326 INFO 3984 [egg-security] use nosniff middleware
+2021-03-26 12:50:01,326 INFO 3984 [egg-security] use xssProtection middleware
+2021-03-26 12:50:01,327 INFO 3984 [egg-security] use xframe middleware
+2021-03-26 12:50:01,327 INFO 3984 [egg-security] use dta middleware
+2021-03-26 12:50:01,327 INFO 3984 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:50:01,335 INFO 3984 [egg:core] dump config after load, 4ms
+2021-03-26 12:50:01,351 INFO 3984 [egg-redis] client connect success
+2021-03-26 12:50:01,351 INFO 3984 [egg-redis] client connect success
+2021-03-26 12:50:01,354 INFO 3984 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:50:01,354 INFO 3984 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:50:01,364 INFO 3984 [egg-watcher:application] watcher start success
+2021-03-26 12:50:01,387 INFO 3984 [egg:core] dump config after ready, 5ms
+2021-03-26 12:50:15,541 INFO 3993 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:50:15,570 INFO 3993 [egg-multipart] stream mode enable
+2021-03-26 12:50:15,758 INFO 3993 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:50:15,759 INFO 3993 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:50:17,824 INFO 3993 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:50:17,826 INFO 3993 [egg-security] use methodnoallow middleware
+2021-03-26 12:50:17,826 INFO 3993 [egg-security] use noopen middleware
+2021-03-26 12:50:17,826 INFO 3993 [egg-security] use nosniff middleware
+2021-03-26 12:50:17,827 INFO 3993 [egg-security] use xssProtection middleware
+2021-03-26 12:50:17,827 INFO 3993 [egg-security] use xframe middleware
+2021-03-26 12:50:17,827 INFO 3993 [egg-security] use dta middleware
+2021-03-26 12:50:17,827 INFO 3993 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:50:17,835 INFO 3993 [egg:core] dump config after load, 4ms
+2021-03-26 12:50:17,852 INFO 3993 [egg-redis] client connect success
+2021-03-26 12:50:17,852 INFO 3993 [egg-redis] client connect success
+2021-03-26 12:50:17,854 INFO 3993 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:50:17,855 INFO 3993 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:50:17,865 INFO 3993 [egg-watcher:application] watcher start success
+2021-03-26 12:50:17,886 INFO 3993 [egg:core] dump config after ready, 5ms
+2021-03-26 12:50:47,399 INFO 3997 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:50:47,429 INFO 3997 [egg-multipart] stream mode enable
+2021-03-26 12:50:47,668 INFO 3997 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:50:47,669 INFO 3997 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:50:49,848 INFO 3997 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:50:49,850 INFO 3997 [egg-security] use methodnoallow middleware
+2021-03-26 12:50:49,850 INFO 3997 [egg-security] use noopen middleware
+2021-03-26 12:50:49,851 INFO 3997 [egg-security] use nosniff middleware
+2021-03-26 12:50:49,851 INFO 3997 [egg-security] use xssProtection middleware
+2021-03-26 12:50:49,851 INFO 3997 [egg-security] use xframe middleware
+2021-03-26 12:50:49,852 INFO 3997 [egg-security] use dta middleware
+2021-03-26 12:50:49,852 INFO 3997 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:50:49,860 INFO 3997 [egg:core] dump config after load, 3ms
+2021-03-26 12:50:49,877 INFO 3997 [egg-redis] client connect success
+2021-03-26 12:50:49,877 INFO 3997 [egg-redis] client connect success
+2021-03-26 12:50:49,879 INFO 3997 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:50:49,880 INFO 3997 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:50:49,889 INFO 3997 [egg-watcher:application] watcher start success
+2021-03-26 12:50:49,909 INFO 3997 [egg:core] dump config after ready, 5ms
+2021-03-26 12:52:25,542 INFO 4024 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:52:25,571 INFO 4024 [egg-multipart] stream mode enable
+2021-03-26 12:52:25,823 INFO 4024 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:52:25,824 INFO 4024 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:52:27,941 INFO 4024 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:52:27,943 INFO 4024 [egg-security] use methodnoallow middleware
+2021-03-26 12:52:27,943 INFO 4024 [egg-security] use noopen middleware
+2021-03-26 12:52:27,944 INFO 4024 [egg-security] use nosniff middleware
+2021-03-26 12:52:27,944 INFO 4024 [egg-security] use xssProtection middleware
+2021-03-26 12:52:27,944 INFO 4024 [egg-security] use xframe middleware
+2021-03-26 12:52:27,945 INFO 4024 [egg-security] use dta middleware
+2021-03-26 12:52:27,945 INFO 4024 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:52:27,953 INFO 4024 [egg:core] dump config after load, 4ms
+2021-03-26 12:52:27,972 INFO 4024 [egg-redis] client connect success
+2021-03-26 12:52:27,972 INFO 4024 [egg-redis] client connect success
+2021-03-26 12:52:27,974 INFO 4024 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:52:27,975 INFO 4024 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:52:27,985 INFO 4024 [egg-watcher:application] watcher start success
+2021-03-26 12:52:28,003 INFO 4024 [egg:core] dump config after ready, 5ms
+2021-03-26 12:59:53,658 INFO 4201 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:59:53,687 INFO 4201 [egg-multipart] stream mode enable
+2021-03-26 12:59:53,878 INFO 4201 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:59:53,879 INFO 4201 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:59:55,933 INFO 4201 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:59:55,934 INFO 4201 [egg-security] use methodnoallow middleware
+2021-03-26 12:59:55,935 INFO 4201 [egg-security] use noopen middleware
+2021-03-26 12:59:55,935 INFO 4201 [egg-security] use nosniff middleware
+2021-03-26 12:59:55,935 INFO 4201 [egg-security] use xssProtection middleware
+2021-03-26 12:59:55,936 INFO 4201 [egg-security] use xframe middleware
+2021-03-26 12:59:55,936 INFO 4201 [egg-security] use dta middleware
+2021-03-26 12:59:55,936 INFO 4201 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:59:55,945 INFO 4201 [egg:core] dump config after load, 5ms
+2021-03-26 12:59:55,962 INFO 4201 [egg-redis] client connect success
+2021-03-26 12:59:55,962 INFO 4201 [egg-redis] client connect success
+2021-03-26 12:59:55,965 INFO 4201 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:59:55,965 INFO 4201 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:59:55,975 INFO 4201 [egg-watcher:application] watcher start success
+2021-03-26 12:59:55,995 INFO 4201 [egg:core] dump config after ready, 5ms
+2021-03-26 12:59:56,518 INFO 4202 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 12:59:56,548 INFO 4202 [egg-multipart] stream mode enable
+2021-03-26 12:59:56,739 INFO 4202 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 12:59:56,740 INFO 4202 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 12:59:56,788 INFO 4202 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 12:59:56,790 INFO 4202 [egg-security] use methodnoallow middleware
+2021-03-26 12:59:56,790 INFO 4202 [egg-security] use noopen middleware
+2021-03-26 12:59:56,791 INFO 4202 [egg-security] use nosniff middleware
+2021-03-26 12:59:56,791 INFO 4202 [egg-security] use xssProtection middleware
+2021-03-26 12:59:56,791 INFO 4202 [egg-security] use xframe middleware
+2021-03-26 12:59:56,791 INFO 4202 [egg-security] use dta middleware
+2021-03-26 12:59:56,791 INFO 4202 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 12:59:56,800 INFO 4202 [egg:core] dump config after load, 3ms
+2021-03-26 12:59:56,814 INFO 4202 [egg-redis] client connect success
+2021-03-26 12:59:56,814 INFO 4202 [egg-redis] client connect success
+2021-03-26 12:59:56,815 INFO 4202 [egg-redis] instance[1] status OK, client ready
+2021-03-26 12:59:56,815 INFO 4202 [egg-redis] instance[0] status OK, client ready
+2021-03-26 12:59:56,823 INFO 4202 [egg-watcher:application] watcher start success
+2021-03-26 12:59:56,838 INFO 4202 [egg:core] dump config after ready, 4ms
+2021-03-26 13:02:57,121 INFO 4254 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:02:57,152 INFO 4254 [egg-multipart] stream mode enable
+2021-03-26 13:02:57,441 INFO 4254 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:02:57,442 INFO 4254 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:02:57,525 INFO 4254 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:02:57,527 INFO 4254 [egg-security] use methodnoallow middleware
+2021-03-26 13:02:57,528 INFO 4254 [egg-security] use noopen middleware
+2021-03-26 13:02:57,528 INFO 4254 [egg-security] use nosniff middleware
+2021-03-26 13:02:57,528 INFO 4254 [egg-security] use xssProtection middleware
+2021-03-26 13:02:57,529 INFO 4254 [egg-security] use xframe middleware
+2021-03-26 13:02:57,529 INFO 4254 [egg-security] use dta middleware
+2021-03-26 13:02:57,529 INFO 4254 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:02:57,541 INFO 4254 [egg:core] dump config after load, 5ms
+2021-03-26 13:02:57,556 INFO 4254 [egg-redis] client connect success
+2021-03-26 13:02:57,556 INFO 4254 [egg-redis] client connect success
+2021-03-26 13:02:57,558 INFO 4254 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:02:57,558 INFO 4254 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:02:57,568 INFO 4254 [egg-watcher:application] watcher start success
+2021-03-26 13:02:57,582 INFO 4254 [egg:core] dump config after ready, 4ms
+2021-03-26 13:05:11,004 INFO 4297 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:05:11,033 INFO 4297 [egg-multipart] stream mode enable
+2021-03-26 13:05:11,273 INFO 4297 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:05:11,274 INFO 4297 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:05:11,344 INFO 4297 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:05:11,346 INFO 4297 [egg-security] use methodnoallow middleware
+2021-03-26 13:05:11,346 INFO 4297 [egg-security] use noopen middleware
+2021-03-26 13:05:11,347 INFO 4297 [egg-security] use nosniff middleware
+2021-03-26 13:05:11,347 INFO 4297 [egg-security] use xssProtection middleware
+2021-03-26 13:05:11,348 INFO 4297 [egg-security] use xframe middleware
+2021-03-26 13:05:11,348 INFO 4297 [egg-security] use dta middleware
+2021-03-26 13:05:11,348 INFO 4297 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:05:13,487 INFO 4297 [egg:core] dump config after load, 4ms
+2021-03-26 13:05:13,501 INFO 4297 [egg-redis] client connect success
+2021-03-26 13:05:13,501 INFO 4297 [egg-redis] client connect success
+2021-03-26 13:05:13,503 INFO 4297 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:05:13,504 INFO 4297 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:05:13,513 INFO 4297 [egg-watcher:application] watcher start success
+2021-03-26 13:05:13,535 INFO 4297 [egg:core] dump config after ready, 6ms
+2021-03-26 13:06:06,590 INFO 4372 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:06:06,618 INFO 4372 [egg-multipart] stream mode enable
+2021-03-26 13:06:06,851 INFO 4372 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:06:06,852 INFO 4372 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:06:06,941 INFO 4372 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:06:06,943 INFO 4372 [egg-security] use methodnoallow middleware
+2021-03-26 13:06:06,943 INFO 4372 [egg-security] use noopen middleware
+2021-03-26 13:06:06,944 INFO 4372 [egg-security] use nosniff middleware
+2021-03-26 13:06:06,944 INFO 4372 [egg-security] use xssProtection middleware
+2021-03-26 13:06:06,945 INFO 4372 [egg-security] use xframe middleware
+2021-03-26 13:06:06,945 INFO 4372 [egg-security] use dta middleware
+2021-03-26 13:06:06,945 INFO 4372 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:06:06,957 INFO 4372 [egg:core] dump config after load, 4ms
+2021-03-26 13:06:06,980 INFO 4372 [egg-redis] client connect success
+2021-03-26 13:06:06,980 INFO 4372 [egg-redis] client connect success
+2021-03-26 13:06:06,982 INFO 4372 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:06:06,982 INFO 4372 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:06:06,990 INFO 4372 [egg-watcher:application] watcher start success
+2021-03-26 13:06:07,006 INFO 4372 [egg:core] dump config after ready, 4ms
+2021-03-26 13:10:16,226 INFO 4456 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:10:16,256 INFO 4456 [egg-multipart] stream mode enable
+2021-03-26 13:10:16,546 INFO 4456 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:10:16,548 INFO 4456 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:10:16,643 INFO 4456 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:10:16,648 INFO 4456 [egg-security] use methodnoallow middleware
+2021-03-26 13:10:16,648 INFO 4456 [egg-security] use noopen middleware
+2021-03-26 13:10:16,649 INFO 4456 [egg-security] use nosniff middleware
+2021-03-26 13:10:16,649 INFO 4456 [egg-security] use xssProtection middleware
+2021-03-26 13:10:16,649 INFO 4456 [egg-security] use xframe middleware
+2021-03-26 13:10:16,650 INFO 4456 [egg-security] use dta middleware
+2021-03-26 13:10:16,650 INFO 4456 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:10:16,662 INFO 4456 [egg:core] dump config after load, 4ms
+2021-03-26 13:10:16,677 INFO 4456 [egg-redis] client connect success
+2021-03-26 13:10:16,677 INFO 4456 [egg-redis] client connect success
+2021-03-26 13:10:16,679 INFO 4456 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:10:16,680 INFO 4456 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:10:16,689 INFO 4456 [egg-watcher:application] watcher start success
+2021-03-26 13:10:16,709 INFO 4456 [egg:core] dump config after ready, 4ms
+2021-03-26 13:10:30,005 INFO 4477 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:10:30,033 INFO 4477 [egg-multipart] stream mode enable
+2021-03-26 13:10:30,255 INFO 4477 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:10:30,256 INFO 4477 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:10:30,335 INFO 4477 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:10:30,338 INFO 4477 [egg-security] use methodnoallow middleware
+2021-03-26 13:10:30,338 INFO 4477 [egg-security] use noopen middleware
+2021-03-26 13:10:30,338 INFO 4477 [egg-security] use nosniff middleware
+2021-03-26 13:10:30,339 INFO 4477 [egg-security] use xssProtection middleware
+2021-03-26 13:10:30,339 INFO 4477 [egg-security] use xframe middleware
+2021-03-26 13:10:30,339 INFO 4477 [egg-security] use dta middleware
+2021-03-26 13:10:30,339 INFO 4477 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:10:32,434 INFO 4477 [egg:core] dump config after load, 4ms
+2021-03-26 13:10:32,447 INFO 4477 [egg-redis] client connect success
+2021-03-26 13:10:32,447 INFO 4477 [egg-redis] client connect success
+2021-03-26 13:10:32,452 INFO 4477 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:10:32,453 INFO 4477 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:10:32,465 INFO 4477 [egg-watcher:application] watcher start success
+2021-03-26 13:10:32,483 INFO 4477 [egg:core] dump config after ready, 4ms
+2021-03-26 13:10:59,506 INFO 4493 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:10:59,535 INFO 4493 [egg-multipart] stream mode enable
+2021-03-26 13:10:59,763 INFO 4493 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:10:59,765 INFO 4493 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:10:59,833 INFO 4493 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:10:59,835 INFO 4493 [egg-security] use methodnoallow middleware
+2021-03-26 13:10:59,835 INFO 4493 [egg-security] use noopen middleware
+2021-03-26 13:10:59,836 INFO 4493 [egg-security] use nosniff middleware
+2021-03-26 13:10:59,836 INFO 4493 [egg-security] use xssProtection middleware
+2021-03-26 13:10:59,836 INFO 4493 [egg-security] use xframe middleware
+2021-03-26 13:10:59,837 INFO 4493 [egg-security] use dta middleware
+2021-03-26 13:10:59,837 INFO 4493 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:11:01,947 INFO 4493 [egg:core] dump config after load, 4ms
+2021-03-26 13:11:01,967 INFO 4493 [egg-redis] client connect success
+2021-03-26 13:11:01,967 INFO 4493 [egg-redis] client connect success
+2021-03-26 13:11:01,970 INFO 4493 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:11:01,970 INFO 4493 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:11:01,979 INFO 4493 [egg-watcher:application] watcher start success
+2021-03-26 13:11:02,003 INFO 4493 [egg:core] dump config after ready, 7ms
+2021-03-26 13:11:03,948 INFO 4500 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:11:03,976 INFO 4500 [egg-multipart] stream mode enable
+2021-03-26 13:11:04,162 INFO 4500 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:11:04,163 INFO 4500 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:11:04,210 INFO 4500 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:11:04,212 INFO 4500 [egg-security] use methodnoallow middleware
+2021-03-26 13:11:04,212 INFO 4500 [egg-security] use noopen middleware
+2021-03-26 13:11:04,212 INFO 4500 [egg-security] use nosniff middleware
+2021-03-26 13:11:04,212 INFO 4500 [egg-security] use xssProtection middleware
+2021-03-26 13:11:04,213 INFO 4500 [egg-security] use xframe middleware
+2021-03-26 13:11:04,213 INFO 4500 [egg-security] use dta middleware
+2021-03-26 13:11:04,213 INFO 4500 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:11:06,255 INFO 4500 [egg:core] dump config after load, 3ms
+2021-03-26 13:11:06,269 INFO 4500 [egg-redis] client connect success
+2021-03-26 13:11:06,269 INFO 4500 [egg-redis] client connect success
+2021-03-26 13:11:06,271 INFO 4500 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:11:06,271 INFO 4500 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:11:06,279 INFO 4500 [egg-watcher:application] watcher start success
+2021-03-26 13:11:06,298 INFO 4500 [egg:core] dump config after ready, 6ms
+2021-03-26 13:13:55,784 INFO 4549 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:13:55,814 INFO 4549 [egg-multipart] stream mode enable
+2021-03-26 13:13:56,039 INFO 4549 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:13:56,040 INFO 4549 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:13:56,113 INFO 4549 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:13:56,115 INFO 4549 [egg-security] use methodnoallow middleware
+2021-03-26 13:13:56,115 INFO 4549 [egg-security] use noopen middleware
+2021-03-26 13:13:56,116 INFO 4549 [egg-security] use nosniff middleware
+2021-03-26 13:13:56,116 INFO 4549 [egg-security] use xssProtection middleware
+2021-03-26 13:13:56,116 INFO 4549 [egg-security] use xframe middleware
+2021-03-26 13:13:56,117 INFO 4549 [egg-security] use dta middleware
+2021-03-26 13:13:56,117 INFO 4549 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:13:58,382 INFO 4549 [egg:core] dump config after load, 5ms
+2021-03-26 13:13:58,396 INFO 4549 [egg-redis] client connect success
+2021-03-26 13:13:58,396 INFO 4549 [egg-redis] client connect success
+2021-03-26 13:13:58,399 INFO 4549 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:13:58,399 INFO 4549 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:13:58,409 INFO 4549 [egg-watcher:application] watcher start success
+2021-03-26 13:13:58,432 INFO 4549 [egg:core] dump config after ready, 5ms
+2021-03-26 13:17:04,394 INFO 4668 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:17:04,423 INFO 4668 [egg-multipart] stream mode enable
+2021-03-26 13:17:04,611 INFO 4668 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:17:04,612 INFO 4668 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:17:04,663 INFO 4668 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:17:04,665 INFO 4668 [egg-security] use methodnoallow middleware
+2021-03-26 13:17:04,665 INFO 4668 [egg-security] use noopen middleware
+2021-03-26 13:17:04,665 INFO 4668 [egg-security] use nosniff middleware
+2021-03-26 13:17:04,666 INFO 4668 [egg-security] use xssProtection middleware
+2021-03-26 13:17:04,666 INFO 4668 [egg-security] use xframe middleware
+2021-03-26 13:17:04,666 INFO 4668 [egg-security] use dta middleware
+2021-03-26 13:17:04,666 INFO 4668 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:17:06,639 INFO 4668 [egg:core] dump config after load, 5ms
+2021-03-26 13:17:06,651 INFO 4668 [egg-redis] client connect success
+2021-03-26 13:17:06,652 INFO 4668 [egg-redis] client connect success
+2021-03-26 13:17:06,654 INFO 4668 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:17:06,654 INFO 4668 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:17:06,663 INFO 4668 [egg-watcher:application] watcher start success
+2021-03-26 13:17:06,681 INFO 4668 [egg:core] dump config after ready, 5ms
+2021-03-26 13:17:37,986 INFO 4700 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:17:38,033 INFO 4700 [egg-multipart] stream mode enable
+2021-03-26 13:17:38,380 INFO 4700 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:17:38,381 INFO 4700 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:17:38,552 INFO 4700 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:17:38,553 INFO 4700 [egg-security] use methodnoallow middleware
+2021-03-26 13:17:38,553 INFO 4700 [egg-security] use noopen middleware
+2021-03-26 13:17:38,554 INFO 4700 [egg-security] use nosniff middleware
+2021-03-26 13:17:38,554 INFO 4700 [egg-security] use xssProtection middleware
+2021-03-26 13:17:38,555 INFO 4700 [egg-security] use xframe middleware
+2021-03-26 13:17:38,555 INFO 4700 [egg-security] use dta middleware
+2021-03-26 13:17:38,555 INFO 4700 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:17:38,611 INFO 4700 [egg:core] dump config after load, 4ms
+2021-03-26 13:17:38,622 INFO 4700 [egg-redis] client connect success
+2021-03-26 13:17:38,622 INFO 4700 [egg-redis] client connect success
+2021-03-26 13:17:38,624 INFO 4700 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:17:38,624 INFO 4700 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:17:38,632 INFO 4700 [egg-watcher:application] watcher start success
+2021-03-26 13:17:38,646 INFO 4700 [egg:core] dump config after ready, 4ms
+2021-03-26 13:17:44,997 INFO 4748 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:17:45,038 INFO 4748 [egg-multipart] stream mode enable
+2021-03-26 13:17:45,297 INFO 4748 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:17:45,298 INFO 4748 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:17:45,372 INFO 4748 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:17:45,374 INFO 4748 [egg-security] use methodnoallow middleware
+2021-03-26 13:17:45,375 INFO 4748 [egg-security] use noopen middleware
+2021-03-26 13:17:45,375 INFO 4748 [egg-security] use nosniff middleware
+2021-03-26 13:17:45,375 INFO 4748 [egg-security] use xssProtection middleware
+2021-03-26 13:17:45,376 INFO 4748 [egg-security] use xframe middleware
+2021-03-26 13:17:45,376 INFO 4748 [egg-security] use dta middleware
+2021-03-26 13:17:45,376 INFO 4748 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:17:45,385 INFO 4748 [egg:core] dump config after load, 4ms
+2021-03-26 13:17:45,399 INFO 4748 [egg-redis] client connect success
+2021-03-26 13:17:45,399 INFO 4748 [egg-redis] client connect success
+2021-03-26 13:17:45,401 INFO 4748 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:17:45,401 INFO 4748 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:17:45,410 INFO 4748 [egg-watcher:application] watcher start success
+2021-03-26 13:17:45,429 INFO 4748 [egg:core] dump config after ready, 4ms
+2021-03-26 13:20:44,032 INFO 4807 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:20:44,062 INFO 4807 [egg-multipart] stream mode enable
+2021-03-26 13:20:44,328 INFO 4807 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:20:44,329 INFO 4807 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:20:46,545 INFO 4807 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:20:46,547 INFO 4807 [egg-security] use methodnoallow middleware
+2021-03-26 13:20:46,547 INFO 4807 [egg-security] use noopen middleware
+2021-03-26 13:20:46,547 INFO 4807 [egg-security] use nosniff middleware
+2021-03-26 13:20:46,548 INFO 4807 [egg-security] use xssProtection middleware
+2021-03-26 13:20:46,548 INFO 4807 [egg-security] use xframe middleware
+2021-03-26 13:20:46,548 INFO 4807 [egg-security] use dta middleware
+2021-03-26 13:20:46,548 INFO 4807 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:20:46,557 INFO 4807 [egg:core] dump config after load, 4ms
+2021-03-26 13:20:46,574 INFO 4807 [egg-redis] client connect success
+2021-03-26 13:20:46,574 INFO 4807 [egg-redis] client connect success
+2021-03-26 13:20:46,576 INFO 4807 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:20:46,576 INFO 4807 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:20:46,586 INFO 4807 [egg-watcher:application] watcher start success
+2021-03-26 13:20:46,604 INFO 4807 [egg:core] dump config after ready, 5ms
+2021-03-26 13:21:28,167 INFO 4830 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-26 13:21:28,198 INFO 4830 [egg-multipart] stream mode enable
+2021-03-26 13:21:28,438 INFO 4830 [egg-redis] server connecting redis://:***@localhost:7000/0
+2021-03-26 13:21:28,440 INFO 4830 [egg-redis] server connecting redis://:***@localhost:7001/0
+2021-03-26 13:21:28,507 INFO 4830 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-26 13:21:28,509 INFO 4830 [egg-security] use methodnoallow middleware
+2021-03-26 13:21:28,510 INFO 4830 [egg-security] use noopen middleware
+2021-03-26 13:21:28,510 INFO 4830 [egg-security] use nosniff middleware
+2021-03-26 13:21:28,510 INFO 4830 [egg-security] use xssProtection middleware
+2021-03-26 13:21:28,511 INFO 4830 [egg-security] use xframe middleware
+2021-03-26 13:21:28,511 INFO 4830 [egg-security] use dta middleware
+2021-03-26 13:21:28,511 INFO 4830 [egg-security] compose 6 middlewares into one security middleware
+2021-03-26 13:21:28,521 INFO 4830 [egg:core] dump config after load, 4ms
+2021-03-26 13:21:28,536 INFO 4830 [egg-redis] client connect success
+2021-03-26 13:21:28,536 INFO 4830 [egg-redis] client connect success
+2021-03-26 13:21:28,539 INFO 4830 [egg-redis] instance[1] status OK, client ready
+2021-03-26 13:21:28,539 INFO 4830 [egg-redis] instance[0] status OK, client ready
+2021-03-26 13:21:28,554 INFO 4830 [egg-watcher:application] watcher start success
+2021-03-26 13:21:28,571 INFO 4830 [egg:core] dump config after ready, 5ms

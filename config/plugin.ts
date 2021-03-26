@@ -10,9 +10,13 @@ const plugin: EggPlugin = {
     enable: true,
     package: 'egg-cors'
   },
-  sequelize:{
-    enable:true,
-    package:'egg-sequelize-ts'
+  sequelize: {
+    enable: true,
+    package: 'egg-sequelize-ts'
+  },
+  redis: {
+    enable: true,
+    package: 'egg-redis'
   }
 };
 

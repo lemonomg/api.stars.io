@@ -655,3 +655,165 @@ name: "ClusterClientNoResponseError"
 pid: 20603
 hostname: maoyuxindembp
 
+2021-03-25 17:04:12,978 ERROR 20603 nodejs.ClusterClientNoResponseError: client no response in 84725ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20603
+hostname: maoyuxindembp
+
+2021-03-25 17:05:24,103 ERROR 20603 nodejs.ClusterClientNoResponseError: client no response in 70980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20603
+hostname: maoyuxindembp
+
+2021-03-25 17:26:04,294 ERROR 25158 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7001
+}
+2021-03-25 17:26:04,295 ERROR 25158 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7001
+name: "ECONNREFUSEDError"
+pid: 25158
+hostname: maoyuxindembp
+
+2021-03-25 17:26:04,297 ERROR 25158 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7001
+name: "ECONNREFUSEDError"
+pid: 25158
+hostname: maoyuxindembp
+
+2021-03-25 17:27:48,627 ERROR 25244 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25244
+hostname: maoyuxindembp
+
+2021-03-25 17:28:59,549 ERROR 25288 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25288
+hostname: maoyuxindembp
+
+2021-03-25 17:30:02,194 ERROR 25326 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25326
+hostname: maoyuxindembp
+
+2021-03-25 17:30:32,413 ERROR 25352 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["3"]}
+pid: 25352
+hostname: maoyuxindembp
+
+2021-03-25 17:30:34,069 ERROR 25361 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["3"]}
+pid: 25361
+hostname: maoyuxindembp
+
+2021-03-25 17:31:43,445 ERROR 25398 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25398
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,912 ERROR 3718 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7000
+}
+2021-03-26 12:38:06,913 ERROR 3718 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,913 ERROR 3718 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7000
+}
+2021-03-26 12:38:06,913 ERROR 3718 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,917 ERROR 3718 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,923 ERROR 3718 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:42,834 ERROR 3786 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 3786
+hostname: maoyuxindembp
+
+2021-03-26 12:38:54,690 ERROR 3795 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 3795
+hostname: maoyuxindembp
+

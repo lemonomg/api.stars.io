@@ -109,6 +109,7 @@
         "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-view@2.1.3@egg-view/config/locales",
         "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-cors@2.2.3@egg-cors/config/locales",
         "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/config/locales",
+        "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-redis@2.4.0@egg-redis/config/locales",
         "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/locales",
         "/Volumes/开发/www/stars/api.stars.io/config/locales"
       ],
@@ -195,6 +196,26 @@
       "username": "root",
       "password": "<String len: 8>"
     },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "supportTimeCommand": true,
+      "clients": {
+        "foo": {
+          "port": 7000,
+          "host": "localhost",
+          "password": "<String len: 0>",
+          "db": 0
+        },
+        "bar": {
+          "port": 7001,
+          "host": "localhost",
+          "password": "<String len: 0>",
+          "db": 0
+        }
+      }
+    },
     "env": "local",
     "name": "api.stars.io",
     "keys": "<String len: 30>",
@@ -229,10 +250,13 @@
         "clean": "ets clean"
       },
       "dependencies": {
+        "@types/nodemailer": "^6.4.1",
         "egg": "^2.6.1",
         "egg-cors": "^2.2.3",
+        "egg-redis": "^2.4.0",
         "egg-scripts": "^2.6.0",
         "egg-sequelize-ts": "^0.2.3-0",
+        "ejs": "^3.1.6",
         "mysql2": "^2.2.5"
       },
       "devDependencies": {
@@ -370,6 +394,15 @@
     "onClientError": null,
     "middleware": [],
     "sourceUrl": "https://github.com/eggjs/examples/tree/master/api.stars.io",
+    "email": {
+      "service": "qq",
+      "secureConnection": true,
+      "port": 465,
+      "auth": {
+        "user": "1879178791@qq.com",
+        "pass": "<String len: 16>"
+      }
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",
@@ -554,6 +587,17 @@
       "from": "/Volumes/开发/www/stars/api.stars.io/config/plugin.ts",
       "path": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts",
       "version": "0.2.3-0"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/开发/www/stars/api.stars.io/config/plugin.ts",
+      "path": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-redis@2.4.0@egg-redis",
+      "version": "2.4.0"
     }
   }
 }

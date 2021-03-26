@@ -24,6 +24,31 @@ export default () => {
       password: 'lemon123',
       port: 3306,
       database: 'stars.community'
+    },
+    email: {
+      service: 'qq',
+      secureConnection: true,
+      port: 465,
+      auth: {
+        user: '1879178791@qq.com',
+        pass: 'elkmxmktglpvfchf'
+      }
+    },
+    redis: {
+      clients: {
+        foo: {
+          port: 7000,
+          host: 'localhost',
+          password: '',
+          db: 0
+        },
+        bar: {
+          port: 7001,
+          host: 'localhost',
+          password: '',
+          db: 0
+        }
+      }
     }
   };
   return config;
