@@ -13,9 +13,8 @@ export default () => {
     },
     /** 跨域配置 */
     cors: {
-      origin: "http://localhost:8080",
+      origin: "*",
       allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
-      credentials: true
     },
     sequelize: {
       dialect: 'mysql',
@@ -34,21 +33,8 @@ export default () => {
         pass: 'elkmxmktglpvfchf'
       }
     },
-    redis: {
-      clients: {
-        foo: {
-          port: 7000,
-          host: 'localhost',
-          password: '',
-          db: 0
-        },
-        bar: {
-          port: 7001,
-          host: 'localhost',
-          password: '',
-          db: 0
-        }
-      }
+    sessionRedis: {
+      name: ''
     }
   };
   return config;

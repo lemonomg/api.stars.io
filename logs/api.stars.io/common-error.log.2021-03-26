@@ -1,0 +1,1046 @@
+2021-03-25 12:16:15,250 ERROR 13016 [-/::1/-/6ms GET /user/login] nodejs.TypeError: Cannot set property 'body' of undefined
+    at UserController.login (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:6:17)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 13016
+hostname: maoyuxindembp
+
+2021-03-25 12:16:39,532 ERROR 13016 [-/::1/-/1ms GET /user/login] nodejs.TypeError: Cannot set property 'body' of undefined
+    at UserController.login (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:6:17)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 13016
+hostname: maoyuxindembp
+
+2021-03-25 12:53:59,887 ERROR 14252 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14252
+hostname: maoyuxindembp
+
+2021-03-25 12:54:09,298 ERROR 14253 [-/127.0.0.1/-/8ms GET /api/user/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14253
+hostname: maoyuxindembp
+
+2021-03-25 13:10:58,598 ERROR 14650 [-/127.0.0.1/-/18ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14650
+hostname: maoyuxindembp
+
+2021-03-25 13:13:19,772 ERROR 14776 [-/127.0.0.1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:20,393 ERROR 14776 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:20,836 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:21,007 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:21,404 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:22,260 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:22,439 ERROR 14776 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:22,610 ERROR 14776 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:14:28,371 ERROR 14841 [-/127.0.0.1/-/9ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,146 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,662 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,815 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,969 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:30,135 ERROR 14841 [-/127.0.0.1/-/12ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:30,301 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:30,447 ERROR 14841 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:42,965 ERROR 14842 [-/127.0.0.1/-/9ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:43,830 ERROR 14842 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,182 ERROR 14842 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,321 ERROR 14842 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,459 ERROR 14842 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,612 ERROR 14842 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 14:09:36,148 ERROR 16607 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at ConnectionManager._connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at ConnectionManager.getConnection (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:613:26
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:867:5)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:134:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 16607
+hostname: maoyuxindembp
+
+2021-03-25 14:10:20,231 ERROR 16639 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at ConnectionManager._connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at ConnectionManager.getConnection (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:613:26
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:867:5)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:134:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 16639
+hostname: maoyuxindembp
+
+2021-03-25 14:21:56,393 ERROR 17452 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 17452
+hostname: maoyuxindembp
+
+2021-03-25 14:22:03,964 ERROR 17480 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 17480
+hostname: maoyuxindembp
+
+2021-03-25 14:47:48,283 ERROR 19694 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 19694
+hostname: maoyuxindembp
+
+2021-03-25 14:48:25,883 ERROR 19733 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 19733
+hostname: maoyuxindembp
+
+2021-03-25 14:48:50,201 ERROR 19752 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 19752
+hostname: maoyuxindembp
+
+2021-03-25 15:12:37,887 ERROR 20864 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 20864
+hostname: maoyuxindembp
+
+2021-03-25 15:23:47,539 ERROR 20603 nodejs.ClusterClientNoResponseError: client no response in 149635ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20603
+hostname: maoyuxindembp
+
+2021-03-25 17:04:12,978 ERROR 20603 nodejs.ClusterClientNoResponseError: client no response in 84725ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20603
+hostname: maoyuxindembp
+
+2021-03-25 17:05:24,103 ERROR 20603 nodejs.ClusterClientNoResponseError: client no response in 70980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20603
+hostname: maoyuxindembp
+
+2021-03-25 17:26:04,294 ERROR 25158 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7001
+}
+2021-03-25 17:26:04,295 ERROR 25158 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7001
+name: "ECONNREFUSEDError"
+pid: 25158
+hostname: maoyuxindembp
+
+2021-03-25 17:26:04,297 ERROR 25158 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7001
+name: "ECONNREFUSEDError"
+pid: 25158
+hostname: maoyuxindembp
+
+2021-03-25 17:27:48,627 ERROR 25244 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25244
+hostname: maoyuxindembp
+
+2021-03-25 17:28:59,549 ERROR 25288 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25288
+hostname: maoyuxindembp
+
+2021-03-25 17:30:02,194 ERROR 25326 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25326
+hostname: maoyuxindembp
+
+2021-03-25 17:30:32,413 ERROR 25352 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["3"]}
+pid: 25352
+hostname: maoyuxindembp
+
+2021-03-25 17:30:34,069 ERROR 25361 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["3"]}
+pid: 25361
+hostname: maoyuxindembp
+
+2021-03-25 17:31:43,445 ERROR 25398 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 25398
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,912 ERROR 3718 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7000
+}
+2021-03-26 12:38:06,913 ERROR 3718 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,913 ERROR 3718 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 7000
+}
+2021-03-26 12:38:06,913 ERROR 3718 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,917 ERROR 3718 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,923 ERROR 3718 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:42,834 ERROR 3786 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 3786
+hostname: maoyuxindembp
+
+2021-03-26 12:38:54,690 ERROR 3795 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 3795
+hostname: maoyuxindembp
+
+2021-03-26 14:19:16,910 ERROR 6660 [-/127.0.0.1/-/30ms POST /api/base/getCode] nodejs.ENOENTError: ENOENT: no such file or directory, open '/public/email/register.ejs'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:28:37)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/public/email/register.ejs"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 6660
+hostname: maoyuxindembp
+
+2021-03-26 14:19:35,768 ERROR 6682 [-/127.0.0.1/-/55ms POST /api/base/getCode] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Volumes/开发/www/stars/api.stars.io/app/controller/register.ejs'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:28:37)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/开发/www/stars/api.stars.io/app/controller/register.ejs"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 6682
+hostname: maoyuxindembp
+
+2021-03-26 14:59:54,943 ERROR 7653 [-/127.0.0.1/-/41ms POST /api/base/getCode] nodejs.TypeError: this.app.redis.set is not a function
+    at RedisService.set (/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts:17:37)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:34:34)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7653
+hostname: maoyuxindembp
+
+2021-03-26 15:05:53,053 ERROR 7913 nodejs.ReplyError: ERR SELECT is not allowed in cluster mode
+    at parseError (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:179:12)
+    at parseType (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:302:14)
+command: {"name":"select","args":["1"]}
+pid: 7913
+hostname: maoyuxindembp
+
+2021-03-26 15:07:12,541 ERROR 7935 [-/127.0.0.1/-/44ms POST /api/base/getCode] nodejs.TypeError: this.app.redis.set is not a function
+    at RedisService.set (/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts:17:37)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:34:34)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7935
+hostname: maoyuxindembp
+
+2021-03-26 15:53:43,609 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 292885ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 16:10:45,714 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 1002025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 16:18:26,414 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 300650ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 16:20:02,908 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 76434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 16:37:05,850 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 302707ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 16:53:11,282 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 945330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 18:06:38,962 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 301998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 18:26:02,087 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 302920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 18:31:45,138 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 302955ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 19:06:17,200 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 2052046ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 19:52:32,149 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 2774827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 20:36:27,780 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 2635623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 21:06:28,059 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 1800267ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 22:21:26,045 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 1052839ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 22:37:35,552 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 969498ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-26 23:52:35,914 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 1894671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+
+2021-03-27 00:32:29,135 ERROR 4371 nodejs.ClusterClientNoResponseError: client no response in 2392855ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4371
+hostname: maoyuxindembp
+

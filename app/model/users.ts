@@ -1,4 +1,4 @@
-import { AutoIncrement, Column, DataType, Model, PrimaryKey, Table } from 'sequelize-typescript'
+import { AutoIncrement, Default, Column, DataType, Model, PrimaryKey, Table } from 'sequelize-typescript'
 
 @Table({
     modelName: 'user',
@@ -42,6 +42,7 @@ export class User extends Model<User> {
     })
     email: string
 
+    @Default(1)
     @Column({
         type: DataType.INTEGER,
         comment: '分组id',

@@ -20,5 +20,6 @@ export default (appInfo: EggAppInfo) => {
   return {
     ...config,
     ...bizConfig,
+
   };
 };

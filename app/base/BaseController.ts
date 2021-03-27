@@ -22,7 +22,7 @@ class BaseController extends Controller {
      * 操作失败
      */
     fail(msg) {
-        return { msg, code: '0001' };
+        this.ctx.body = { msg, code: '0001' };
     }
 }
 

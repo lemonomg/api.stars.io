@@ -14,9 +14,8 @@ const plugin: EggPlugin = {
     enable: true,
     package: 'egg-sequelize-ts'
   },
-  redis: {
+  session: {
     enable: true,
-    package: 'egg-redis'
   }
 };
 

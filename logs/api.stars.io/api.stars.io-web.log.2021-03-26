@@ -1,0 +1,1320 @@
+2021-03-25 12:16:15,251 ERROR 13016 [-/::1/-/6ms GET /user/login] nodejs.TypeError: Cannot set property 'body' of undefined
+    at UserController.login (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:6:17)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 13016
+hostname: maoyuxindembp
+
+2021-03-25 12:16:39,532 ERROR 13016 [-/::1/-/1ms GET /user/login] nodejs.TypeError: Cannot set property 'body' of undefined
+    at UserController.login (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:6:17)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 13016
+hostname: maoyuxindembp
+
+2021-03-25 12:53:59,887 ERROR 14252 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14252
+hostname: maoyuxindembp
+
+2021-03-25 12:54:09,298 ERROR 14253 [-/127.0.0.1/-/8ms GET /api/user/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14253
+hostname: maoyuxindembp
+
+2021-03-25 13:10:58,598 ERROR 14650 [-/127.0.0.1/-/18ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14650
+hostname: maoyuxindembp
+
+2021-03-25 13:13:19,773 ERROR 14776 [-/127.0.0.1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:20,393 ERROR 14776 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:20,836 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:21,008 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:21,404 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:22,261 ERROR 14776 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:22,439 ERROR 14776 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:13:22,610 ERROR 14776 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14776
+hostname: maoyuxindembp
+
+2021-03-25 13:14:28,371 ERROR 14841 [-/127.0.0.1/-/9ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,146 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,663 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,816 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:29,970 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:30,135 ERROR 14841 [-/127.0.0.1/-/12ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:30,302 ERROR 14841 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:30,447 ERROR 14841 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14841
+hostname: maoyuxindembp
+
+2021-03-25 13:14:42,965 ERROR 14842 [-/127.0.0.1/-/9ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:43,830 ERROR 14842 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,183 ERROR 14842 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,321 ERROR 14842 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,459 ERROR 14842 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 13:14:44,612 ERROR 14842 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/app/extend/context.js:104:13)
+    at csrf (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:13)
+    at dispatch (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 14842
+hostname: maoyuxindembp
+
+2021-03-25 14:09:33,100 WARN 16607 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-03-25 14:09:34,117 WARN 16607 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-03-25 14:09:35,132 WARN 16607 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-03-25 14:09:36,148 ERROR 16607 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at ConnectionManager._connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at ConnectionManager.getConnection (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:613:26
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:867:5)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:134:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 16607
+hostname: maoyuxindembp
+
+2021-03-25 14:10:17,163 WARN 16639 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-03-25 14:10:18,186 WARN 16639 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-03-25 14:10:19,197 WARN 16639 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-03-25 14:10:20,232 ERROR 16639 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at ConnectionManager._connect (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at ConnectionManager.getConnection (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:613:26
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@6.6.2@sequelize/lib/sequelize.js:867:5)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:134:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 16639
+hostname: maoyuxindembp
+
+2021-03-25 14:11:43,902 INFO 16677 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 14:21:56,407 ERROR 17452 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 17452
+hostname: maoyuxindembp
+
+2021-03-25 14:22:03,965 ERROR 17480 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 17480
+hostname: maoyuxindembp
+
+2021-03-25 14:47:48,283 ERROR 19694 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 19694
+hostname: maoyuxindembp
+
+2021-03-25 14:48:25,884 ERROR 19733 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 19733
+hostname: maoyuxindembp
+
+2021-03-25 14:48:50,201 ERROR 19752 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 19752
+hostname: maoyuxindembp
+
+2021-03-25 14:49:07,618 INFO 19770 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:02:26,935 INFO 20013 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:12:37,887 ERROR 20864 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19
+    at tryCatcher (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Volumes/开发/www/stars/api.stars.io/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:126:22)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts/lib/loader.js:40:33
+    at Object.callFn (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 20864
+hostname: maoyuxindembp
+
+2021-03-25 15:12:45,031 INFO 20883 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:13:35,920 INFO 20977 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:17:41,667 INFO 21262 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:17:42,528 INFO 21268 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:18:19,282 INFO 21294 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:18:59,083 INFO 21331 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:19:04,725 INFO 21331 [egg-sequelize](71ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user`;
+2021-03-25 15:19:08,240 INFO 21357 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:19:21,430 INFO 21357 [egg-sequelize](4ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user`;
+2021-03-25 15:19:48,598 INFO 21357 [egg-sequelize](16ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user`;
+2021-03-25 15:19:49,075 INFO 21357 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user`;
+2021-03-25 15:19:49,245 INFO 21357 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user`;
+2021-03-25 15:19:49,396 INFO 21357 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user`;
+2021-03-25 15:19:49,837 INFO 21420 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:19:53,545 INFO 21445 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:19:56,872 INFO 21445 [egg-sequelize](4ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user`;
+2021-03-25 15:21:09,434 INFO 21510 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:21:17,867 INFO 21536 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:21:19,795 INFO 21536 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-25 15:21:21,054 INFO 21536 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-25 15:36:23,641 INFO 21839 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:38:41,098 INFO 21896 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:38:49,050 INFO 21925 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:39:14,843 INFO 21954 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:39:35,515 INFO 21972 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:39:38,333 INFO 21979 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:49:24,514 INFO 22139 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:49:25,337 INFO 22146 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:52:07,728 INFO 22217 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:52:41,029 INFO 22238 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:52:43,708 INFO 22245 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:52:55,125 INFO 22264 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:53:29,904 INFO 22286 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 15:54:09,110 INFO 22315 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:00:55,653 INFO 22524 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:01:23,772 INFO 22544 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:01:40,146 INFO 22559 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:02:55,964 INFO 22605 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:03:09,826 INFO 22624 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:05:19,520 INFO 22705 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:05:29,149 INFO 22711 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:05:29,975 INFO 22718 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:11:41,267 INFO 22919 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:12:43,659 INFO 22963 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:12:59,695 INFO 22984 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:16:33,790 INFO 23170 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:17:33,640 INFO 23193 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:21:23,757 INFO 23317 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:22:01,110 INFO 23317 [egg-sequelize](14ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-25 16:22:01,538 INFO 23362 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:22:20,272 INFO 23385 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:27:54,418 INFO 23505 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:27:59,070 INFO 23516 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:28:20,103 INFO 23534 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:28:39,676 INFO 23570 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:28:57,676 INFO 23588 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:37:08,211 INFO 23808 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:37:21,158 INFO 23837 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 16:37:47,948 INFO 23856 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 17:17:15,294 INFO 24804 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 17:19:27,177 WARN 24804 A client (::ffff:127.0.0.1:58723) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:28,186 WARN 24804 A client (::ffff:127.0.0.1:58779) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:29,206 WARN 24804 A client (::ffff:127.0.0.1:58834) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:30,224 WARN 24804 A client (::ffff:127.0.0.1:58889) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:31,243 WARN 24804 A client (::ffff:127.0.0.1:58945) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:32,256 WARN 24804 A client (::ffff:127.0.0.1:59001) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:32,786 WARN 24804 A client (::ffff:127.0.0.1:59028) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:33,273 WARN 24804 A client (::ffff:127.0.0.1:59057) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:34,294 WARN 24804 A client (::ffff:127.0.0.1:59112) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:35,312 WARN 24804 A client (::ffff:127.0.0.1:59167) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:36,331 WARN 24804 A client (::ffff:127.0.0.1:59223) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:37,350 WARN 24804 A client (::ffff:127.0.0.1:59279) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:38,373 WARN 24804 A client (::ffff:127.0.0.1:59334) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:39,390 WARN 24804 A client (::ffff:127.0.0.1:59389) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:40,410 WARN 24804 A client (::ffff:127.0.0.1:59444) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:41,428 WARN 24804 A client (::ffff:127.0.0.1:59500) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:42,445 WARN 24804 A client (::ffff:127.0.0.1:59555) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:43,467 WARN 24804 A client (::ffff:127.0.0.1:59610) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:44,486 WARN 24804 A client (::ffff:127.0.0.1:59665) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:45,505 WARN 24804 A client (::ffff:127.0.0.1:59723) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:46,531 WARN 24804 A client (::ffff:127.0.0.1:59778) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:47,539 WARN 24804 A client (::ffff:127.0.0.1:59832) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:48,553 WARN 24804 A client (::ffff:127.0.0.1:59887) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:49,570 WARN 24804 A client (::ffff:127.0.0.1:59943) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:50,587 WARN 24804 A client (::ffff:127.0.0.1:59997) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:51,605 WARN 24804 A client (::ffff:127.0.0.1:60053) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:52,622 WARN 24804 A client (::ffff:127.0.0.1:60107) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:53,639 WARN 24804 A client (::ffff:127.0.0.1:60163) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:54,653 WARN 24804 A client (::ffff:127.0.0.1:60218) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:55,669 WARN 24804 A client (::ffff:127.0.0.1:60272) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:56,686 WARN 24804 A client (::ffff:127.0.0.1:60327) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:57,703 WARN 24804 A client (::ffff:127.0.0.1:60383) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:58,720 WARN 24804 A client (::ffff:127.0.0.1:60439) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:19:59,739 WARN 24804 A client (::ffff:127.0.0.1:60494) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:00,753 WARN 24804 A client (::ffff:127.0.0.1:60547) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:01,770 WARN 24804 A client (::ffff:127.0.0.1:60604) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:02,785 WARN 24804 A client (::ffff:127.0.0.1:60659) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:03,799 WARN 24804 A client (::ffff:127.0.0.1:60716) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:04,814 WARN 24804 A client (::ffff:127.0.0.1:60780) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:05,395 WARN 24804 A client (::ffff:127.0.0.1:60813) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:05,829 WARN 24804 A client (::ffff:127.0.0.1:60837) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:06,843 WARN 24804 A client (::ffff:127.0.0.1:60893) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:07,858 WARN 24804 A client (::ffff:127.0.0.1:60948) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:08,869 WARN 24804 A client (::ffff:127.0.0.1:61003) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:09,147 WARN 24804 A client (::ffff:127.0.0.1:61021) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:09,884 WARN 24804 A client (::ffff:127.0.0.1:61061) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:10,898 WARN 24804 A client (::ffff:127.0.0.1:61116) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:11,916 WARN 24804 A client (::ffff:127.0.0.1:61171) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:12,933 WARN 24804 A client (::ffff:127.0.0.1:61226) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:13,946 WARN 24804 A client (::ffff:127.0.0.1:61281) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:14,030 WARN 24804 A client (::ffff:127.0.0.1:61288) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:14,961 WARN 24804 A client (::ffff:127.0.0.1:61335) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:15,976 WARN 24804 A client (::ffff:127.0.0.1:61393) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:16,989 WARN 24804 A client (::ffff:127.0.0.1:61445) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:18,007 WARN 24804 A client (::ffff:127.0.0.1:61504) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:19,021 WARN 24804 A client (::ffff:127.0.0.1:61557) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:20,038 WARN 24804 A client (::ffff:127.0.0.1:61618) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:21,054 WARN 24804 A client (::ffff:127.0.0.1:61673) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:22,069 WARN 24804 A client (::ffff:127.0.0.1:61728) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:23,083 WARN 24804 A client (::ffff:127.0.0.1:61781) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:24,099 WARN 24804 A client (::ffff:127.0.0.1:61837) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:25,114 WARN 24804 A client (::ffff:127.0.0.1:61893) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:26,133 WARN 24804 A client (::ffff:127.0.0.1:61948) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:27,150 WARN 24804 A client (::ffff:127.0.0.1:62003) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:28,166 WARN 24804 A client (::ffff:127.0.0.1:62058) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:29,186 WARN 24804 A client (::ffff:127.0.0.1:62113) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:30,205 WARN 24804 A client (::ffff:127.0.0.1:62168) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:31,223 WARN 24804 A client (::ffff:127.0.0.1:62223) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:32,242 WARN 24804 A client (::ffff:127.0.0.1:62278) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:33,262 WARN 24804 A client (::ffff:127.0.0.1:62333) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:34,279 WARN 24804 A client (::ffff:127.0.0.1:62388) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:34,559 WARN 24804 A client (::ffff:127.0.0.1:62404) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:35,298 WARN 24804 A client (::ffff:127.0.0.1:62445) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:36,317 WARN 24804 A client (::ffff:127.0.0.1:62500) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:37,302 WARN 24804 A client (::ffff:127.0.0.1:62555) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:37,335 WARN 24804 A client (::ffff:127.0.0.1:62556) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:38,355 WARN 24804 A client (::ffff:127.0.0.1:62611) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:39,373 WARN 24804 A client (::ffff:127.0.0.1:62666) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:40,397 WARN 24804 A client (::ffff:127.0.0.1:62721) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:41,415 WARN 24804 A client (::ffff:127.0.0.1:62776) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:42,435 WARN 24804 A client (::ffff:127.0.0.1:62831) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:43,455 WARN 24804 A client (::ffff:127.0.0.1:62886) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:44,474 WARN 24804 A client (::ffff:127.0.0.1:62941) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:45,493 WARN 24804 A client (::ffff:127.0.0.1:62996) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:46,514 WARN 24804 A client (::ffff:127.0.0.1:63051) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:47,530 WARN 24804 A client (::ffff:127.0.0.1:63106) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:48,548 WARN 24804 A client (::ffff:127.0.0.1:63162) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:49,563 WARN 24804 A client (::ffff:127.0.0.1:63221) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:50,578 WARN 24804 A client (::ffff:127.0.0.1:63277) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:51,595 WARN 24804 A client (::ffff:127.0.0.1:63329) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:52,610 WARN 24804 A client (::ffff:127.0.0.1:63387) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:53,622 WARN 24804 A client (::ffff:127.0.0.1:63443) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:54,638 WARN 24804 A client (::ffff:127.0.0.1:63499) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:55,650 WARN 24804 A client (::ffff:127.0.0.1:63553) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:56,661 WARN 24804 A client (::ffff:127.0.0.1:63610) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:56,714 WARN 24804 A client (::ffff:127.0.0.1:63614) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:57,674 WARN 24804 A client (::ffff:127.0.0.1:63664) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:58,689 WARN 24804 A client (::ffff:127.0.0.1:63719) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:20:59,704 WARN 24804 A client (::ffff:127.0.0.1:63778) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:00,719 WARN 24804 A client (::ffff:127.0.0.1:63833) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:01,735 WARN 24804 A client (::ffff:127.0.0.1:63887) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:02,748 WARN 24804 A client (::ffff:127.0.0.1:63942) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:03,761 WARN 24804 A client (::ffff:127.0.0.1:63997) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:04,776 WARN 24804 A client (::ffff:127.0.0.1:64053) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:05,790 WARN 24804 A client (::ffff:127.0.0.1:64108) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:06,804 WARN 24804 A client (::ffff:127.0.0.1:64162) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:07,821 WARN 24804 A client (::ffff:127.0.0.1:64218) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:08,835 WARN 24804 A client (::ffff:127.0.0.1:64274) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:09,848 WARN 24804 A client (::ffff:127.0.0.1:64338) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:10,863 WARN 24804 A client (::ffff:127.0.0.1:64399) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:11,881 WARN 24804 A client (::ffff:127.0.0.1:64456) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:12,895 WARN 24804 A client (::ffff:127.0.0.1:64508) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:13,908 WARN 24804 A client (::ffff:127.0.0.1:64566) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:14,930 WARN 24804 A client (::ffff:127.0.0.1:64621) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:15,942 WARN 24804 A client (::ffff:127.0.0.1:64697) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:16,954 WARN 24804 A client (::ffff:127.0.0.1:64767) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:17,967 WARN 24804 A client (::ffff:127.0.0.1:64854) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:18,983 WARN 24804 A client (::ffff:127.0.0.1:64914) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:20,001 WARN 24804 A client (::ffff:127.0.0.1:64972) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:21,012 WARN 24804 A client (::ffff:127.0.0.1:65027) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:22,030 WARN 24804 A client (::ffff:127.0.0.1:65082) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:23,046 WARN 24804 A client (::ffff:127.0.0.1:65141) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:24,064 WARN 24804 A client (::ffff:127.0.0.1:65196) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:25,082 WARN 24804 A client (::ffff:127.0.0.1:65253) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:26,098 WARN 24804 A client (::ffff:127.0.0.1:65308) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:27,118 WARN 24804 A client (::ffff:127.0.0.1:65365) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:28,136 WARN 24804 A client (::ffff:127.0.0.1:65420) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:29,152 WARN 24804 A client (::ffff:127.0.0.1:65477) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:30,169 WARN 24804 A client (::ffff:127.0.0.1:65532) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:31,187 WARN 24804 A client (::ffff:127.0.0.1:49203) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:32,205 WARN 24804 A client (::ffff:127.0.0.1:49258) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:33,222 WARN 24804 A client (::ffff:127.0.0.1:49313) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:34,240 WARN 24804 A client (::ffff:127.0.0.1:49368) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:35,257 WARN 24804 A client (::ffff:127.0.0.1:49423) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:36,274 WARN 24804 A client (::ffff:127.0.0.1:49478) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:37,291 WARN 24804 A client (::ffff:127.0.0.1:49534) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:38,313 WARN 24804 A client (::ffff:127.0.0.1:49589) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:39,331 WARN 24804 A client (::ffff:127.0.0.1:49644) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:40,345 WARN 24804 A client (::ffff:127.0.0.1:49703) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:41,362 WARN 24804 A client (::ffff:127.0.0.1:49758) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:42,380 WARN 24804 A client (::ffff:127.0.0.1:49813) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:43,399 WARN 24804 A client (::ffff:127.0.0.1:49868) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:44,417 WARN 24804 A client (::ffff:127.0.0.1:49923) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:45,435 WARN 24804 A client (::ffff:127.0.0.1:49978) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:46,452 WARN 24804 A client (::ffff:127.0.0.1:50033) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:47,471 WARN 24804 A client (::ffff:127.0.0.1:50088) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:48,491 WARN 24804 A client (::ffff:127.0.0.1:50143) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:49,510 WARN 24804 A client (::ffff:127.0.0.1:50198) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:50,526 WARN 24804 A client (::ffff:127.0.0.1:50255) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:51,545 WARN 24804 A client (::ffff:127.0.0.1:50311) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:52,557 WARN 24804 A client (::ffff:127.0.0.1:50366) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:53,573 WARN 24804 A client (::ffff:127.0.0.1:50419) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:54,589 WARN 24804 A client (::ffff:127.0.0.1:50477) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:55,601 WARN 24804 A client (::ffff:127.0.0.1:50530) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:56,616 WARN 24804 A client (::ffff:127.0.0.1:50587) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:57,629 WARN 24804 A client (::ffff:127.0.0.1:50643) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:58,644 WARN 24804 A client (::ffff:127.0.0.1:50699) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:21:59,658 WARN 24804 A client (::ffff:127.0.0.1:50754) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:00,672 WARN 24804 A client (::ffff:127.0.0.1:50807) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:01,688 WARN 24804 A client (::ffff:127.0.0.1:50864) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:02,701 WARN 24804 A client (::ffff:127.0.0.1:50918) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:03,720 WARN 24804 A client (::ffff:127.0.0.1:50975) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:04,735 WARN 24804 A client (::ffff:127.0.0.1:51032) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:05,749 WARN 24804 A client (::ffff:127.0.0.1:51086) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:06,762 WARN 24804 A client (::ffff:127.0.0.1:51139) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:07,778 WARN 24804 A client (::ffff:127.0.0.1:51195) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:08,791 WARN 24804 A client (::ffff:127.0.0.1:51252) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:09,806 WARN 24804 A client (::ffff:127.0.0.1:51307) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:10,821 WARN 24804 A client (::ffff:127.0.0.1:51361) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:11,838 WARN 24804 A client (::ffff:127.0.0.1:51418) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:12,852 WARN 24804 A client (::ffff:127.0.0.1:51470) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:13,869 WARN 24804 A client (::ffff:127.0.0.1:51528) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:14,882 WARN 24804 A client (::ffff:127.0.0.1:51585) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:15,894 WARN 24804 A client (::ffff:127.0.0.1:51640) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:16,907 WARN 24804 A client (::ffff:127.0.0.1:51695) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:17,922 WARN 24804 A client (::ffff:127.0.0.1:51751) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:18,940 WARN 24804 A client (::ffff:127.0.0.1:51808) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:19,952 WARN 24804 A client (::ffff:127.0.0.1:51863) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:20,966 WARN 24804 A client (::ffff:127.0.0.1:51914) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:21,981 WARN 24804 A client (::ffff:127.0.0.1:51990) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:22,996 WARN 24804 A client (::ffff:127.0.0.1:52048) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:24,011 WARN 24804 A client (::ffff:127.0.0.1:52107) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:25,024 WARN 24804 A client (::ffff:127.0.0.1:52172) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:26,040 WARN 24804 A client (::ffff:127.0.0.1:52225) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:27,050 WARN 24804 A client (::ffff:127.0.0.1:52286) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:28,064 WARN 24804 A client (::ffff:127.0.0.1:52342) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:29,076 WARN 24804 A client (::ffff:127.0.0.1:52401) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:30,093 WARN 24804 A client (::ffff:127.0.0.1:52457) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:31,111 WARN 24804 A client (::ffff:127.0.0.1:52513) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:32,124 WARN 24804 A client (::ffff:127.0.0.1:52568) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:33,141 WARN 24804 A client (::ffff:127.0.0.1:52636) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:34,155 WARN 24804 A client (::ffff:127.0.0.1:52694) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:35,173 WARN 24804 A client (::ffff:127.0.0.1:52749) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:36,187 WARN 24804 A client (::ffff:127.0.0.1:52802) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:37,204 WARN 24804 A client (::ffff:127.0.0.1:52868) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:38,223 WARN 24804 A client (::ffff:127.0.0.1:52924) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:39,240 WARN 24804 A client (::ffff:127.0.0.1:52979) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:40,255 WARN 24804 A client (::ffff:127.0.0.1:53035) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:41,271 WARN 24804 A client (::ffff:127.0.0.1:53090) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:42,287 WARN 24804 A client (::ffff:127.0.0.1:53148) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:43,302 WARN 24804 A client (::ffff:127.0.0.1:53203) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:44,322 WARN 24804 A client (::ffff:127.0.0.1:53259) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:45,336 WARN 24804 A client (::ffff:127.0.0.1:53311) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:46,352 WARN 24804 A client (::ffff:127.0.0.1:53367) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:47,369 WARN 24804 A client (::ffff:127.0.0.1:53422) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:48,384 WARN 24804 A client (::ffff:127.0.0.1:53477) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:49,402 WARN 24804 A client (::ffff:127.0.0.1:53533) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:50,417 WARN 24804 A client (::ffff:127.0.0.1:53588) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:51,436 WARN 24804 A client (::ffff:127.0.0.1:53644) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:52,450 WARN 24804 A client (::ffff:127.0.0.1:53699) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:53,466 WARN 24804 A client (::ffff:127.0.0.1:53753) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:54,485 WARN 24804 A client (::ffff:127.0.0.1:53809) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:55,500 WARN 24804 A client (::ffff:127.0.0.1:53860) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:56,514 WARN 24804 A client (::ffff:127.0.0.1:53919) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:57,532 WARN 24804 A client (::ffff:127.0.0.1:53975) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:58,546 WARN 24804 A client (::ffff:127.0.0.1:54029) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:22:59,564 WARN 24804 A client (::ffff:127.0.0.1:54086) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:00,582 WARN 24804 A client (::ffff:127.0.0.1:54141) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:01,600 WARN 24804 A client (::ffff:127.0.0.1:54196) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:02,617 WARN 24804 A client (::ffff:127.0.0.1:54254) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:03,632 WARN 24804 A client (::ffff:127.0.0.1:54310) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:04,649 WARN 24804 A client (::ffff:127.0.0.1:54365) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:05,667 WARN 24804 A client (::ffff:127.0.0.1:54421) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:06,687 WARN 24804 A client (::ffff:127.0.0.1:54476) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:07,702 WARN 24804 A client (::ffff:127.0.0.1:54529) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:08,715 WARN 24804 A client (::ffff:127.0.0.1:54587) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:09,727 WARN 24804 A client (::ffff:127.0.0.1:54646) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:10,746 WARN 24804 A client (::ffff:127.0.0.1:54702) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:11,765 WARN 24804 A client (::ffff:127.0.0.1:54756) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:12,782 WARN 24804 A client (::ffff:127.0.0.1:54813) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:13,796 WARN 24804 A client (::ffff:127.0.0.1:54866) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:14,811 WARN 24804 A client (::ffff:127.0.0.1:54923) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:15,826 WARN 24804 A client (::ffff:127.0.0.1:54978) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:16,839 WARN 24804 A client (::ffff:127.0.0.1:55033) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:17,856 WARN 24804 A client (::ffff:127.0.0.1:55088) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:18,868 WARN 24804 A client (::ffff:127.0.0.1:55144) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:19,879 WARN 24804 A client (::ffff:127.0.0.1:55199) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:20,895 WARN 24804 A client (::ffff:127.0.0.1:55255) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:21,911 WARN 24804 A client (::ffff:127.0.0.1:55309) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:22,927 WARN 24804 A client (::ffff:127.0.0.1:55362) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:23,942 WARN 24804 A client (::ffff:127.0.0.1:55420) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:24,961 WARN 24804 A client (::ffff:127.0.0.1:55472) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:25,976 WARN 24804 A client (::ffff:127.0.0.1:55530) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:26,992 WARN 24804 A client (::ffff:127.0.0.1:55586) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:23:28,006 WARN 24804 A client (::ffff:127.0.0.1:55639) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-03-25 17:26:04,297 ERROR 25158 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7001
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7001
+name: "ECONNREFUSEDError"
+pid: 25158
+hostname: maoyuxindembp
+
+2021-03-25 17:27:48,644 INFO 25244 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 17:28:59,574 INFO 25288 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 17:30:02,228 INFO 25326 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 17:30:32,440 INFO 25352 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 17:30:34,086 INFO 25361 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-25 17:31:43,473 INFO 25398 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:38:06,917 ERROR 3718 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:06,923 ERROR 3718 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7000
+name: "ECONNREFUSEDError"
+pid: 3718
+hostname: maoyuxindembp
+
+2021-03-26 12:38:42,853 INFO 3786 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:38:54,716 INFO 3795 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:39:20,800 INFO 3815 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:46:51,079 INFO 3938 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:50:01,378 INFO 3984 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:50:17,876 INFO 3993 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:50:49,900 INFO 3997 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:52:27,995 INFO 4024 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:59:55,987 INFO 4201 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 12:59:56,831 INFO 4202 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:02:57,576 INFO 4254 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:05:13,525 INFO 4297 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:06:06,999 INFO 4372 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:10:16,703 INFO 4456 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:10:32,476 INFO 4477 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:11:01,992 INFO 4493 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:11:06,289 INFO 4500 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:13:58,424 INFO 4549 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:17:06,674 INFO 4668 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:17:38,640 INFO 4700 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:17:45,422 INFO 4748 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:20:46,596 INFO 4807 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:21:28,563 INFO 4830 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:25:31,813 INFO 4943 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:33:06,414 INFO 5167 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:33:40,868 INFO 5185 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:33:42,711 INFO 5185 [egg-sequelize](5ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 13:34:10,847 INFO 5185 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 13:34:11,473 INFO 5185 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 13:34:12,085 INFO 5185 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 13:34:12,235 INFO 5208 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:34:13,024 INFO 5208 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:34:13,452 INFO 5208 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:34:13,635 INFO 5208 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:34:16,611 INFO 5208 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:34:16,790 INFO 5208 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:34:16,950 INFO 5208 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:39:48,109 INFO 5325 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:39:48,386 INFO 5325 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:39:49,009 INFO 5325 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:39:49,546 INFO 5325 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:39:53,107 INFO 5325 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:40:16,478 INFO 5325 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:40:16,898 INFO 5325 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:40:17,540 INFO 5325 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:40:18,082 INFO 5325 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:40:18,575 INFO 5325 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '2921059682@qq.com' LIMIT 1;
+2021-03-26 13:40:18,528 INFO 5337 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:40:19,239 INFO 5337 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:19,899 INFO 5337 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:26,193 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:40:29,714 INFO 5339 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:30,218 INFO 5339 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:30,749 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:31,194 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:31,375 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:31,555 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:52,765 INFO 5339 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:53,165 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:53,343 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:40:53,503 INFO 5339 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:41:17,570 INFO 5346 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:41:20,260 INFO 5346 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '292105682@qq.com' LIMIT 1;
+2021-03-26 13:41:40,999 INFO 5384 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:44:39,101 INFO 5429 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:45:20,311 INFO 5437 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:45:45,526 INFO 5441 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:46:12,964 INFO 5456 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:46:32,675 INFO 5471 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:46:59,222 INFO 5500 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:50:32,661 INFO 5561 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:51:07,662 INFO 5561 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:51:07,667 INFO 5561 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:51:07,681 INFO 5561 [egg-sequelize](6ms) Executed (default): INSERT INTO `users` (`id`) VALUES (DEFAULT);
+2021-03-26 13:51:07,687 INFO 5561 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:51:07,689 INFO 5561 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:51:07,692 INFO 5561 [egg-sequelize](0ms) Executed (default): INSERT INTO `users` (`id`) VALUES (DEFAULT);
+2021-03-26 13:51:42,088 INFO 5652 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:52:00,475 INFO 5652 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:52:00,481 INFO 5652 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:52:00,491 INFO 5652 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`id`) VALUES (DEFAULT);
+2021-03-26 13:53:27,647 INFO 5733 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:53:28,514 INFO 5742 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:53:34,875 INFO 5742 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:54:00,987 INFO 5742 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-26 13:54:01,266 INFO 5762 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:54:08,270 INFO 5781 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:54:54,366 INFO 5812 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:55:18,106 INFO 5820 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:56:09,314 INFO 5835 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:56:31,655 INFO 5854 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:56:50,723 INFO 5875 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:57:03,491 INFO 5904 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:57:28,651 INFO 5928 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:57:43,979 INFO 5946 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:57:57,567 INFO 5960 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:58:54,108 INFO 6010 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:58:55,888 INFO 6010 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 13:59:16,236 INFO 6050 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:59:19,117 INFO 6050 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 13:59:19,124 INFO 6050 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '1879178791@qq.com' LIMIT 1;
+2021-03-26 13:59:48,559 INFO 6086 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 13:59:52,076 INFO 6086 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:01:23,935 INFO 6129 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:01:25,983 INFO 6129 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:01:36,887 INFO 6148 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:01:39,183 INFO 6148 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:02:08,503 INFO 6189 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:02:27,397 INFO 6189 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:03:10,711 INFO 6226 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:03:28,095 INFO 6261 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:03:29,480 INFO 6263 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:06:44,167 INFO 6313 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:09:11,169 INFO 6372 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:09:13,374 INFO 6372 [egg-sequelize](4ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:09:13,381 INFO 6372 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '1879178791@qq.com' LIMIT 1;
+2021-03-26 14:09:24,906 INFO 6372 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:09:24,910 INFO 6372 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '1879178791@qq.com' LIMIT 1;
+2021-03-26 14:09:25,745 INFO 6392 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:09:29,340 INFO 6392 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:09:29,348 INFO 6392 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '1879178791@qq.com' LIMIT 1;
+2021-03-26 14:09:35,153 INFO 6409 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:09:43,953 INFO 6409 [egg-sequelize](10ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:09:43,960 INFO 6409 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '1879178791@qq.com' LIMIT 1;
+2021-03-26 14:10:34,882 INFO 6447 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:10:37,415 INFO 6447 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:10:58,078 INFO 6458 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:11:09,471 INFO 6492 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:11:11,210 INFO 6492 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:11:59,705 INFO 6504 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:12:01,838 INFO 6504 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:12:06,021 INFO 6504 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:12:06,028 INFO 6504 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '1879178791@qq.com' LIMIT 1;
+2021-03-26 14:18:49,133 INFO 6660 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:19:01,662 INFO 6660 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:19:01,667 INFO 6660 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = '1879178791@qq.com' LIMIT 1;
+2021-03-26 14:19:16,877 INFO 6660 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:19:16,892 INFO 6660 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:19:16,910 ERROR 6660 [-/127.0.0.1/-/30ms POST /api/base/getCode] nodejs.ENOENTError: ENOENT: no such file or directory, open '/public/email/register.ejs'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:28:37)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/public/email/register.ejs"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 6660
+hostname: maoyuxindembp
+
+2021-03-26 14:19:32,587 INFO 6682 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:19:35,751 INFO 6682 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:19:35,756 INFO 6682 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:19:35,769 ERROR 6682 [-/127.0.0.1/-/55ms POST /api/base/getCode] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Volumes/开发/www/stars/api.stars.io/app/controller/register.ejs'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:28:37)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/开发/www/stars/api.stars.io/app/controller/register.ejs"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 6682
+hostname: maoyuxindembp
+
+2021-03-26 14:20:00,712 INFO 6708 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:20:04,652 INFO 6708 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:20:04,656 INFO 6708 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:22:20,740 INFO 6794 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:23:07,059 INFO 6822 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:23:16,515 INFO 6854 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:24:25,964 INFO 6880 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:25:24,277 INFO 6906 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:29:53,993 INFO 6906 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:29:53,999 INFO 6906 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:31:32,483 INFO 6906 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:31:32,493 INFO 6906 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:33:02,315 INFO 6906 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:33:02,320 INFO 6906 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:35:08,693 INFO 7113 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:36:00,752 INFO 7131 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:36:13,391 INFO 7131 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:36:13,396 INFO 7131 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:36:51,322 INFO 7160 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:36:53,887 INFO 7160 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:36:53,892 INFO 7160 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:38:35,638 INFO 7187 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:38:50,058 INFO 7187 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:38:50,063 INFO 7187 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@qq.com' LIMIT 1;
+2021-03-26 14:40:05,086 INFO 7187 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:40:10,918 INFO 7187 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:40:10,927 INFO 7187 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'lemon123@qq.com' LIMIT 1;
+2021-03-26 14:40:39,846 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:40:54,788 INFO 7289 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:40:54,794 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'lemon123@qq.com' LIMIT 1;
+2021-03-26 14:43:02,830 INFO 7289 [egg-sequelize](5ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:43:04,663 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:43:05,230 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:43:05,748 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:43:06,236 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:43:07,044 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:43:11,825 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 14:44:40,548 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:44:40,555 INFO 7289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'lemon123@qq.com' LIMIT 1;
+2021-03-26 14:45:21,602 INFO 7363 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:46:35,738 INFO 7377 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:54:32,121 INFO 7500 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:58:23,170 INFO 7594 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:59:21,571 INFO 7625 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:59:27,507 INFO 7644 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:59:32,674 INFO 7644 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:59:32,679 INFO 7644 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'lemon123@qq.com' LIMIT 1;
+2021-03-26 14:59:51,933 INFO 7653 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 14:59:54,923 INFO 7653 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 14:59:54,928 INFO 7653 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'lemon123@qq.com' LIMIT 1;
+2021-03-26 14:59:54,943 ERROR 7653 [-/127.0.0.1/-/41ms POST /api/base/getCode] nodejs.TypeError: this.app.redis.set is not a function
+    at RedisService.set (/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts:17:37)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:34:34)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7653
+hostname: maoyuxindembp
+
+2021-03-26 15:02:09,228 INFO 7767 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:04:40,538 INFO 7850 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:05:48,947 INFO 7900 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:05:53,074 INFO 7913 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:05:56,084 INFO 7921 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:06:38,877 INFO 7935 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:07:12,520 INFO 7935 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:07:12,525 INFO 7935 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'lemon123@qq.com' LIMIT 1;
+2021-03-26 15:07:12,542 ERROR 7935 [-/127.0.0.1/-/44ms POST /api/base/getCode] nodejs.TypeError: this.app.redis.set is not a function
+    at RedisService.set (/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts:17:37)
+    at EmailController.send (/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts:34:34)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7935
+hostname: maoyuxindembp
+
+2021-03-26 15:07:50,944 INFO 7987 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:07:54,390 INFO 8008 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:10:35,570 INFO 8080 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:17:40,305 INFO 8275 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:19:15,341 INFO 8321 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:19:48,070 INFO 8347 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:20:05,524 INFO 8366 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:20:08,220 INFO 8366 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:20:08,224 INFO 8366 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'lemon123@qq.com' LIMIT 1;
+2021-03-26 15:20:42,973 INFO 8409 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:22:28,628 INFO 8532 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:25:23,562 INFO 8532 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 15:25:27,801 INFO 8532 [egg-sequelize](6ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon123' LIMIT 1;
+2021-03-26 15:25:31,026 INFO 8532 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1235' LIMIT 1;
+2021-03-26 15:25:31,032 INFO 8532 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:27:01,532 INFO 8684 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:27:19,104 INFO 8684 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:27:19,111 INFO 8684 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:31:43,386 INFO 8684 [egg-sequelize](13ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:31:43,396 INFO 8684 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:32:13,881 INFO 8684 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:32:13,886 INFO 8684 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:33:49,293 INFO 8684 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:33:49,299 INFO 8684 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:36:07,916 INFO 8684 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:36:07,924 INFO 8684 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:38:07,326 INFO 8684 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-26 15:38:07,332 INFO 8684 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myxasda@qq.com' LIMIT 1;
+2021-03-26 15:39:53,664 INFO 8684 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1233' LIMIT 1;
+2021-03-26 15:39:53,669 INFO 8684 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:42:17,219 INFO 9070 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-26 15:43:40,942 INFO 9070 [egg-sequelize](8ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1233' LIMIT 1;
+2021-03-26 15:43:40,948 INFO 9070 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-26 15:44:06,884 INFO 9070 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon' LIMIT 1;
+2021-03-26 15:44:06,891 INFO 9070 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
