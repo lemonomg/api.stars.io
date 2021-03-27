@@ -3,7 +3,13 @@ import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 export default (appInfo: EggAppInfo) => {
   const config = {} as PowerPartial<EggAppConfig>;
 
-
+  config.cluster = {
+    listen: {
+      path: '',
+      port: 7070,
+      hostname: '127.0.0.1',
+    }
+  };
   // override config from framework / plugin
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1616643069531_313';

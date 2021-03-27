@@ -153,9 +153,8 @@
       "mapping": {}
     },
     "cors": {
-      "origin": "http://localhost:8080",
-      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS",
-      "credentials": true
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },
     "sequelize": {
       "dialect": "mysql",
@@ -164,26 +163,6 @@
       "port": 3306,
       "username": "root",
       "password": "<String len: 8>"
-    },
-    "redis": {
-      "default": {},
-      "app": true,
-      "agent": false,
-      "supportTimeCommand": true,
-      "clients": {
-        "foo": {
-          "port": 7000,
-          "host": "localhost",
-          "password": "<String len: 0>",
-          "db": 0
-        },
-        "bar": {
-          "port": 7001,
-          "host": "localhost",
-          "password": "<String len: 0>",
-          "db": 0
-        }
-      }
     },
     "env": "local",
     "name": "api.stars.io",
@@ -222,14 +201,20 @@
         "@types/nodemailer": "^6.4.1",
         "egg": "^2.6.1",
         "egg-cors": "^2.2.3",
-        "egg-redis": "^2.4.0",
         "egg-scripts": "^2.6.0",
         "egg-sequelize-ts": "^0.2.3-0",
+        "egg-session": "^3.3.0",
         "ejs": "^3.1.6",
-        "mysql2": "^2.2.5"
+        "ioredis": "^4.24.5",
+        "ms": "^2.1.3",
+        "mysql2": "^2.2.5",
+        "nodemailer": "^6.5.0"
       },
       "devDependencies": {
+        "@types/ejs": "^3.0.6",
+        "@types/ioredis": "^4.22.1",
         "@types/mocha": "^2.2.40",
+        "@types/ms": "^0.7.31",
         "@types/node": "^7.0.12",
         "@types/supertest": "^2.0.0",
         "autod": "^3.0.1",
@@ -346,8 +331,8 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 7001,
-        "hostname": ""
+        "port": 7070,
+        "hostname": "127.0.0.1"
       }
     },
     "clusterClient": {
@@ -365,6 +350,9 @@
         "user": "1879178791@qq.com",
         "pass": "<String len: 16>"
       }
+    },
+    "sessionRedis": {
+      "name": ""
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -391,7 +379,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/plugin.js",
+      "from": "/Volumes/开发/www/stars/api.stars.io/config/plugin.ts",
       "path": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-session@3.3.0@egg-session",
       "version": "3.3.0"
     },
@@ -538,17 +526,6 @@
       "from": "/Volumes/开发/www/stars/api.stars.io/config/plugin.ts",
       "path": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-sequelize-ts@0.2.3-0@egg-sequelize-ts",
       "version": "0.2.3-0"
-    },
-    "redis": {
-      "enable": true,
-      "package": "egg-redis",
-      "name": "redis",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Volumes/开发/www/stars/api.stars.io/config/plugin.ts",
-      "path": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-redis@2.4.0@egg-redis",
-      "version": "2.4.0"
     }
   }
 }
