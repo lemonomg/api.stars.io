@@ -1,71 +1,628 @@
-2021-03-27 21:46:14,264 INFO 3559 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:46:13,820 INFO 3559 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-03-27 21:46:14,199 INFO 3559 [egg:core] dump config after load, 3ms
-2021-03-27 21:46:14,228 INFO 3559 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
-2021-03-27 21:46:14,228 INFO 3559 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
-2021-03-27 21:46:14,228 INFO 3559 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
-2021-03-27 21:46:14,228 INFO 3559 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
-2021-03-27 21:46:14,228 INFO 3559 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
-2021-03-27 21:46:14,228 INFO 3559 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
-2021-03-27 21:46:14,228 INFO 3559 [egg-watcher:agent] watcher start success
-2021-03-27 21:46:14,271 INFO 3559 [egg:core] dump config after ready, 4ms
-2021-03-27 21:46:38,362 WARN 3559 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/email.ts change
-2021-03-27 21:46:38,154 INFO 3559 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1781770,"size":1451,"blocks":8,"atimeMs":1616840045752.633,"mtimeMs":1616852798092.537,"ctimeMs":1616852798092.537,"birthtimeMs":1616659296662.4666,"atime":"2021-03-27T10:14:05.753Z","mtime":"2021-03-27T13:46:38.093Z","ctime":"2021-03-27T13:46:38.093Z","birthtime":"2021-03-25T08:01:36.662Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:46:57,976 WARN 3559 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/redis.ts change
-2021-03-27 21:46:57,772 INFO 3559 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1791964,"size":772,"blocks":8,"atimeMs":1616852654754.3198,"mtimeMs":1616852817710.006,"ctimeMs":1616852817710.006,"birthtimeMs":1616833704160.7993,"atime":"2021-03-27T13:44:14.754Z","mtime":"2021-03-27T13:46:57.710Z","ctime":"2021-03-27T13:46:57.710Z","birthtime":"2021-03-27T08:28:24.161Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:47:46,653 WARN 3559 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/home.ts change
-2021-03-27 21:47:46,447 INFO 3559 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/home.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1651984,"size":368,"blocks":8,"atimeMs":1616838316885.9841,"mtimeMs":1616852866384.1575,"ctimeMs":1616852866384.1575,"birthtimeMs":1616643544292.8772,"atime":"2021-03-27T09:45:16.886Z","mtime":"2021-03-27T13:47:46.384Z","ctime":"2021-03-27T13:47:46.384Z","birthtime":"2021-03-25T03:39:04.293Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:50:28,252 INFO 4646 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:50:27,987 INFO 4646 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-03-27 21:50:28,198 INFO 4646 [egg:core] dump config after load, 3ms
-2021-03-27 21:50:28,218 INFO 4646 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
-2021-03-27 21:50:28,218 INFO 4646 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
-2021-03-27 21:50:28,219 INFO 4646 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
-2021-03-27 21:50:28,219 INFO 4646 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
-2021-03-27 21:50:28,219 INFO 4646 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
-2021-03-27 21:50:28,219 INFO 4646 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
-2021-03-27 21:50:28,219 INFO 4646 [egg-watcher:agent] watcher start success
-2021-03-27 21:50:28,259 INFO 4646 [egg:core] dump config after ready, 4ms
-2021-03-27 21:53:49,394 WARN 4646 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/config/plugin.ts change
-2021-03-27 21:53:49,188 INFO 4646 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/config/plugin.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1651988,"size":353,"blocks":8,"atimeMs":1616853021917.825,"mtimeMs":1616853229123.172,"ctimeMs":1616853229123.172,"birthtimeMs":1616643544292.1606,"atime":"2021-03-27T13:50:21.918Z","mtime":"2021-03-27T13:53:49.123Z","ctime":"2021-03-27T13:53:49.123Z","birthtime":"2021-03-25T03:39:04.292Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:53:54,202 WARN 4646 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/redis.ts change
-2021-03-27 21:53:53,946 INFO 4646 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1791964,"size":688,"blocks":8,"atimeMs":1616852949026.0117,"mtimeMs":1616853233934.4448,"ctimeMs":1616853233934.4448,"birthtimeMs":1616833704160.7993,"atime":"2021-03-27T13:49:09.026Z","mtime":"2021-03-27T13:53:53.934Z","ctime":"2021-03-27T13:53:53.934Z","birthtime":"2021-03-27T08:28:24.161Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:53:53,997 INFO 4646 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1791964,"size":688,"blocks":8,"atimeMs":1616852949026.0117,"mtimeMs":1616853233934.4448,"ctimeMs":1616853233934.4448,"birthtimeMs":1616833704160.7993,"atime":"2021-03-27T13:49:09.026Z","mtime":"2021-03-27T13:53:53.934Z","ctime":"2021-03-27T13:53:53.934Z","birthtime":"2021-03-27T08:28:24.161Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:53:57,473 WARN 4646 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/redis.ts change
-2021-03-27 21:53:57,216 INFO 4646 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1791964,"size":688,"blocks":8,"atimeMs":1616853235059.328,"mtimeMs":1616853237205.307,"ctimeMs":1616853237205.307,"birthtimeMs":1616833704160.7993,"atime":"2021-03-27T13:53:55.059Z","mtime":"2021-03-27T13:53:57.205Z","ctime":"2021-03-27T13:53:57.205Z","birthtime":"2021-03-27T08:28:24.161Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:53:57,267 INFO 4646 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/redis.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1791964,"size":688,"blocks":8,"atimeMs":1616853235059.328,"mtimeMs":1616853237205.307,"ctimeMs":1616853237205.307,"birthtimeMs":1616833704160.7993,"atime":"2021-03-27T13:53:55.059Z","mtime":"2021-03-27T13:53:57.205Z","ctime":"2021-03-27T13:53:57.205Z","birthtime":"2021-03-27T08:28:24.161Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-03-27 21:54:43,038 INFO 4899 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:54:42,768 INFO 4899 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-03-27 21:54:42,990 INFO 4899 [egg:core] dump config after load, 4ms
-2021-03-27 21:54:43,009 INFO 4899 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
-2021-03-27 21:54:43,009 INFO 4899 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
-2021-03-27 21:54:43,009 INFO 4899 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
-2021-03-27 21:54:43,009 INFO 4899 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
-2021-03-27 21:54:43,009 INFO 4899 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
-2021-03-27 21:54:43,009 INFO 4899 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
-2021-03-27 21:54:43,010 INFO 4899 [egg-watcher:agent] watcher start success
-2021-03-27 21:54:43,043 INFO 4899 [egg:core] dump config after ready, 3ms
-2021-03-27 21:56:41,185 INFO 4977 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:56:40,932 INFO 4977 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-03-27 21:56:41,139 INFO 4977 [egg:core] dump config after load, 4ms
-2021-03-27 21:56:41,156 INFO 4977 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
-2021-03-27 21:56:41,156 INFO 4977 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
-2021-03-27 21:56:41,156 INFO 4977 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
-2021-03-27 21:56:41,156 INFO 4977 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
-2021-03-27 21:56:41,156 INFO 4977 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
-2021-03-27 21:56:41,156 INFO 4977 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
-2021-03-27 21:56:41,156 INFO 4977 [egg-watcher:agent] watcher start success
-2021-03-27 21:56:41,191 INFO 4977 [egg:core] dump config after ready, 4ms
-2021-03-27 21:57:12,400 INFO 5017 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:57:12,137 INFO 5017 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-03-27 21:57:12,348 INFO 5017 [egg:core] dump config after load, 3ms
-2021-03-27 21:57:12,367 INFO 5017 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
-2021-03-27 21:57:12,367 INFO 5017 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
-2021-03-27 21:57:12,367 INFO 5017 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
-2021-03-27 21:57:12,367 INFO 5017 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
-2021-03-27 21:57:12,367 INFO 5017 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
-2021-03-27 21:57:12,367 INFO 5017 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
-2021-03-27 21:57:12,367 INFO 5017 [egg-watcher:agent] watcher start success
-2021-03-27 21:57:12,407 INFO 5017 [egg:core] dump config after ready, 4ms
-2021-03-27 21:58:01,173 WARN 5017 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/config/config.default.ts change
-2021-03-27 21:58:00,965 INFO 5017 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/config/config.default.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1651990,"size":750,"blocks":8,"atimeMs":1616853429384.3997,"mtimeMs":1616853480900.9841,"ctimeMs":1616853480900.9841,"birthtimeMs":1616643544288.8035,"atime":"2021-03-27T13:57:09.384Z","mtime":"2021-03-27T13:58:00.901Z","ctime":"2021-03-27T13:58:00.901Z","birthtime":"2021-03-25T03:39:04.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 00:02:16,750 INFO 5017 [egg-logrotator] agent logger reload: got log-reload message
+2021-03-28 00:13:24,280 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290342ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:18:56,626 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:24:28,036 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:41:01,135 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:52:02,832 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:57:45,465 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 302608ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:03:19,804 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 294321ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:08:50,335 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:14:25,726 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:19:56,084 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:36:39,398 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291452ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:42:09,716 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:47:42,277 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292532ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:53:18,904 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 296607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:58:49,417 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290491ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 02:42:22,464 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 2573016ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:10:33,965 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:21:34,682 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:27:10,021 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295313ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:32:40,376 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:38:10,799 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290302ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:43:41,273 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290452ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:49:11,574 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290276ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:00:13,476 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289498ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:05:43,782 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:11:14,314 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:22:14,925 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:38:45,053 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:44:15,423 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290359ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:49:45,786 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:00:46,547 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:17:38,732 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:23:09,086 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:28:39,467 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:39:40,142 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290295ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:02:04,182 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:07:36,510 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292301ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:13:07,847 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291315ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:18:40,270 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292401ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:40:45,727 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295396ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:46:16,070 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290319ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:57:43,074 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 296625ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:08:45,935 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291490ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:14:18,258 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292304ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:25:18,939 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:30:49,337 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290387ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:36:19,699 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:41:50,030 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290314ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:47:25,447 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295400ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:04:00,674 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 293448ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:09:31,187 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290481ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:15:01,674 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:26:02,379 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:31:32,692 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290301ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:48:03,771 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:59:04,458 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:10:06,180 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:21:06,030 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:26:36,416 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:38:13,212 WARN 5017 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/config/config.default.ts change
+2021-03-28 09:38:13,002 INFO 5017 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/config/config.default.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1651990,"size":750,"blocks":8,"atimeMs":1616853482217.771,"mtimeMs":1616895492937.5818,"ctimeMs":1616895492937.5818,"birthtimeMs":1616643544288.8035,"atime":"2021-03-27T13:58:02.218Z","mtime":"2021-03-28T01:38:12.938Z","ctime":"2021-03-28T01:38:12.938Z","birthtime":"2021-03-25T03:39:04.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:38:35,965 INFO 6793 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:38:35,692 INFO 6793 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-03-28 09:38:35,917 INFO 6793 [egg:core] dump config after load, 5ms
+2021-03-28 09:38:35,937 INFO 6793 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
+2021-03-28 09:38:35,937 INFO 6793 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
+2021-03-28 09:38:35,937 INFO 6793 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
+2021-03-28 09:38:35,937 INFO 6793 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
+2021-03-28 09:38:35,937 INFO 6793 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
+2021-03-28 09:38:35,937 INFO 6793 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
+2021-03-28 09:38:35,937 INFO 6793 [egg-watcher:agent] watcher start success
+2021-03-28 09:38:35,985 INFO 6793 [egg:core] dump config after ready, 17ms
+2021-03-28 09:40:22,886 WARN 6793 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:40:22,675 INFO 6793 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":466,"blocks":8,"atimeMs":1616852140745.8977,"mtimeMs":1616895622610.5366,"ctimeMs":1616895622610.5366,"birthtimeMs":1616851800494.06,"atime":"2021-03-27T13:35:40.746Z","mtime":"2021-03-28T01:40:22.611Z","ctime":"2021-03-28T01:40:22.611Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:42:01,388 WARN 6793 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/config/config.default.ts change
+2021-03-28 09:42:01,182 INFO 6793 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/config/config.default.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1651990,"size":705,"blocks":8,"atimeMs":1616895494176.604,"mtimeMs":1616895721118.831,"ctimeMs":1616895721118.831,"birthtimeMs":1616643544288.8035,"atime":"2021-03-28T01:38:14.177Z","mtime":"2021-03-28T01:42:01.119Z","ctime":"2021-03-28T01:42:01.119Z","birthtime":"2021-03-25T03:39:04.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:42:15,858 INFO 6972 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:42:15,568 INFO 6972 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-03-28 09:42:15,805 INFO 6972 [egg:core] dump config after load, 4ms
+2021-03-28 09:42:15,827 INFO 6972 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
+2021-03-28 09:42:15,827 INFO 6972 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
+2021-03-28 09:42:15,827 INFO 6972 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
+2021-03-28 09:42:15,828 INFO 6972 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
+2021-03-28 09:42:15,828 INFO 6972 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
+2021-03-28 09:42:15,828 INFO 6972 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
+2021-03-28 09:42:15,828 INFO 6972 [egg-watcher:agent] watcher start success
+2021-03-28 09:42:15,864 INFO 6972 [egg:core] dump config after ready, 4ms
+2021-03-28 09:44:15,811 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:44:15,603 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":958,"blocks":8,"atimeMs":1616895623839.694,"mtimeMs":1616895855540.132,"ctimeMs":1616895855540.132,"birthtimeMs":1616851800494.06,"atime":"2021-03-28T01:40:23.840Z","mtime":"2021-03-28T01:44:15.540Z","ctime":"2021-03-28T01:44:15.540Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:45:31,312 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":923,"blocks":8,"atimeMs":1616895858870.195,"mtimeMs":1616895931249.372,"ctimeMs":1616895931249.372,"birthtimeMs":1616851800494.06,"atime":"2021-03-28T01:44:18.870Z","mtime":"2021-03-28T01:45:31.249Z","ctime":"2021-03-28T01:45:31.249Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:45:31,518 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:45:51,700 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:45:51,494 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":1341,"blocks":8,"atimeMs":1616895932485.1675,"mtimeMs":1616895951431.694,"ctimeMs":1616895951431.694,"birthtimeMs":1616851800494.06,"atime":"2021-03-28T01:45:32.485Z","mtime":"2021-03-28T01:45:51.432Z","ctime":"2021-03-28T01:45:51.432Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:47:29,801 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":1341,"blocks":8,"atimeMs":1616895954859.2456,"mtimeMs":1616896049738.94,"ctimeMs":1616896049738.94,"birthtimeMs":1616851800494.06,"atime":"2021-03-28T01:45:54.859Z","mtime":"2021-03-28T01:47:29.739Z","ctime":"2021-03-28T01:47:29.739Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:47:30,008 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:47:55,547 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:47:55,342 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":1371,"blocks":8,"atimeMs":1616896050938.7244,"mtimeMs":1616896075279.5608,"ctimeMs":1616896075279.5608,"birthtimeMs":1616851800494.06,"atime":"2021-03-28T01:47:30.939Z","mtime":"2021-03-28T01:47:55.280Z","ctime":"2021-03-28T01:47:55.280Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:48:06,371 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:48:06,164 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":1371,"blocks":8,"atimeMs":1616896078488.6064,"mtimeMs":1616896086152.7712,"ctimeMs":1616896086152.7712,"birthtimeMs":1616851800494.06,"atime":"2021-03-28T01:47:58.489Z","mtime":"2021-03-28T01:48:06.153Z","ctime":"2021-03-28T01:48:06.153Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:49:46,716 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts change
+2021-03-28 09:49:46,510 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/crypt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1792192,"size":1341,"blocks":8,"atimeMs":1616896087289.3035,"mtimeMs":1616896186447.9805,"ctimeMs":1616896186447.9805,"birthtimeMs":1616851800494.06,"atime":"2021-03-28T01:48:07.289Z","mtime":"2021-03-28T01:49:46.448Z","ctime":"2021-03-28T01:49:46.448Z","birthtime":"2021-03-27T13:30:00.494Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:49:51,845 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 09:49:51,588 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1185,"blocks":8,"atimeMs":1616840233262.4153,"mtimeMs":1616896191577.768,"ctimeMs":1616896191577.768,"birthtimeMs":1616644668288.8794,"atime":"2021-03-27T10:17:13.262Z","mtime":"2021-03-28T01:49:51.578Z","ctime":"2021-03-28T01:49:51.578Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:49:51,639 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1185,"blocks":8,"atimeMs":1616840233262.4153,"mtimeMs":1616896191577.768,"ctimeMs":1616896191577.768,"birthtimeMs":1616644668288.8794,"atime":"2021-03-27T10:17:13.262Z","mtime":"2021-03-28T01:49:51.578Z","ctime":"2021-03-28T01:49:51.578Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:53:03,526 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 09:53:03,322 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1185,"blocks":8,"atimeMs":1616896192816.0557,"mtimeMs":1616896383257.9307,"ctimeMs":1616896383257.9307,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:49:52.816Z","mtime":"2021-03-28T01:53:03.258Z","ctime":"2021-03-28T01:53:03.258Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:53:18,027 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 09:53:17,771 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1147,"blocks":8,"atimeMs":1616896384500.6138,"mtimeMs":1616896397759.4702,"ctimeMs":1616896397759.4702,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:53:04.501Z","mtime":"2021-03-28T01:53:17.759Z","ctime":"2021-03-28T01:53:17.759Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:53:17,822 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1147,"blocks":8,"atimeMs":1616896384500.6138,"mtimeMs":1616896397759.4702,"ctimeMs":1616896397759.4702,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:53:04.501Z","mtime":"2021-03-28T01:53:17.759Z","ctime":"2021-03-28T01:53:17.759Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:54:42,941 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 09:54:42,735 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1210,"blocks":8,"atimeMs":1616896398999.6934,"mtimeMs":1616896482671.443,"ctimeMs":1616896482671.443,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:53:19.000Z","mtime":"2021-03-28T01:54:42.671Z","ctime":"2021-03-28T01:54:42.671Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:54:55,489 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 09:54:55,233 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1183,"blocks":8,"atimeMs":1616896483911.5808,"mtimeMs":1616896495222.3215,"ctimeMs":1616896495222.3215,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:54:43.912Z","mtime":"2021-03-28T01:54:55.222Z","ctime":"2021-03-28T01:54:55.222Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:54:55,284 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1183,"blocks":8,"atimeMs":1616896483911.5808,"mtimeMs":1616896495222.3215,"ctimeMs":1616896495222.3215,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:54:43.912Z","mtime":"2021-03-28T01:54:55.222Z","ctime":"2021-03-28T01:54:55.222Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 09:56:20,982 WARN 6972 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 09:56:20,775 INFO 6972 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1185,"blocks":8,"atimeMs":1616896496461.507,"mtimeMs":1616896580713.6,"ctimeMs":1616896580713.6,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:54:56.462Z","mtime":"2021-03-28T01:56:20.714Z","ctime":"2021-03-28T01:56:20.714Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 10:00:26,000 INFO 881 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 10:00:25,590 INFO 881 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-03-28 10:00:25,920 INFO 881 [egg:core] dump config after load, 5ms
+2021-03-28 10:00:25,943 INFO 881 [egg-watcher] Start watching: ["/Volumes/开发/www/stars/api.stars.io/app","/Volumes/开发/www/stars/api.stars.io/config","/Volumes/开发/www/stars/api.stars.io/mocks","/Volumes/开发/www/stars/api.stars.io/mocks_proxy","/Volumes/开发/www/stars/api.stars.io/app.js"]
+2021-03-28 10:00:25,943 INFO 881 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app"
+2021-03-28 10:00:25,943 INFO 881 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/config"
+2021-03-28 10:00:25,943 INFO 881 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks"
+2021-03-28 10:00:25,943 INFO 881 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/mocks_proxy"
+2021-03-28 10:00:25,943 INFO 881 [egg-watcher] Start watching: "/Volumes/开发/www/stars/api.stars.io/app.js"
+2021-03-28 10:00:25,943 INFO 881 [egg-watcher:agent] watcher start success
+2021-03-28 10:00:26,006 INFO 881 [egg:core] dump config after ready, 4ms
+2021-03-28 10:02:16,617 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/email.ts change
+2021-03-28 10:02:16,405 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1781770,"size":1448,"blocks":8,"atimeMs":1616852949029.5845,"mtimeMs":1616896936337.3142,"ctimeMs":1616896936337.3142,"birthtimeMs":1616659296662.4666,"atime":"2021-03-27T13:49:09.030Z","mtime":"2021-03-28T02:02:16.337Z","ctime":"2021-03-28T02:02:16.337Z","birthtime":"2021-03-25T08:01:36.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 10:02:18,795 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1781770,"size":1448,"blocks":8,"atimeMs":1616896937542.7437,"mtimeMs":1616896938784.4731,"ctimeMs":1616896938784.4731,"birthtimeMs":1616659296662.4666,"atime":"2021-03-28T02:02:17.543Z","mtime":"2021-03-28T02:02:18.784Z","ctime":"2021-03-28T02:02:18.784Z","birthtime":"2021-03-25T08:01:36.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 10:02:18,846 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/email.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1781770,"size":1448,"blocks":8,"atimeMs":1616896937542.7437,"mtimeMs":1616896938784.4731,"ctimeMs":1616896938784.4731,"birthtimeMs":1616659296662.4666,"atime":"2021-03-28T02:02:17.543Z","mtime":"2021-03-28T02:02:18.784Z","ctime":"2021-03-28T02:02:18.784Z","birthtime":"2021-03-25T08:01:36.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 10:02:19,052 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/email.ts change
+2021-03-28 11:00:43,830 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 11:00:43,620 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1172,"blocks":8,"atimeMs":1616896582225.5068,"mtimeMs":1616900443555.2683,"ctimeMs":1616900443555.2683,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T01:56:22.226Z","mtime":"2021-03-28T03:00:43.555Z","ctime":"2021-03-28T03:00:43.555Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 11:17:33,282 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 965810ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 11:33:04,842 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 931557ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 11:49:56,573 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 1011728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 12:26:54,274 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 2217692ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 12:44:54,327 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1493,"blocks":8,"atimeMs":1616900447306.8767,"mtimeMs":1616906694263.3623,"ctimeMs":1616906694263.3623,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T03:00:47.307Z","mtime":"2021-03-28T04:44:54.263Z","ctime":"2021-03-28T04:44:54.263Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 12:44:54,534 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 12:45:00,399 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 12:45:00,141 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1493,"blocks":8,"atimeMs":1616906697962.5571,"mtimeMs":1616906700128.7395,"ctimeMs":1616906700128.7395,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:44:57.963Z","mtime":"2021-03-28T04:45:00.129Z","ctime":"2021-03-28T04:45:00.129Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 12:45:00,192 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1493,"blocks":8,"atimeMs":1616906697962.5571,"mtimeMs":1616906700128.7395,"ctimeMs":1616906700128.7395,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:44:57.963Z","mtime":"2021-03-28T04:45:00.129Z","ctime":"2021-03-28T04:45:00.129Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 12:45:37,072 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 12:45:36,868 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1490,"blocks":8,"atimeMs":1616906701371.0354,"mtimeMs":1616906736807.1458,"ctimeMs":1616906736807.1458,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:45:01.371Z","mtime":"2021-03-28T04:45:36.807Z","ctime":"2021-03-28T04:45:36.807Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 12:52:33,366 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1518,"blocks":8,"atimeMs":1616906740298.593,"mtimeMs":1616907153302.9446,"ctimeMs":1616907153302.9446,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:45:40.299Z","mtime":"2021-03-28T04:52:33.303Z","ctime":"2021-03-28T04:52:33.303Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 12:52:33,572 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 12:53:20,647 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 12:53:20,444 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1594,"blocks":8,"atimeMs":1616907154540.918,"mtimeMs":1616907200382.1914,"ctimeMs":1616907200382.1914,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:52:34.541Z","mtime":"2021-03-28T04:53:20.382Z","ctime":"2021-03-28T04:53:20.382Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 12:53:40,266 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 12:53:40,063 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1585,"blocks":8,"atimeMs":1616907203862.1875,"mtimeMs":1616907220000.3237,"ctimeMs":1616907220000.3237,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:53:23.862Z","mtime":"2021-03-28T04:53:40.000Z","ctime":"2021-03-28T04:53:40.000Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 12:54:13,322 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 12:54:13,116 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1524,"blocks":8,"atimeMs":1616907223445.022,"mtimeMs":1616907253053.0098,"ctimeMs":1616907253053.0098,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:53:43.445Z","mtime":"2021-03-28T04:54:13.053Z","ctime":"2021-03-28T04:54:13.053Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:01:56,297 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:01:56,091 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1513,"blocks":8,"atimeMs":1616907256477.705,"mtimeMs":1616907716028.476,"ctimeMs":1616907716028.476,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T04:54:16.478Z","mtime":"2021-03-28T05:01:56.028Z","ctime":"2021-03-28T05:01:56.028Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:07:09,798 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/token.ts rename
+2021-03-28 13:07:09,592 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Volumes/开发/www/stars/api.stars.io/app/service/token.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1876898,"size":0,"blocks":0,"atimeMs":1616908029316.345,"mtimeMs":1616908029316.345,"ctimeMs":1616908029316.345,"birthtimeMs":1616908029316.345,"atime":"2021-03-28T05:07:09.316Z","mtime":"2021-03-28T05:07:09.316Z","ctime":"2021-03-28T05:07:09.316Z","birthtime":"2021-03-28T05:07:09.316Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:07:15,064 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/Test.ts rename
+2021-03-28 13:07:14,859 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Volumes/开发/www/stars/api.stars.io/app/service/Test.ts","remove":true,"isDirectory":false,"isFile":false}
+2021-03-28 13:25:39,256 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/token.ts change
+2021-03-28 13:25:39,050 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/token.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1876898,"size":1206,"blocks":8,"atimeMs":1616908029316.345,"mtimeMs":1616909138989.469,"ctimeMs":1616909138989.469,"birthtimeMs":1616908029316.345,"atime":"2021-03-28T05:07:09.316Z","mtime":"2021-03-28T05:25:38.989Z","ctime":"2021-03-28T05:25:38.989Z","birthtime":"2021-03-28T05:07:09.316Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:27:31,754 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/token.ts change
+2021-03-28 13:27:31,548 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/service/token.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1876898,"size":1099,"blocks":8,"atimeMs":1616909142665.8337,"mtimeMs":1616909251485.3018,"ctimeMs":1616909251485.3018,"birthtimeMs":1616908029316.345,"atime":"2021-03-28T05:25:42.666Z","mtime":"2021-03-28T05:27:31.485Z","ctime":"2021-03-28T05:27:31.485Z","birthtime":"2021-03-28T05:07:09.316Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:27:50,781 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/service/token.ts rename
+2021-03-28 13:27:50,580 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Volumes/开发/www/stars/api.stars.io/app/utils/token.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1876898,"size":1099,"blocks":8,"atimeMs":1616909252720,"mtimeMs":1616909270518,"ctimeMs":1616909270522.6606,"birthtimeMs":1616908029316.345,"atime":"2021-03-28T05:27:32.720Z","mtime":"2021-03-28T05:27:50.518Z","ctime":"2021-03-28T05:27:50.523Z","birthtime":"2021-03-28T05:07:09.316Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:27:50,581 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Volumes/开发/www/stars/api.stars.io/app/service/token.ts","remove":true,"isDirectory":false,"isFile":false}
+2021-03-28 13:28:06,558 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:28:06,352 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1536,"blocks":8,"atimeMs":1616907717274.783,"mtimeMs":1616909286290.6418,"ctimeMs":1616909286290.6418,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:01:57.275Z","mtime":"2021-03-28T05:28:06.291Z","ctime":"2021-03-28T05:28:06.291Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:28:50,700 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:28:50,499 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1536,"blocks":8,"atimeMs":1616909289565.156,"mtimeMs":1616909330436.608,"ctimeMs":1616909330436.608,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:28:09.565Z","mtime":"2021-03-28T05:28:50.437Z","ctime":"2021-03-28T05:28:50.437Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:29:34,901 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Volumes/开发/www/stars/api.stars.io/app/utils/token.ts","remove":true,"isDirectory":false,"isFile":false}
+2021-03-28 13:29:34,901 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Volumes/开发/www/stars/api.stars.io/app/utils/jwt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1876898,"size":1099,"blocks":8,"atimeMs":1616909374900.072,"mtimeMs":1616909374838,"ctimeMs":1616909374838.2146,"birthtimeMs":1616908029316.345,"atime":"2021-03-28T05:29:34.900Z","mtime":"2021-03-28T05:29:34.838Z","ctime":"2021-03-28T05:29:34.838Z","birthtime":"2021-03-28T05:07:09.316Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:29:35,106 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/utils/jwt.ts rename
+2021-03-28 13:33:16,834 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:33:16,627 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":1962,"blocks":8,"atimeMs":1616909331546.9944,"mtimeMs":1616909596563.793,"ctimeMs":1616909596563.793,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:28:51.547Z","mtime":"2021-03-28T05:33:16.564Z","ctime":"2021-03-28T05:33:16.564Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:34:05,010 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":2017,"blocks":8,"atimeMs":1616909597804.956,"mtimeMs":1616909644947.7458,"ctimeMs":1616909644947.7458,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:33:17.805Z","mtime":"2021-03-28T05:34:04.948Z","ctime":"2021-03-28T05:34:04.948Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:34:05,216 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:40:36,671 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:40:36,456 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":2201,"blocks":8,"atimeMs":1616909648429.6172,"mtimeMs":1616910036393.0542,"ctimeMs":1616910036393.0542,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:34:08.430Z","mtime":"2021-03-28T05:40:36.393Z","ctime":"2021-03-28T05:40:36.393Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:42:31,740 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:42:31,532 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":2086,"blocks":8,"atimeMs":1616910037652.555,"mtimeMs":1616910151469.6328,"ctimeMs":1616910151469.6328,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:40:37.653Z","mtime":"2021-03-28T05:42:31.470Z","ctime":"2021-03-28T05:42:31.470Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:42:38,612 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/controller/user.ts change
+2021-03-28 13:42:38,355 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":2085,"blocks":8,"atimeMs":1616910152704.716,"mtimeMs":1616910158343.5889,"ctimeMs":1616910158343.5889,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:42:32.705Z","mtime":"2021-03-28T05:42:38.344Z","ctime":"2021-03-28T05:42:38.344Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:42:38,406 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1688986,"size":2085,"blocks":8,"atimeMs":1616910152704.716,"mtimeMs":1616910158343.5889,"ctimeMs":1616910158343.5889,"birthtimeMs":1616644668288.8794,"atime":"2021-03-28T05:42:32.705Z","mtime":"2021-03-28T05:42:38.344Z","ctime":"2021-03-28T05:42:38.344Z","birthtime":"2021-03-25T03:57:48.289Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-03-28 13:43:16,360 WARN 881 [agent:development] reload worker because /Volumes/开发/www/stars/api.stars.io/app/utils/jwt.ts change
+2021-03-28 13:43:16,154 INFO 881 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Volumes/开发/www/stars/api.stars.io/app/utils/jwt.ts","stat":{"dev":16777236,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1876898,"size":1109,"blocks":8,"atimeMs":1616909376044.527,"mtimeMs":1616910196091.6614,"ctimeMs":1616910196091.6614,"birthtimeMs":1616908029316.345,"atime":"2021-03-28T05:29:36.045Z","mtime":"2021-03-28T05:43:16.092Z","ctime":"2021-03-28T05:43:16.092Z","birthtime":"2021-03-28T05:07:09.316Z"},"remove":false,"isDirectory":false,"isFile":true}

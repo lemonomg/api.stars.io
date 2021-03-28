@@ -1,0 +1,641 @@
+2021-03-28 00:13:24,279 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290342ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:18:56,626 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:24:28,035 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:41:01,135 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:52:02,831 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 00:57:45,464 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 302608ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:03:19,803 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 294321ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:08:50,335 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:14:25,726 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:19:56,084 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:36:39,397 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291452ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:42:09,715 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:47:42,276 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292532ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:53:18,904 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 296607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 01:58:49,417 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290491ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 02:42:22,464 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 2573016ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:10:33,965 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:21:34,682 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:27:10,020 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295313ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:32:40,375 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:38:10,799 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290302ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:43:41,272 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290452ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 03:49:11,574 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290276ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:00:13,476 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289498ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:05:43,781 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:11:14,314 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:22:14,925 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:38:45,053 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:44:15,423 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290359ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 04:49:45,786 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:00:46,547 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:17:38,732 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:23:09,086 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:28:39,467 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 05:39:40,142 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290295ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:02:04,181 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:07:36,509 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292301ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:13:07,847 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291315ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:18:40,270 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292401ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:40:45,727 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295396ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:46:16,070 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290319ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 06:57:43,073 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 296625ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:08:45,935 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291490ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:14:18,254 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 292304ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:25:18,938 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:30:49,337 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290387ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:36:19,699 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:41:50,030 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290314ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 07:47:25,446 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 295400ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:04:00,674 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 293448ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:09:31,187 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290481ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:15:01,674 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:26:02,379 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:31:32,692 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290301ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:48:03,770 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 08:59:04,457 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:10:06,179 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 291339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:21:06,030 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 289485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:26:36,415 ERROR 5017 nodejs.ClusterClientNoResponseError: client no response in 290355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 5017
+hostname: maoyuxindembp
+
+2021-03-28 09:56:00,852 ERROR 7381 [-/192.168.1.7/-/47496ms POST /api/user/register] nodejs.Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down
+    at Cluster.handleError (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/cluster/index.js:604:38)
+    at Command.command.reject (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/cluster/index.js:481:23)
+    at Redis.handleReconnection (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/redis/index.js:432:26)
+    at DataHandler.returnError (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/DataHandler.js:41:20)
+    at JavascriptRedisParser.returnError (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/DataHandler.js:15:22)
+    at JavascriptRedisParser.execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:542:14)
+    at Socket.<anonymous> (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/DataHandler.js:25:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 7381
+hostname: maoyuxindembp
+
+2021-03-28 10:16:48,341 ERROR 1418 [-/192.168.1.7/-/67ms POST /api/user/register] nodejs.SequelizeDatabaseError: Field 'id' doesn't have a default value
+    at Query.formatError (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/connection.js:425:32)
+    at PacketParser.onPacket (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Promise._then (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:261:17)
+    at Promise.then (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:154:17)
+    at User.save (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/model.js:3661:8)
+    at Function.create (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/model.js:2023:8)
+    at Function._target.<computed> [as create] (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize-typescript@0.6.11@sequelize-typescript/lib/models/BaseModel.js:36:41)
+    at UserService.register (/Volumes/开发/www/stars/api.stars.io/app/service/users.ts:37:48)
+    at UserController.register (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:29:21)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);"}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);"}
+sql: "INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1418
+hostname: maoyuxindembp
+
+2021-03-28 11:17:33,281 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 965810ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 11:33:04,841 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 931557ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 11:49:56,573 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 1011728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 12:26:54,273 ERROR 881 nodejs.ClusterClientNoResponseError: client no response in 2217692ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/开发/www/stars/api.stars.io/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 881
+hostname: maoyuxindembp
+
+2021-03-28 13:34:35,755 ERROR 3544 [-/192.168.1.7/-/53ms POST /api/user/login] nodejs.RangeError: Maximum call stack size exceeded
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3544
+hostname: maoyuxindembp
+
+2021-03-28 13:34:59,810 ERROR 3544 [-/192.168.1.7/-/24ms POST /api/user/login] nodejs.RangeError: Maximum call stack size exceeded
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3544
+hostname: maoyuxindembp
+
+2021-03-28 13:42:49,213 ERROR 3739 [-/192.168.1.7/-/39ms POST /api/user/login] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Volumes/开发/www/stars/api.stars.io/app/utils/private_key.pem'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Jwt.generateToken (/Volumes/开发/www/stars/api.stars.io/app/utils/jwt.ts:17:22)
+    at UserController.login (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:64:43)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/开发/www/stars/api.stars.io/app/utils/private_key.pem"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ENOENTError"
+pid: 3739
+hostname: maoyuxindembp
+

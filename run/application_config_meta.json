@@ -1,9 +1,9 @@
 {
   "cluster": {
     "listen": {
-      "path": "/Volumes/开发/www/stars/api.stars.io/config/config.default.ts",
       "port": "/Volumes/开发/www/stars/api.stars.io/config/config.default.ts",
-      "hostname": "/Volumes/开发/www/stars/api.stars.io/config/config.default.ts"
+      "path": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
+      "hostname": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js"
     }
   },
   "keys": "/Volumes/开发/www/stars/api.stars.io/config/config.default.ts",
@@ -213,6 +213,7 @@
     },
     "dependencies": {
       "@types/nodemailer": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
+      "crypto-js": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "egg": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "egg-cors": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "egg-scripts": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
@@ -220,13 +221,16 @@
       "egg-session": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "ejs": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "ioredis": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
+      "jsonwebtoken": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "ms": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "mysql2": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "nodemailer": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js"
     },
     "devDependencies": {
+      "@types/crypto-js": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "@types/ejs": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "@types/ioredis": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
+      "@types/jsonwebtoken": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "@types/mocha": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "@types/ms": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",
       "@types/node": "/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/config/config.default.js",

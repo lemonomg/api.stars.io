@@ -32,7 +32,7 @@ class EmailController extends BaseController {
 
         const html = template({ account, code })
         // 将 验证码 存入 cookies
-        // this.ctx.service.redis.set(`${account}_REGISTER_CODE`, code.toString(), 120)
+        this.ctx.service.redis.set(`${account}_REGISTER_CODE`, code.toString(), 120)
         try {
             await this.service.email.send(email, html)
             this.success(1, '发送成功，请前往邮箱查看')

@@ -1,48 +1,138 @@
-2021-03-27 21:46:15,022 INFO 3591 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:46:15,022 INFO 3591 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:46:15,022 INFO 3591 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:46:17,565 INFO 3559 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 24222436ms at 2021-03-28 04:30:00.001
-2021-03-27 21:46:17,565 INFO 3559 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 8022435ms at 2021-03-28 00:00:00.000
-2021-03-27 21:46:17,565 INFO 3559 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8023435ms at 2021-03-28 00:00:01.000
-2021-03-27 21:46:39,166 INFO 3766 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:46:39,166 INFO 3766 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:46:39,166 INFO 3766 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:46:58,686 INFO 3832 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:46:58,686 INFO 3832 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:46:58,686 INFO 3832 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:47:47,471 INFO 4096 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:47:47,471 INFO 4096 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:47:47,471 INFO 4096 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:50:28,800 INFO 4662 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:50:28,800 INFO 4662 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:50:28,800 INFO 4662 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:50:29,092 INFO 4646 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23970909ms at 2021-03-28 04:30:00.001
-2021-03-27 21:50:29,093 INFO 4646 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7770907ms at 2021-03-28 00:00:00.000
-2021-03-27 21:50:29,093 INFO 4646 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7771907ms at 2021-03-28 00:00:01.000
-2021-03-27 21:53:50,159 INFO 4856 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:53:50,159 INFO 4856 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:53:50,159 INFO 4856 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:53:54,776 INFO 4868 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:53:54,776 INFO 4868 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:53:54,776 INFO 4868 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:53:58,046 INFO 4869 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:53:58,046 INFO 4869 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:53:58,046 INFO 4869 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:54:43,592 INFO 4902 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:54:43,592 INFO 4902 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:54:43,592 INFO 4902 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:54:43,912 INFO 4899 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23716089ms at 2021-03-28 04:30:00.001
-2021-03-27 21:54:43,912 INFO 4899 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7516088ms at 2021-03-28 00:00:00.000
-2021-03-27 21:54:43,913 INFO 4899 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7517088ms at 2021-03-28 00:00:01.001
-2021-03-27 21:56:41,792 INFO 4988 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:56:41,792 INFO 4988 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:56:41,793 INFO 4988 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:57:12,966 INFO 5026 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:57:12,966 INFO 5026 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:57:12,966 INFO 5026 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2021-03-27 21:57:13,317 INFO 5017 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23566686ms at 2021-03-28 04:30:00.003
-2021-03-27 21:57:13,317 INFO 5017 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7366683ms at 2021-03-28 00:00:00.000
-2021-03-27 21:57:13,317 INFO 5017 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7367683ms at 2021-03-28 00:00:01.000
-2021-03-27 21:58:03,966 INFO 5088 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-03-27 21:58:03,966 INFO 5088 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-03-27 21:58:03,966 INFO 5088 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 04:33:15,660 INFO 5088 [Job#1616877195659255787575115831] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-03-28 04:33:15,668 INFO 5088 [Job#1616877195659255787575115831] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 8ms. 
+2021-03-28 04:33:15,665 INFO 5017 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86204341ms at 2021-03-29 04:30:00.006
+2021-03-28 09:38:16,220 INFO 6771 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:38:16,220 INFO 6771 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:38:16,220 INFO 6771 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:38:36,501 INFO 6797 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:38:36,501 INFO 6797 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:38:36,501 INFO 6797 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:38:36,818 INFO 6793 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67883183ms at 2021-03-29 04:30:00.001
+2021-03-28 09:38:36,819 INFO 6793 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 51683181ms at 2021-03-29 00:00:00.000
+2021-03-28 09:38:36,819 INFO 6793 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51684181ms at 2021-03-29 00:00:01.000
+2021-03-28 09:40:23,739 INFO 6851 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:40:23,739 INFO 6851 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:40:23,739 INFO 6851 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:42:04,264 INFO 6941 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:42:04,264 INFO 6941 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:42:04,264 INFO 6941 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:42:16,444 INFO 6979 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:42:16,444 INFO 6979 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:42:16,444 INFO 6979 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:42:16,761 INFO 6972 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67663241ms at 2021-03-29 04:30:00.002
+2021-03-28 09:42:16,761 INFO 6972 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 51463239ms at 2021-03-29 00:00:00.000
+2021-03-28 09:42:16,761 INFO 6972 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51464239ms at 2021-03-29 00:00:01.000
+2021-03-28 09:45:32,086 INFO 7063 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:45:32,086 INFO 7063 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:45:32,086 INFO 7063 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:45:52,404 INFO 7089 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:45:52,404 INFO 7089 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:45:52,404 INFO 7089 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:47:30,592 INFO 7110 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:47:30,592 INFO 7110 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:47:30,592 INFO 7110 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:47:56,107 INFO 7133 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:47:56,107 INFO 7133 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:47:56,107 INFO 7133 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:48:06,963 INFO 7147 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:48:06,964 INFO 7147 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:48:06,964 INFO 7147 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:49:47,298 INFO 7206 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:49:47,298 INFO 7206 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:49:47,298 INFO 7206 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:49:52,417 INFO 7222 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:49:52,417 INFO 7222 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:49:52,417 INFO 7222 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:53:04,339 INFO 7319 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:53:04,339 INFO 7319 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:53:04,339 INFO 7319 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:53:18,668 INFO 7340 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:53:18,668 INFO 7340 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:53:18,668 INFO 7340 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:54:56,042 INFO 7381 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:54:56,042 INFO 7381 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:54:56,042 INFO 7381 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 09:56:21,808 INFO 7453 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 09:56:21,808 INFO 7453 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 09:56:21,808 INFO 7453 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 10:00:26,563 INFO 893 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 10:00:26,563 INFO 893 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 10:00:26,563 INFO 893 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 10:00:29,087 INFO 881 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66570915ms at 2021-03-29 04:30:00.002
+2021-03-28 10:00:29,087 INFO 881 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 50370913ms at 2021-03-29 00:00:00.000
+2021-03-28 10:00:29,087 INFO 881 [Timer] /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50371913ms at 2021-03-29 00:00:01.000
+2021-03-28 10:02:17,366 INFO 1411 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 10:02:17,366 INFO 1411 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 10:02:17,366 INFO 1411 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 10:02:20,414 INFO 1418 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 10:02:20,414 INFO 1418 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 10:02:20,414 INFO 1418 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 11:00:44,779 INFO 2384 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 11:00:44,779 INFO 2384 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 11:00:44,779 INFO 2384 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 12:44:55,381 INFO 2680 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 12:44:55,381 INFO 2680 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 12:44:55,381 INFO 2680 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 12:45:01,115 INFO 2694 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 12:45:01,115 INFO 2694 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 12:45:01,115 INFO 2694 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 12:45:37,834 INFO 2716 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 12:45:37,834 INFO 2716 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 12:45:37,835 INFO 2716 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 12:52:34,413 INFO 2780 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 12:52:34,413 INFO 2780 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 12:52:34,413 INFO 2780 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 12:53:21,413 INFO 2808 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 12:53:21,413 INFO 2808 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 12:53:21,413 INFO 2808 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 12:53:40,985 INFO 2814 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 12:53:40,985 INFO 2814 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 12:53:40,985 INFO 2814 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 12:54:14,088 INFO 2818 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 12:54:14,088 INFO 2818 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 12:54:14,088 INFO 2818 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:01:57,092 INFO 2947 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:01:57,092 INFO 2947 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:01:57,092 INFO 2947 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:07:12,618 INFO 3057 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:07:12,618 INFO 3057 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:07:12,618 INFO 3057 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:07:17,818 INFO 3060 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:07:17,818 INFO 3060 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:07:17,818 INFO 3060 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:25:40,096 INFO 3280 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:25:40,096 INFO 3280 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:25:40,096 INFO 3280 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:27:32,580 INFO 3353 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:27:32,580 INFO 3353 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:27:32,580 INFO 3353 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:27:53,687 INFO 3372 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:27:53,687 INFO 3372 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:27:53,687 INFO 3372 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:28:07,125 INFO 3394 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:28:07,125 INFO 3394 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:28:07,125 INFO 3394 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:28:51,270 INFO 3441 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:28:51,270 INFO 3441 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:28:51,270 INFO 3441 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:29:37,765 INFO 3453 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:29:37,765 INFO 3453 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:29:37,765 INFO 3453 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:33:17,658 INFO 3532 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:33:17,658 INFO 3532 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:33:17,658 INFO 3532 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:34:05,972 INFO 3544 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:34:05,972 INFO 3544 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:34:05,972 INFO 3544 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:40:37,464 INFO 3673 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:40:37,464 INFO 3673 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:40:37,464 INFO 3673 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:42:32,306 INFO 3720 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:42:32,306 INFO 3720 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:42:32,306 INFO 3720 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:42:39,146 INFO 3739 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:42:39,146 INFO 3739 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:42:39,146 INFO 3739 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-28 13:43:16,926 INFO 3771 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-28 13:43:16,926 INFO 3771 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-03-28 13:43:16,926 INFO 3771 [egg-schedule]: register schedule /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

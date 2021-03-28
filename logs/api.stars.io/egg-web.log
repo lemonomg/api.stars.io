@@ -1,156 +1,657 @@
-2021-03-27 21:46:14,983 INFO 3591 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:46:15,023 INFO 3591 [egg-multipart] stream mode enable
-2021-03-27 21:46:17,438 INFO 3591 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:46:17,440 INFO 3591 [egg-security] use methodnoallow middleware
-2021-03-27 21:46:17,440 INFO 3591 [egg-security] use noopen middleware
-2021-03-27 21:46:17,440 INFO 3591 [egg-security] use nosniff middleware
-2021-03-27 21:46:17,441 INFO 3591 [egg-security] use xssProtection middleware
-2021-03-27 21:46:17,441 INFO 3591 [egg-security] use xframe middleware
-2021-03-27 21:46:17,441 INFO 3591 [egg-security] use dta middleware
-2021-03-27 21:46:17,441 INFO 3591 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:46:17,515 INFO 3591 [egg:core] dump config after load, 4ms
-2021-03-27 21:46:17,541 INFO 3591 [egg-watcher:application] watcher start success
-2021-03-27 21:46:17,560 INFO 3591 [egg:core] dump config after ready, 5ms
-2021-03-27 21:46:39,132 INFO 3766 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:46:39,167 INFO 3766 [egg-multipart] stream mode enable
-2021-03-27 21:46:39,570 INFO 3766 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:46:39,572 INFO 3766 [egg-security] use methodnoallow middleware
-2021-03-27 21:46:39,573 INFO 3766 [egg-security] use noopen middleware
-2021-03-27 21:46:39,573 INFO 3766 [egg-security] use nosniff middleware
-2021-03-27 21:46:39,573 INFO 3766 [egg-security] use xssProtection middleware
-2021-03-27 21:46:39,574 INFO 3766 [egg-security] use xframe middleware
-2021-03-27 21:46:39,574 INFO 3766 [egg-security] use dta middleware
-2021-03-27 21:46:39,574 INFO 3766 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:46:41,725 INFO 3766 [egg:core] dump config after load, 3ms
-2021-03-27 21:46:41,766 INFO 3766 [egg-watcher:application] watcher start success
-2021-03-27 21:46:41,798 INFO 3766 [egg:core] dump config after ready, 7ms
-2021-03-27 21:46:58,656 INFO 3832 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:46:58,687 INFO 3832 [egg-multipart] stream mode enable
-2021-03-27 21:47:01,095 INFO 3832 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:47:01,096 INFO 3832 [egg-security] use methodnoallow middleware
-2021-03-27 21:47:01,097 INFO 3832 [egg-security] use noopen middleware
-2021-03-27 21:47:01,097 INFO 3832 [egg-security] use nosniff middleware
-2021-03-27 21:47:01,098 INFO 3832 [egg-security] use xssProtection middleware
-2021-03-27 21:47:01,098 INFO 3832 [egg-security] use xframe middleware
-2021-03-27 21:47:01,098 INFO 3832 [egg-security] use dta middleware
-2021-03-27 21:47:01,098 INFO 3832 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:47:01,108 INFO 3832 [egg:core] dump config after load, 3ms
-2021-03-27 21:47:01,141 INFO 3832 [egg-watcher:application] watcher start success
-2021-03-27 21:47:01,181 INFO 3832 [egg:core] dump config after ready, 6ms
-2021-03-27 21:47:47,436 INFO 4096 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:47:47,471 INFO 4096 [egg-multipart] stream mode enable
-2021-03-27 21:47:47,834 INFO 4096 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:47:47,836 INFO 4096 [egg-security] use methodnoallow middleware
-2021-03-27 21:47:47,837 INFO 4096 [egg-security] use noopen middleware
-2021-03-27 21:47:47,837 INFO 4096 [egg-security] use nosniff middleware
-2021-03-27 21:47:47,837 INFO 4096 [egg-security] use xssProtection middleware
-2021-03-27 21:47:47,838 INFO 4096 [egg-security] use xframe middleware
-2021-03-27 21:47:47,838 INFO 4096 [egg-security] use dta middleware
-2021-03-27 21:47:47,838 INFO 4096 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:47:49,922 INFO 4096 [egg:core] dump config after load, 4ms
-2021-03-27 21:47:49,944 INFO 4096 [egg-watcher:application] watcher start success
-2021-03-27 21:47:49,964 INFO 4096 [egg:core] dump config after ready, 5ms
-2021-03-27 21:50:28,773 INFO 4662 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:50:28,801 INFO 4662 [egg-multipart] stream mode enable
-2021-03-27 21:50:29,047 INFO 4662 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:50:29,048 INFO 4662 [egg-security] use methodnoallow middleware
-2021-03-27 21:50:29,048 INFO 4662 [egg-security] use noopen middleware
-2021-03-27 21:50:29,049 INFO 4662 [egg-security] use nosniff middleware
-2021-03-27 21:50:29,049 INFO 4662 [egg-security] use xssProtection middleware
-2021-03-27 21:50:29,049 INFO 4662 [egg-security] use xframe middleware
-2021-03-27 21:50:29,049 INFO 4662 [egg-security] use dta middleware
-2021-03-27 21:50:29,050 INFO 4662 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:50:29,060 INFO 4662 [egg:core] dump config after load, 4ms
-2021-03-27 21:50:29,075 INFO 4662 [egg-watcher:application] watcher start success
-2021-03-27 21:50:29,089 INFO 4662 [egg:core] dump config after ready, 4ms
-2021-03-27 21:53:50,127 INFO 4856 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:53:50,160 INFO 4856 [egg-multipart] stream mode enable
-2021-03-27 21:53:50,457 INFO 4856 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:53:50,459 INFO 4856 [egg-security] use methodnoallow middleware
-2021-03-27 21:53:50,459 INFO 4856 [egg-security] use noopen middleware
-2021-03-27 21:53:50,460 INFO 4856 [egg-security] use nosniff middleware
-2021-03-27 21:53:50,460 INFO 4856 [egg-security] use xssProtection middleware
-2021-03-27 21:53:50,460 INFO 4856 [egg-security] use xframe middleware
-2021-03-27 21:53:50,461 INFO 4856 [egg-security] use dta middleware
-2021-03-27 21:53:50,461 INFO 4856 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:53:50,474 INFO 4856 [egg:core] dump config after load, 4ms
-2021-03-27 21:53:50,492 INFO 4856 [egg-watcher:application] watcher start success
-2021-03-27 21:53:50,507 INFO 4856 [egg:core] dump config after ready, 4ms
-2021-03-27 21:53:54,748 INFO 4868 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:53:54,777 INFO 4868 [egg-multipart] stream mode enable
-2021-03-27 21:53:55,025 INFO 4868 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:53:55,027 INFO 4868 [egg-security] use methodnoallow middleware
-2021-03-27 21:53:55,028 INFO 4868 [egg-security] use noopen middleware
-2021-03-27 21:53:55,028 INFO 4868 [egg-security] use nosniff middleware
-2021-03-27 21:53:55,028 INFO 4868 [egg-security] use xssProtection middleware
-2021-03-27 21:53:55,028 INFO 4868 [egg-security] use xframe middleware
-2021-03-27 21:53:55,028 INFO 4868 [egg-security] use dta middleware
-2021-03-27 21:53:55,028 INFO 4868 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:53:55,038 INFO 4868 [egg:core] dump config after load, 3ms
-2021-03-27 21:53:55,057 INFO 4868 [egg-watcher:application] watcher start success
-2021-03-27 21:53:55,072 INFO 4868 [egg:core] dump config after ready, 4ms
-2021-03-27 21:53:58,019 INFO 4869 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:53:58,047 INFO 4869 [egg-multipart] stream mode enable
-2021-03-27 21:53:58,287 INFO 4869 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:53:58,289 INFO 4869 [egg-security] use methodnoallow middleware
-2021-03-27 21:53:58,289 INFO 4869 [egg-security] use noopen middleware
-2021-03-27 21:53:58,289 INFO 4869 [egg-security] use nosniff middleware
-2021-03-27 21:53:58,290 INFO 4869 [egg-security] use xssProtection middleware
-2021-03-27 21:53:58,290 INFO 4869 [egg-security] use xframe middleware
-2021-03-27 21:53:58,290 INFO 4869 [egg-security] use dta middleware
-2021-03-27 21:53:58,290 INFO 4869 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:53:58,300 INFO 4869 [egg:core] dump config after load, 4ms
-2021-03-27 21:53:58,328 INFO 4869 [egg-watcher:application] watcher start success
-2021-03-27 21:53:58,344 INFO 4869 [egg:core] dump config after ready, 4ms
-2021-03-27 21:54:43,562 INFO 4902 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:54:43,593 INFO 4902 [egg-multipart] stream mode enable
-2021-03-27 21:54:43,862 INFO 4902 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:54:43,863 INFO 4902 [egg-security] use methodnoallow middleware
-2021-03-27 21:54:43,864 INFO 4902 [egg-security] use noopen middleware
-2021-03-27 21:54:43,864 INFO 4902 [egg-security] use nosniff middleware
-2021-03-27 21:54:43,864 INFO 4902 [egg-security] use xssProtection middleware
-2021-03-27 21:54:43,864 INFO 4902 [egg-security] use xframe middleware
-2021-03-27 21:54:43,865 INFO 4902 [egg-security] use dta middleware
-2021-03-27 21:54:43,865 INFO 4902 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:54:43,877 INFO 4902 [egg:core] dump config after load, 4ms
-2021-03-27 21:54:43,895 INFO 4902 [egg-watcher:application] watcher start success
-2021-03-27 21:54:43,909 INFO 4902 [egg:core] dump config after ready, 4ms
-2021-03-27 21:56:41,757 INFO 4988 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:56:41,793 INFO 4988 [egg-multipart] stream mode enable
-2021-03-27 21:56:42,075 INFO 4988 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:56:42,076 INFO 4988 [egg-security] use methodnoallow middleware
-2021-03-27 21:56:42,077 INFO 4988 [egg-security] use noopen middleware
-2021-03-27 21:56:42,077 INFO 4988 [egg-security] use nosniff middleware
-2021-03-27 21:56:42,078 INFO 4988 [egg-security] use xssProtection middleware
-2021-03-27 21:56:42,078 INFO 4988 [egg-security] use xframe middleware
-2021-03-27 21:56:42,078 INFO 4988 [egg-security] use dta middleware
-2021-03-27 21:56:42,078 INFO 4988 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:56:42,089 INFO 4988 [egg:core] dump config after load, 4ms
-2021-03-27 21:56:42,107 INFO 4988 [egg-watcher:application] watcher start success
-2021-03-27 21:56:42,122 INFO 4988 [egg:core] dump config after ready, 4ms
-2021-03-27 21:57:12,938 INFO 5026 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:57:12,966 INFO 5026 [egg-multipart] stream mode enable
-2021-03-27 21:57:13,262 INFO 5026 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:57:13,264 INFO 5026 [egg-security] use methodnoallow middleware
-2021-03-27 21:57:13,264 INFO 5026 [egg-security] use noopen middleware
-2021-03-27 21:57:13,265 INFO 5026 [egg-security] use nosniff middleware
-2021-03-27 21:57:13,265 INFO 5026 [egg-security] use xssProtection middleware
-2021-03-27 21:57:13,265 INFO 5026 [egg-security] use xframe middleware
-2021-03-27 21:57:13,265 INFO 5026 [egg-security] use dta middleware
-2021-03-27 21:57:13,265 INFO 5026 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:57:13,276 INFO 5026 [egg:core] dump config after load, 3ms
-2021-03-27 21:57:13,295 INFO 5026 [egg-watcher:application] watcher start success
-2021-03-27 21:57:13,309 INFO 5026 [egg:core] dump config after ready, 4ms
-2021-03-27 21:58:03,944 INFO 5088 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-03-27 21:58:03,966 INFO 5088 [egg-multipart] stream mode enable
-2021-03-27 21:58:04,263 INFO 5088 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
-2021-03-27 21:58:04,265 INFO 5088 [egg-security] use methodnoallow middleware
-2021-03-27 21:58:04,265 INFO 5088 [egg-security] use noopen middleware
-2021-03-27 21:58:04,266 INFO 5088 [egg-security] use nosniff middleware
-2021-03-27 21:58:04,266 INFO 5088 [egg-security] use xssProtection middleware
-2021-03-27 21:58:04,266 INFO 5088 [egg-security] use xframe middleware
-2021-03-27 21:58:04,266 INFO 5088 [egg-security] use dta middleware
-2021-03-27 21:58:04,266 INFO 5088 [egg-security] compose 6 middlewares into one security middleware
-2021-03-27 21:58:04,279 INFO 5088 [egg:core] dump config after load, 4ms
-2021-03-27 21:58:04,301 INFO 5088 [egg-watcher:application] watcher start success
-2021-03-27 21:58:04,324 INFO 5088 [egg:core] dump config after ready, 5ms
+2021-03-28 00:02:16,750 INFO 5088 [egg-logrotator] app logger reload: got log-reload message
+2021-03-28 00:13:24,279 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 00:13:24,280 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 00:18:56,626 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 00:18:56,626 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 00:24:28,035 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 00:24:28,036 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 00:41:01,135 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 00:41:01,136 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 00:52:02,831 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 00:52:02,832 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 00:57:45,464 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 00:57:45,464 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:03:19,803 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:08:50,334 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 01:08:50,335 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:14:25,726 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 01:14:25,726 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:19:56,084 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:36:39,398 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 01:36:39,398 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:42:09,716 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:47:42,276 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 01:47:42,276 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:53:18,904 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 01:53:18,904 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 01:58:49,417 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 01:58:49,417 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 02:42:22,465 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 02:42:22,465 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 03:10:33,964 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 03:21:34,682 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 03:21:34,682 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 03:27:10,021 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 03:32:40,376 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 03:38:10,799 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 03:38:10,800 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 03:43:41,272 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 03:43:41,272 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 03:49:11,574 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 04:00:13,476 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 04:00:13,476 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 04:05:43,782 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 04:11:14,314 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 04:11:14,314 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 04:22:14,925 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 04:22:14,925 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 04:33:15,664 INFO 5088 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/y3/y8mg74cn3yncb3d3b826djbc0000gn/T/egg-multipart-tmp/api.stars.io"
+2021-03-28 04:33:15,668 INFO 5088 [-/127.0.0.1/-/8ms SCHEDULE /__schedule?path=/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-03-28 04:38:45,053 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 04:38:45,053 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 04:44:15,423 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 04:44:15,423 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 04:49:45,786 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 04:49:45,786 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 05:00:46,547 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 05:00:46,548 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 05:17:38,732 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 05:23:09,086 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 05:28:39,467 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 05:28:39,468 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 05:39:40,142 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 05:39:40,142 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 06:02:04,181 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 06:07:36,510 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 06:13:07,847 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 06:13:07,847 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 06:18:40,270 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 06:18:40,270 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 06:40:45,727 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 06:40:45,727 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 06:46:16,070 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 06:46:16,070 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 06:57:43,071 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 06:57:43,072 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 07:08:45,935 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 07:08:45,935 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 07:14:18,254 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 07:14:18,255 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 07:25:18,938 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 07:30:49,337 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 07:30:49,338 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 07:36:19,699 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 07:41:50,031 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 07:41:50,031 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 07:47:25,447 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 08:04:00,675 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 08:04:00,675 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 08:09:31,187 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 08:09:31,188 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 08:15:01,676 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 08:15:01,676 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 08:26:02,379 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 08:31:32,694 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 08:31:32,695 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 08:48:03,768 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 08:48:03,768 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 08:59:04,458 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 09:10:06,177 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 09:21:06,030 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 09:21:06,030 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 09:26:36,413 WARN 5088 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 09:26:36,414 WARN 5088 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 09:38:16,197 INFO 6771 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:38:16,220 INFO 6771 [egg-multipart] stream mode enable
+2021-03-28 09:38:16,520 INFO 6771 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:38:16,523 INFO 6771 [egg-security] use methodnoallow middleware
+2021-03-28 09:38:16,523 INFO 6771 [egg-security] use noopen middleware
+2021-03-28 09:38:16,523 INFO 6771 [egg-security] use nosniff middleware
+2021-03-28 09:38:16,524 INFO 6771 [egg-security] use xssProtection middleware
+2021-03-28 09:38:16,524 INFO 6771 [egg-security] use xframe middleware
+2021-03-28 09:38:16,524 INFO 6771 [egg-security] use dta middleware
+2021-03-28 09:38:16,524 INFO 6771 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:38:16,537 INFO 6771 [egg:core] dump config after load, 4ms
+2021-03-28 09:38:16,551 INFO 6771 [egg-watcher:application] watcher start success
+2021-03-28 09:38:16,602 INFO 6771 [egg:core] dump config after ready, 5ms
+2021-03-28 09:38:36,474 INFO 6797 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:38:36,501 INFO 6797 [egg-multipart] stream mode enable
+2021-03-28 09:38:36,765 INFO 6797 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:38:36,767 INFO 6797 [egg-security] use methodnoallow middleware
+2021-03-28 09:38:36,767 INFO 6797 [egg-security] use noopen middleware
+2021-03-28 09:38:36,768 INFO 6797 [egg-security] use nosniff middleware
+2021-03-28 09:38:36,768 INFO 6797 [egg-security] use xssProtection middleware
+2021-03-28 09:38:36,768 INFO 6797 [egg-security] use xframe middleware
+2021-03-28 09:38:36,768 INFO 6797 [egg-security] use dta middleware
+2021-03-28 09:38:36,768 INFO 6797 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:38:36,781 INFO 6797 [egg:core] dump config after load, 4ms
+2021-03-28 09:38:36,799 INFO 6797 [egg-watcher:application] watcher start success
+2021-03-28 09:38:36,813 INFO 6797 [egg:core] dump config after ready, 4ms
+2021-03-28 09:40:23,711 INFO 6851 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:40:23,740 INFO 6851 [egg-multipart] stream mode enable
+2021-03-28 09:40:26,248 INFO 6851 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:40:26,250 INFO 6851 [egg-security] use methodnoallow middleware
+2021-03-28 09:40:26,250 INFO 6851 [egg-security] use noopen middleware
+2021-03-28 09:40:26,250 INFO 6851 [egg-security] use nosniff middleware
+2021-03-28 09:40:26,251 INFO 6851 [egg-security] use xssProtection middleware
+2021-03-28 09:40:26,251 INFO 6851 [egg-security] use xframe middleware
+2021-03-28 09:40:26,251 INFO 6851 [egg-security] use dta middleware
+2021-03-28 09:40:26,251 INFO 6851 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:40:26,263 INFO 6851 [egg:core] dump config after load, 5ms
+2021-03-28 09:40:26,286 INFO 6851 [egg-watcher:application] watcher start success
+2021-03-28 09:40:26,307 INFO 6851 [egg:core] dump config after ready, 4ms
+2021-03-28 09:42:04,240 INFO 6941 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:42:04,265 INFO 6941 [egg-multipart] stream mode enable
+2021-03-28 09:42:04,546 INFO 6941 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:42:04,548 INFO 6941 [egg-security] use methodnoallow middleware
+2021-03-28 09:42:04,549 INFO 6941 [egg-security] use noopen middleware
+2021-03-28 09:42:04,549 INFO 6941 [egg-security] use nosniff middleware
+2021-03-28 09:42:04,549 INFO 6941 [egg-security] use xssProtection middleware
+2021-03-28 09:42:04,550 INFO 6941 [egg-security] use xframe middleware
+2021-03-28 09:42:04,550 INFO 6941 [egg-security] use dta middleware
+2021-03-28 09:42:04,550 INFO 6941 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:42:04,562 INFO 6941 [egg:core] dump config after load, 4ms
+2021-03-28 09:42:04,586 INFO 6941 [egg-watcher:application] watcher start success
+2021-03-28 09:42:04,605 INFO 6941 [egg:core] dump config after ready, 5ms
+2021-03-28 09:42:16,417 INFO 6979 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:42:16,445 INFO 6979 [egg-multipart] stream mode enable
+2021-03-28 09:42:16,709 INFO 6979 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:42:16,711 INFO 6979 [egg-security] use methodnoallow middleware
+2021-03-28 09:42:16,711 INFO 6979 [egg-security] use noopen middleware
+2021-03-28 09:42:16,711 INFO 6979 [egg-security] use nosniff middleware
+2021-03-28 09:42:16,712 INFO 6979 [egg-security] use xssProtection middleware
+2021-03-28 09:42:16,712 INFO 6979 [egg-security] use xframe middleware
+2021-03-28 09:42:16,712 INFO 6979 [egg-security] use dta middleware
+2021-03-28 09:42:16,712 INFO 6979 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:42:16,724 INFO 6979 [egg:core] dump config after load, 3ms
+2021-03-28 09:42:16,742 INFO 6979 [egg-watcher:application] watcher start success
+2021-03-28 09:42:16,757 INFO 6979 [egg:core] dump config after ready, 4ms
+2021-03-28 09:45:32,058 INFO 7063 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:45:32,087 INFO 7063 [egg-multipart] stream mode enable
+2021-03-28 09:45:34,362 INFO 7063 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:45:34,363 INFO 7063 [egg-security] use methodnoallow middleware
+2021-03-28 09:45:34,364 INFO 7063 [egg-security] use noopen middleware
+2021-03-28 09:45:34,364 INFO 7063 [egg-security] use nosniff middleware
+2021-03-28 09:45:34,364 INFO 7063 [egg-security] use xssProtection middleware
+2021-03-28 09:45:34,365 INFO 7063 [egg-security] use xframe middleware
+2021-03-28 09:45:34,365 INFO 7063 [egg-security] use dta middleware
+2021-03-28 09:45:34,365 INFO 7063 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:45:34,383 INFO 7063 [egg:core] dump config after load, 10ms
+2021-03-28 09:45:34,405 INFO 7063 [egg-watcher:application] watcher start success
+2021-03-28 09:45:34,426 INFO 7063 [egg:core] dump config after ready, 7ms
+2021-03-28 09:45:52,374 INFO 7089 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:45:52,404 INFO 7089 [egg-multipart] stream mode enable
+2021-03-28 09:45:54,820 INFO 7089 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:45:54,822 INFO 7089 [egg-security] use methodnoallow middleware
+2021-03-28 09:45:54,822 INFO 7089 [egg-security] use noopen middleware
+2021-03-28 09:45:54,823 INFO 7089 [egg-security] use nosniff middleware
+2021-03-28 09:45:54,823 INFO 7089 [egg-security] use xssProtection middleware
+2021-03-28 09:45:54,823 INFO 7089 [egg-security] use xframe middleware
+2021-03-28 09:45:54,824 INFO 7089 [egg-security] use dta middleware
+2021-03-28 09:45:54,824 INFO 7089 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:45:54,833 INFO 7089 [egg:core] dump config after load, 3ms
+2021-03-28 09:45:54,845 INFO 7089 [egg-watcher:application] watcher start success
+2021-03-28 09:45:54,877 INFO 7089 [egg:core] dump config after ready, 5ms
+2021-03-28 09:47:30,563 INFO 7110 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:47:30,593 INFO 7110 [egg-multipart] stream mode enable
+2021-03-28 09:47:30,847 INFO 7110 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:47:30,849 INFO 7110 [egg-security] use methodnoallow middleware
+2021-03-28 09:47:30,849 INFO 7110 [egg-security] use noopen middleware
+2021-03-28 09:47:30,850 INFO 7110 [egg-security] use nosniff middleware
+2021-03-28 09:47:30,850 INFO 7110 [egg-security] use xssProtection middleware
+2021-03-28 09:47:30,850 INFO 7110 [egg-security] use xframe middleware
+2021-03-28 09:47:30,850 INFO 7110 [egg-security] use dta middleware
+2021-03-28 09:47:30,850 INFO 7110 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:47:30,861 INFO 7110 [egg:core] dump config after load, 4ms
+2021-03-28 09:47:30,881 INFO 7110 [egg-watcher:application] watcher start success
+2021-03-28 09:47:30,897 INFO 7110 [egg:core] dump config after ready, 4ms
+2021-03-28 09:47:56,079 INFO 7133 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:47:56,107 INFO 7133 [egg-multipart] stream mode enable
+2021-03-28 09:47:58,455 INFO 7133 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:47:58,457 INFO 7133 [egg-security] use methodnoallow middleware
+2021-03-28 09:47:58,457 INFO 7133 [egg-security] use noopen middleware
+2021-03-28 09:47:58,458 INFO 7133 [egg-security] use nosniff middleware
+2021-03-28 09:47:58,458 INFO 7133 [egg-security] use xssProtection middleware
+2021-03-28 09:47:58,458 INFO 7133 [egg-security] use xframe middleware
+2021-03-28 09:47:58,459 INFO 7133 [egg-security] use dta middleware
+2021-03-28 09:47:58,459 INFO 7133 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:47:58,468 INFO 7133 [egg:core] dump config after load, 3ms
+2021-03-28 09:47:58,481 INFO 7133 [egg-watcher:application] watcher start success
+2021-03-28 09:47:58,508 INFO 7133 [egg:core] dump config after ready, 5ms
+2021-03-28 09:48:06,935 INFO 7147 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:48:06,964 INFO 7147 [egg-multipart] stream mode enable
+2021-03-28 09:48:07,240 INFO 7147 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:48:07,244 INFO 7147 [egg-security] use methodnoallow middleware
+2021-03-28 09:48:07,245 INFO 7147 [egg-security] use noopen middleware
+2021-03-28 09:48:07,245 INFO 7147 [egg-security] use nosniff middleware
+2021-03-28 09:48:07,245 INFO 7147 [egg-security] use xssProtection middleware
+2021-03-28 09:48:07,246 INFO 7147 [egg-security] use xframe middleware
+2021-03-28 09:48:07,246 INFO 7147 [egg-security] use dta middleware
+2021-03-28 09:48:07,246 INFO 7147 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:48:07,259 INFO 7147 [egg:core] dump config after load, 5ms
+2021-03-28 09:48:07,294 INFO 7147 [egg-watcher:application] watcher start success
+2021-03-28 09:48:07,313 INFO 7147 [egg:core] dump config after ready, 5ms
+2021-03-28 09:49:47,270 INFO 7206 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:49:47,299 INFO 7206 [egg-multipart] stream mode enable
+2021-03-28 09:49:47,559 INFO 7206 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:49:47,561 INFO 7206 [egg-security] use methodnoallow middleware
+2021-03-28 09:49:47,561 INFO 7206 [egg-security] use noopen middleware
+2021-03-28 09:49:47,561 INFO 7206 [egg-security] use nosniff middleware
+2021-03-28 09:49:47,561 INFO 7206 [egg-security] use xssProtection middleware
+2021-03-28 09:49:47,562 INFO 7206 [egg-security] use xframe middleware
+2021-03-28 09:49:47,562 INFO 7206 [egg-security] use dta middleware
+2021-03-28 09:49:47,562 INFO 7206 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:49:47,572 INFO 7206 [egg:core] dump config after load, 4ms
+2021-03-28 09:49:47,591 INFO 7206 [egg-watcher:application] watcher start success
+2021-03-28 09:49:47,605 INFO 7206 [egg:core] dump config after ready, 4ms
+2021-03-28 09:49:52,390 INFO 7222 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:49:52,418 INFO 7222 [egg-multipart] stream mode enable
+2021-03-28 09:49:52,692 INFO 7222 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:49:52,694 INFO 7222 [egg-security] use methodnoallow middleware
+2021-03-28 09:49:52,694 INFO 7222 [egg-security] use noopen middleware
+2021-03-28 09:49:52,694 INFO 7222 [egg-security] use nosniff middleware
+2021-03-28 09:49:52,695 INFO 7222 [egg-security] use xssProtection middleware
+2021-03-28 09:49:52,695 INFO 7222 [egg-security] use xframe middleware
+2021-03-28 09:49:52,695 INFO 7222 [egg-security] use dta middleware
+2021-03-28 09:49:52,695 INFO 7222 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:49:54,783 INFO 7222 [egg:core] dump config after load, 4ms
+2021-03-28 09:49:54,801 INFO 7222 [egg-watcher:application] watcher start success
+2021-03-28 09:49:54,820 INFO 7222 [egg:core] dump config after ready, 5ms
+2021-03-28 09:53:04,310 INFO 7319 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:53:04,339 INFO 7319 [egg-multipart] stream mode enable
+2021-03-28 09:53:04,700 INFO 7319 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:53:04,702 INFO 7319 [egg-security] use methodnoallow middleware
+2021-03-28 09:53:04,703 INFO 7319 [egg-security] use noopen middleware
+2021-03-28 09:53:04,703 INFO 7319 [egg-security] use nosniff middleware
+2021-03-28 09:53:04,703 INFO 7319 [egg-security] use xssProtection middleware
+2021-03-28 09:53:04,703 INFO 7319 [egg-security] use xframe middleware
+2021-03-28 09:53:04,704 INFO 7319 [egg-security] use dta middleware
+2021-03-28 09:53:04,704 INFO 7319 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:53:04,718 INFO 7319 [egg:core] dump config after load, 4ms
+2021-03-28 09:53:04,740 INFO 7319 [egg-watcher:application] watcher start success
+2021-03-28 09:53:04,754 INFO 7319 [egg:core] dump config after ready, 4ms
+2021-03-28 09:53:18,638 INFO 7340 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:53:18,668 INFO 7340 [egg-multipart] stream mode enable
+2021-03-28 09:53:18,978 INFO 7340 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:53:18,981 INFO 7340 [egg-security] use methodnoallow middleware
+2021-03-28 09:53:18,981 INFO 7340 [egg-security] use noopen middleware
+2021-03-28 09:53:18,981 INFO 7340 [egg-security] use nosniff middleware
+2021-03-28 09:53:18,982 INFO 7340 [egg-security] use xssProtection middleware
+2021-03-28 09:53:18,982 INFO 7340 [egg-security] use xframe middleware
+2021-03-28 09:53:18,982 INFO 7340 [egg-security] use dta middleware
+2021-03-28 09:53:18,982 INFO 7340 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:53:21,121 INFO 7340 [egg:core] dump config after load, 4ms
+2021-03-28 09:53:21,133 INFO 7340 [egg-watcher:application] watcher start success
+2021-03-28 09:53:21,161 INFO 7340 [egg:core] dump config after ready, 5ms
+2021-03-28 09:54:56,015 INFO 7381 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:54:56,043 INFO 7381 [egg-multipart] stream mode enable
+2021-03-28 09:54:56,291 INFO 7381 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:54:56,293 INFO 7381 [egg-security] use methodnoallow middleware
+2021-03-28 09:54:56,293 INFO 7381 [egg-security] use noopen middleware
+2021-03-28 09:54:56,294 INFO 7381 [egg-security] use nosniff middleware
+2021-03-28 09:54:56,294 INFO 7381 [egg-security] use xssProtection middleware
+2021-03-28 09:54:56,294 INFO 7381 [egg-security] use xframe middleware
+2021-03-28 09:54:56,294 INFO 7381 [egg-security] use dta middleware
+2021-03-28 09:54:56,294 INFO 7381 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:54:58,257 INFO 7381 [egg:core] dump config after load, 3ms
+2021-03-28 09:54:58,278 INFO 7381 [egg-watcher:application] watcher start success
+2021-03-28 09:54:58,296 INFO 7381 [egg:core] dump config after ready, 5ms
+2021-03-28 09:56:21,779 INFO 7453 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 09:56:21,809 INFO 7453 [egg-multipart] stream mode enable
+2021-03-28 09:56:22,186 INFO 7453 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 09:56:22,188 INFO 7453 [egg-security] use methodnoallow middleware
+2021-03-28 09:56:22,188 INFO 7453 [egg-security] use noopen middleware
+2021-03-28 09:56:22,189 INFO 7453 [egg-security] use nosniff middleware
+2021-03-28 09:56:22,189 INFO 7453 [egg-security] use xssProtection middleware
+2021-03-28 09:56:22,189 INFO 7453 [egg-security] use xframe middleware
+2021-03-28 09:56:22,190 INFO 7453 [egg-security] use dta middleware
+2021-03-28 09:56:22,190 INFO 7453 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 09:56:22,204 INFO 7453 [egg:core] dump config after load, 4ms
+2021-03-28 09:56:22,225 INFO 7453 [egg-watcher:application] watcher start success
+2021-03-28 09:56:22,240 INFO 7453 [egg:core] dump config after ready, 4ms
+2021-03-28 10:00:26,533 INFO 893 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 10:00:26,564 INFO 893 [egg-multipart] stream mode enable
+2021-03-28 10:00:28,952 INFO 893 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 10:00:28,953 INFO 893 [egg-security] use methodnoallow middleware
+2021-03-28 10:00:28,954 INFO 893 [egg-security] use noopen middleware
+2021-03-28 10:00:28,954 INFO 893 [egg-security] use nosniff middleware
+2021-03-28 10:00:28,954 INFO 893 [egg-security] use xssProtection middleware
+2021-03-28 10:00:28,954 INFO 893 [egg-security] use xframe middleware
+2021-03-28 10:00:28,955 INFO 893 [egg-security] use dta middleware
+2021-03-28 10:00:28,955 INFO 893 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 10:00:29,051 INFO 893 [egg:core] dump config after load, 4ms
+2021-03-28 10:00:29,069 INFO 893 [egg-watcher:application] watcher start success
+2021-03-28 10:00:29,083 INFO 893 [egg:core] dump config after ready, 4ms
+2021-03-28 10:02:17,336 INFO 1411 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 10:02:17,367 INFO 1411 [egg-multipart] stream mode enable
+2021-03-28 10:02:17,704 INFO 1411 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 10:02:17,706 INFO 1411 [egg-security] use methodnoallow middleware
+2021-03-28 10:02:17,707 INFO 1411 [egg-security] use noopen middleware
+2021-03-28 10:02:17,707 INFO 1411 [egg-security] use nosniff middleware
+2021-03-28 10:02:17,707 INFO 1411 [egg-security] use xssProtection middleware
+2021-03-28 10:02:17,708 INFO 1411 [egg-security] use xframe middleware
+2021-03-28 10:02:17,708 INFO 1411 [egg-security] use dta middleware
+2021-03-28 10:02:17,708 INFO 1411 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 10:02:19,814 INFO 1411 [egg:core] dump config after load, 4ms
+2021-03-28 10:02:19,847 INFO 1411 [egg-watcher:application] watcher start success
+2021-03-28 10:02:19,866 INFO 1411 [egg:core] dump config after ready, 5ms
+2021-03-28 10:02:20,387 INFO 1418 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 10:02:20,415 INFO 1418 [egg-multipart] stream mode enable
+2021-03-28 10:02:20,665 INFO 1418 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 10:02:20,666 INFO 1418 [egg-security] use methodnoallow middleware
+2021-03-28 10:02:20,667 INFO 1418 [egg-security] use noopen middleware
+2021-03-28 10:02:20,667 INFO 1418 [egg-security] use nosniff middleware
+2021-03-28 10:02:20,667 INFO 1418 [egg-security] use xssProtection middleware
+2021-03-28 10:02:20,667 INFO 1418 [egg-security] use xframe middleware
+2021-03-28 10:02:20,667 INFO 1418 [egg-security] use dta middleware
+2021-03-28 10:02:20,667 INFO 1418 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 10:02:20,677 INFO 1418 [egg:core] dump config after load, 4ms
+2021-03-28 10:02:20,696 INFO 1418 [egg-watcher:application] watcher start success
+2021-03-28 10:02:20,711 INFO 1418 [egg:core] dump config after ready, 4ms
+2021-03-28 11:00:44,742 INFO 2384 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 11:00:44,780 INFO 2384 [egg-multipart] stream mode enable
+2021-03-28 11:00:45,144 INFO 2384 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 11:00:45,146 INFO 2384 [egg-security] use methodnoallow middleware
+2021-03-28 11:00:45,146 INFO 2384 [egg-security] use noopen middleware
+2021-03-28 11:00:45,147 INFO 2384 [egg-security] use nosniff middleware
+2021-03-28 11:00:45,147 INFO 2384 [egg-security] use xssProtection middleware
+2021-03-28 11:00:45,147 INFO 2384 [egg-security] use xframe middleware
+2021-03-28 11:00:45,148 INFO 2384 [egg-security] use dta middleware
+2021-03-28 11:00:45,148 INFO 2384 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 11:00:47,288 INFO 2384 [egg:core] dump config after load, 4ms
+2021-03-28 11:00:47,309 INFO 2384 [egg-watcher:application] watcher start success
+2021-03-28 11:00:47,357 INFO 2384 [egg:core] dump config after ready, 5ms
+2021-03-28 11:17:33,277 WARN 2384 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 11:17:33,278 WARN 2384 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 11:33:04,841 WARN 2384 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 11:33:04,841 WARN 2384 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 11:49:56,573 WARN 2384 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 11:49:56,573 WARN 2384 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 12:26:54,274 WARN 2384 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-03-28 12:26:54,274 WARN 2384 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-28 12:44:55,348 INFO 2680 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 12:44:55,382 INFO 2680 [egg-multipart] stream mode enable
+2021-03-28 12:44:55,766 INFO 2680 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 12:44:55,768 INFO 2680 [egg-security] use methodnoallow middleware
+2021-03-28 12:44:55,768 INFO 2680 [egg-security] use noopen middleware
+2021-03-28 12:44:55,768 INFO 2680 [egg-security] use nosniff middleware
+2021-03-28 12:44:55,769 INFO 2680 [egg-security] use xssProtection middleware
+2021-03-28 12:44:55,769 INFO 2680 [egg-security] use xframe middleware
+2021-03-28 12:44:55,769 INFO 2680 [egg-security] use dta middleware
+2021-03-28 12:44:55,769 INFO 2680 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 12:44:57,941 INFO 2680 [egg:core] dump config after load, 5ms
+2021-03-28 12:44:57,972 INFO 2680 [egg-watcher:application] watcher start success
+2021-03-28 12:44:57,994 INFO 2680 [egg:core] dump config after ready, 5ms
+2021-03-28 12:45:01,086 INFO 2694 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 12:45:01,116 INFO 2694 [egg-multipart] stream mode enable
+2021-03-28 12:45:01,429 INFO 2694 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 12:45:01,431 INFO 2694 [egg-security] use methodnoallow middleware
+2021-03-28 12:45:01,432 INFO 2694 [egg-security] use noopen middleware
+2021-03-28 12:45:01,432 INFO 2694 [egg-security] use nosniff middleware
+2021-03-28 12:45:01,432 INFO 2694 [egg-security] use xssProtection middleware
+2021-03-28 12:45:01,433 INFO 2694 [egg-security] use xframe middleware
+2021-03-28 12:45:01,433 INFO 2694 [egg-security] use dta middleware
+2021-03-28 12:45:01,433 INFO 2694 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 12:45:01,444 INFO 2694 [egg:core] dump config after load, 3ms
+2021-03-28 12:45:01,457 INFO 2694 [egg-watcher:application] watcher start success
+2021-03-28 12:45:01,483 INFO 2694 [egg:core] dump config after ready, 4ms
+2021-03-28 12:45:37,806 INFO 2716 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 12:45:37,835 INFO 2716 [egg-multipart] stream mode enable
+2021-03-28 12:45:38,168 INFO 2716 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 12:45:38,170 INFO 2716 [egg-security] use methodnoallow middleware
+2021-03-28 12:45:38,171 INFO 2716 [egg-security] use noopen middleware
+2021-03-28 12:45:38,171 INFO 2716 [egg-security] use nosniff middleware
+2021-03-28 12:45:38,171 INFO 2716 [egg-security] use xssProtection middleware
+2021-03-28 12:45:38,172 INFO 2716 [egg-security] use xframe middleware
+2021-03-28 12:45:38,172 INFO 2716 [egg-security] use dta middleware
+2021-03-28 12:45:38,172 INFO 2716 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 12:45:40,277 INFO 2716 [egg:core] dump config after load, 3ms
+2021-03-28 12:45:40,306 INFO 2716 [egg-watcher:application] watcher start success
+2021-03-28 12:45:40,326 INFO 2716 [egg:core] dump config after ready, 7ms
+2021-03-28 12:52:34,384 INFO 2780 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 12:52:34,414 INFO 2780 [egg-multipart] stream mode enable
+2021-03-28 12:52:34,806 INFO 2780 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 12:52:34,808 INFO 2780 [egg-security] use methodnoallow middleware
+2021-03-28 12:52:34,808 INFO 2780 [egg-security] use noopen middleware
+2021-03-28 12:52:34,809 INFO 2780 [egg-security] use nosniff middleware
+2021-03-28 12:52:34,809 INFO 2780 [egg-security] use xssProtection middleware
+2021-03-28 12:52:34,809 INFO 2780 [egg-security] use xframe middleware
+2021-03-28 12:52:34,809 INFO 2780 [egg-security] use dta middleware
+2021-03-28 12:52:34,810 INFO 2780 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 12:52:36,941 INFO 2780 [egg:core] dump config after load, 4ms
+2021-03-28 12:52:36,965 INFO 2780 [egg-watcher:application] watcher start success
+2021-03-28 12:52:36,983 INFO 2780 [egg:core] dump config after ready, 5ms
+2021-03-28 12:53:21,385 INFO 2808 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 12:53:21,414 INFO 2808 [egg-multipart] stream mode enable
+2021-03-28 12:53:21,733 INFO 2808 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 12:53:21,735 INFO 2808 [egg-security] use methodnoallow middleware
+2021-03-28 12:53:21,735 INFO 2808 [egg-security] use noopen middleware
+2021-03-28 12:53:21,736 INFO 2808 [egg-security] use nosniff middleware
+2021-03-28 12:53:21,736 INFO 2808 [egg-security] use xssProtection middleware
+2021-03-28 12:53:21,736 INFO 2808 [egg-security] use xframe middleware
+2021-03-28 12:53:21,736 INFO 2808 [egg-security] use dta middleware
+2021-03-28 12:53:21,736 INFO 2808 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 12:53:23,843 INFO 2808 [egg:core] dump config after load, 5ms
+2021-03-28 12:53:23,873 INFO 2808 [egg-watcher:application] watcher start success
+2021-03-28 12:53:23,891 INFO 2808 [egg:core] dump config after ready, 5ms
+2021-03-28 12:53:40,957 INFO 2814 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 12:53:40,986 INFO 2814 [egg-multipart] stream mode enable
+2021-03-28 12:53:41,339 INFO 2814 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 12:53:41,341 INFO 2814 [egg-security] use methodnoallow middleware
+2021-03-28 12:53:41,341 INFO 2814 [egg-security] use noopen middleware
+2021-03-28 12:53:41,342 INFO 2814 [egg-security] use nosniff middleware
+2021-03-28 12:53:41,342 INFO 2814 [egg-security] use xssProtection middleware
+2021-03-28 12:53:41,342 INFO 2814 [egg-security] use xframe middleware
+2021-03-28 12:53:41,342 INFO 2814 [egg-security] use dta middleware
+2021-03-28 12:53:41,342 INFO 2814 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 12:53:43,421 INFO 2814 [egg:core] dump config after load, 4ms
+2021-03-28 12:53:43,447 INFO 2814 [egg-watcher:application] watcher start success
+2021-03-28 12:53:43,478 INFO 2814 [egg:core] dump config after ready, 6ms
+2021-03-28 12:54:14,058 INFO 2818 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 12:54:14,088 INFO 2818 [egg-multipart] stream mode enable
+2021-03-28 12:54:14,441 INFO 2818 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 12:54:14,443 INFO 2818 [egg-security] use methodnoallow middleware
+2021-03-28 12:54:14,443 INFO 2818 [egg-security] use noopen middleware
+2021-03-28 12:54:14,444 INFO 2818 [egg-security] use nosniff middleware
+2021-03-28 12:54:14,444 INFO 2818 [egg-security] use xssProtection middleware
+2021-03-28 12:54:14,444 INFO 2818 [egg-security] use xframe middleware
+2021-03-28 12:54:14,444 INFO 2818 [egg-security] use dta middleware
+2021-03-28 12:54:14,444 INFO 2818 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 12:54:16,460 INFO 2818 [egg:core] dump config after load, 4ms
+2021-03-28 12:54:16,488 INFO 2818 [egg-watcher:application] watcher start success
+2021-03-28 12:54:16,506 INFO 2818 [egg:core] dump config after ready, 4ms
+2021-03-28 13:01:57,063 INFO 2947 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:01:57,092 INFO 2947 [egg-multipart] stream mode enable
+2021-03-28 13:01:57,458 INFO 2947 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:01:57,460 INFO 2947 [egg-security] use methodnoallow middleware
+2021-03-28 13:01:57,460 INFO 2947 [egg-security] use noopen middleware
+2021-03-28 13:01:57,461 INFO 2947 [egg-security] use nosniff middleware
+2021-03-28 13:01:57,461 INFO 2947 [egg-security] use xssProtection middleware
+2021-03-28 13:01:57,461 INFO 2947 [egg-security] use xframe middleware
+2021-03-28 13:01:57,461 INFO 2947 [egg-security] use dta middleware
+2021-03-28 13:01:57,461 INFO 2947 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:01:59,627 INFO 2947 [egg:core] dump config after load, 4ms
+2021-03-28 13:01:59,650 INFO 2947 [egg-watcher:application] watcher start success
+2021-03-28 13:01:59,668 INFO 2947 [egg:core] dump config after ready, 5ms
+2021-03-28 13:07:12,581 INFO 3057 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:07:12,618 INFO 3057 [egg-multipart] stream mode enable
+2021-03-28 13:07:13,201 INFO 3057 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:07:13,202 INFO 3057 [egg-security] use methodnoallow middleware
+2021-03-28 13:07:13,202 INFO 3057 [egg-security] use noopen middleware
+2021-03-28 13:07:13,203 INFO 3057 [egg-security] use nosniff middleware
+2021-03-28 13:07:13,203 INFO 3057 [egg-security] use xssProtection middleware
+2021-03-28 13:07:13,203 INFO 3057 [egg-security] use xframe middleware
+2021-03-28 13:07:13,203 INFO 3057 [egg-security] use dta middleware
+2021-03-28 13:07:13,203 INFO 3057 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:07:13,265 INFO 3057 [egg:core] dump config after load, 4ms
+2021-03-28 13:07:13,283 INFO 3057 [egg-watcher:application] watcher start success
+2021-03-28 13:07:13,297 INFO 3057 [egg:core] dump config after ready, 4ms
+2021-03-28 13:07:17,780 INFO 3060 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:07:17,819 INFO 3060 [egg-multipart] stream mode enable
+2021-03-28 13:07:18,264 INFO 3060 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:07:18,266 INFO 3060 [egg-security] use methodnoallow middleware
+2021-03-28 13:07:18,266 INFO 3060 [egg-security] use noopen middleware
+2021-03-28 13:07:18,267 INFO 3060 [egg-security] use nosniff middleware
+2021-03-28 13:07:18,267 INFO 3060 [egg-security] use xssProtection middleware
+2021-03-28 13:07:18,273 INFO 3060 [egg-security] use xframe middleware
+2021-03-28 13:07:18,274 INFO 3060 [egg-security] use dta middleware
+2021-03-28 13:07:18,274 INFO 3060 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:07:18,356 INFO 3060 [egg:core] dump config after load, 4ms
+2021-03-28 13:07:18,366 INFO 3060 [egg-watcher:application] watcher start success
+2021-03-28 13:07:18,385 INFO 3060 [egg:core] dump config after ready, 4ms
+2021-03-28 13:25:40,063 INFO 3280 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:25:40,097 INFO 3280 [egg-multipart] stream mode enable
+2021-03-28 13:25:42,629 INFO 3280 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:25:42,630 INFO 3280 [egg-security] use methodnoallow middleware
+2021-03-28 13:25:42,631 INFO 3280 [egg-security] use noopen middleware
+2021-03-28 13:25:42,631 INFO 3280 [egg-security] use nosniff middleware
+2021-03-28 13:25:42,632 INFO 3280 [egg-security] use xssProtection middleware
+2021-03-28 13:25:42,632 INFO 3280 [egg-security] use xframe middleware
+2021-03-28 13:25:42,632 INFO 3280 [egg-security] use dta middleware
+2021-03-28 13:25:42,632 INFO 3280 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:25:42,643 INFO 3280 [egg:core] dump config after load, 5ms
+2021-03-28 13:25:42,676 INFO 3280 [egg-watcher:application] watcher start success
+2021-03-28 13:25:42,697 INFO 3280 [egg:core] dump config after ready, 6ms
+2021-03-28 13:27:32,552 INFO 3353 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:27:32,581 INFO 3353 [egg-multipart] stream mode enable
+2021-03-28 13:27:35,066 INFO 3353 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:27:35,068 INFO 3353 [egg-security] use methodnoallow middleware
+2021-03-28 13:27:35,068 INFO 3353 [egg-security] use noopen middleware
+2021-03-28 13:27:35,068 INFO 3353 [egg-security] use nosniff middleware
+2021-03-28 13:27:35,069 INFO 3353 [egg-security] use xssProtection middleware
+2021-03-28 13:27:35,069 INFO 3353 [egg-security] use xframe middleware
+2021-03-28 13:27:35,069 INFO 3353 [egg-security] use dta middleware
+2021-03-28 13:27:35,069 INFO 3353 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:27:35,078 INFO 3353 [egg:core] dump config after load, 3ms
+2021-03-28 13:27:35,108 INFO 3353 [egg-watcher:application] watcher start success
+2021-03-28 13:27:35,125 INFO 3353 [egg:core] dump config after ready, 4ms
+2021-03-28 13:27:53,664 INFO 3372 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:27:53,687 INFO 3372 [egg-multipart] stream mode enable
+2021-03-28 13:27:54,263 INFO 3372 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:27:54,265 INFO 3372 [egg-security] use methodnoallow middleware
+2021-03-28 13:27:54,265 INFO 3372 [egg-security] use noopen middleware
+2021-03-28 13:27:54,266 INFO 3372 [egg-security] use nosniff middleware
+2021-03-28 13:27:54,266 INFO 3372 [egg-security] use xssProtection middleware
+2021-03-28 13:27:54,266 INFO 3372 [egg-security] use xframe middleware
+2021-03-28 13:27:54,267 INFO 3372 [egg-security] use dta middleware
+2021-03-28 13:27:54,267 INFO 3372 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:27:54,360 INFO 3372 [egg:core] dump config after load, 4ms
+2021-03-28 13:27:54,377 INFO 3372 [egg-watcher:application] watcher start success
+2021-03-28 13:27:54,396 INFO 3372 [egg:core] dump config after ready, 4ms
+2021-03-28 13:28:07,096 INFO 3394 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:28:07,125 INFO 3394 [egg-multipart] stream mode enable
+2021-03-28 13:28:07,369 INFO 3394 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:28:07,371 INFO 3394 [egg-security] use methodnoallow middleware
+2021-03-28 13:28:07,371 INFO 3394 [egg-security] use noopen middleware
+2021-03-28 13:28:07,372 INFO 3394 [egg-security] use nosniff middleware
+2021-03-28 13:28:07,372 INFO 3394 [egg-security] use xssProtection middleware
+2021-03-28 13:28:07,372 INFO 3394 [egg-security] use xframe middleware
+2021-03-28 13:28:07,372 INFO 3394 [egg-security] use dta middleware
+2021-03-28 13:28:07,372 INFO 3394 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:28:09,542 INFO 3394 [egg:core] dump config after load, 4ms
+2021-03-28 13:28:09,567 INFO 3394 [egg-watcher:application] watcher start success
+2021-03-28 13:28:09,591 INFO 3394 [egg:core] dump config after ready, 5ms
+2021-03-28 13:28:51,242 INFO 3441 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:28:51,271 INFO 3441 [egg-multipart] stream mode enable
+2021-03-28 13:28:51,513 INFO 3441 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:28:51,515 INFO 3441 [egg-security] use methodnoallow middleware
+2021-03-28 13:28:51,515 INFO 3441 [egg-security] use noopen middleware
+2021-03-28 13:28:51,515 INFO 3441 [egg-security] use nosniff middleware
+2021-03-28 13:28:51,516 INFO 3441 [egg-security] use xssProtection middleware
+2021-03-28 13:28:51,516 INFO 3441 [egg-security] use xframe middleware
+2021-03-28 13:28:51,516 INFO 3441 [egg-security] use dta middleware
+2021-03-28 13:28:51,516 INFO 3441 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:28:51,526 INFO 3441 [egg:core] dump config after load, 3ms
+2021-03-28 13:28:51,545 INFO 3441 [egg-watcher:application] watcher start success
+2021-03-28 13:28:51,560 INFO 3441 [egg:core] dump config after ready, 4ms
+2021-03-28 13:29:37,741 INFO 3453 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:29:37,766 INFO 3453 [egg-multipart] stream mode enable
+2021-03-28 13:29:38,244 INFO 3453 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:29:38,246 INFO 3453 [egg-security] use methodnoallow middleware
+2021-03-28 13:29:38,246 INFO 3453 [egg-security] use noopen middleware
+2021-03-28 13:29:38,246 INFO 3453 [egg-security] use nosniff middleware
+2021-03-28 13:29:38,247 INFO 3453 [egg-security] use xssProtection middleware
+2021-03-28 13:29:38,247 INFO 3453 [egg-security] use xframe middleware
+2021-03-28 13:29:38,247 INFO 3453 [egg-security] use dta middleware
+2021-03-28 13:29:38,247 INFO 3453 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:29:38,337 INFO 3453 [egg:core] dump config after load, 4ms
+2021-03-28 13:29:38,346 INFO 3453 [egg-watcher:application] watcher start success
+2021-03-28 13:29:38,367 INFO 3453 [egg:core] dump config after ready, 4ms
+2021-03-28 13:33:17,629 INFO 3532 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:33:17,659 INFO 3532 [egg-multipart] stream mode enable
+2021-03-28 13:33:18,036 INFO 3532 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:33:18,038 INFO 3532 [egg-security] use methodnoallow middleware
+2021-03-28 13:33:18,038 INFO 3532 [egg-security] use noopen middleware
+2021-03-28 13:33:18,039 INFO 3532 [egg-security] use nosniff middleware
+2021-03-28 13:33:18,039 INFO 3532 [egg-security] use xssProtection middleware
+2021-03-28 13:33:18,039 INFO 3532 [egg-security] use xframe middleware
+2021-03-28 13:33:18,040 INFO 3532 [egg-security] use dta middleware
+2021-03-28 13:33:18,040 INFO 3532 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:33:20,192 INFO 3532 [egg:core] dump config after load, 4ms
+2021-03-28 13:33:20,218 INFO 3532 [egg-watcher:application] watcher start success
+2021-03-28 13:33:20,237 INFO 3532 [egg:core] dump config after ready, 4ms
+2021-03-28 13:34:05,944 INFO 3544 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:34:05,973 INFO 3544 [egg-multipart] stream mode enable
+2021-03-28 13:34:06,315 INFO 3544 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:34:06,317 INFO 3544 [egg-security] use methodnoallow middleware
+2021-03-28 13:34:06,317 INFO 3544 [egg-security] use noopen middleware
+2021-03-28 13:34:06,317 INFO 3544 [egg-security] use nosniff middleware
+2021-03-28 13:34:06,318 INFO 3544 [egg-security] use xssProtection middleware
+2021-03-28 13:34:06,318 INFO 3544 [egg-security] use xframe middleware
+2021-03-28 13:34:06,318 INFO 3544 [egg-security] use dta middleware
+2021-03-28 13:34:06,318 INFO 3544 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:34:08,408 INFO 3544 [egg:core] dump config after load, 4ms
+2021-03-28 13:34:08,426 INFO 3544 [egg-watcher:application] watcher start success
+2021-03-28 13:34:08,456 INFO 3544 [egg:core] dump config after ready, 4ms
+2021-03-28 13:40:37,436 INFO 3673 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:40:37,465 INFO 3673 [egg-multipart] stream mode enable
+2021-03-28 13:40:37,829 INFO 3673 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:40:37,831 INFO 3673 [egg-security] use methodnoallow middleware
+2021-03-28 13:40:37,831 INFO 3673 [egg-security] use noopen middleware
+2021-03-28 13:40:37,832 INFO 3673 [egg-security] use nosniff middleware
+2021-03-28 13:40:37,832 INFO 3673 [egg-security] use xssProtection middleware
+2021-03-28 13:40:37,832 INFO 3673 [egg-security] use xframe middleware
+2021-03-28 13:40:37,832 INFO 3673 [egg-security] use dta middleware
+2021-03-28 13:40:37,832 INFO 3673 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:40:39,929 INFO 3673 [egg:core] dump config after load, 4ms
+2021-03-28 13:40:39,954 INFO 3673 [egg-watcher:application] watcher start success
+2021-03-28 13:40:39,975 INFO 3673 [egg:core] dump config after ready, 5ms
+2021-03-28 13:42:32,276 INFO 3720 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:42:32,307 INFO 3720 [egg-multipart] stream mode enable
+2021-03-28 13:42:32,572 INFO 3720 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:42:32,574 INFO 3720 [egg-security] use methodnoallow middleware
+2021-03-28 13:42:32,574 INFO 3720 [egg-security] use noopen middleware
+2021-03-28 13:42:32,574 INFO 3720 [egg-security] use nosniff middleware
+2021-03-28 13:42:32,574 INFO 3720 [egg-security] use xssProtection middleware
+2021-03-28 13:42:32,575 INFO 3720 [egg-security] use xframe middleware
+2021-03-28 13:42:32,575 INFO 3720 [egg-security] use dta middleware
+2021-03-28 13:42:32,575 INFO 3720 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:42:34,584 INFO 3720 [egg:core] dump config after load, 3ms
+2021-03-28 13:42:34,599 INFO 3720 [egg-watcher:application] watcher start success
+2021-03-28 13:42:34,625 INFO 3720 [egg:core] dump config after ready, 6ms
+2021-03-28 13:42:39,120 INFO 3739 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:42:39,147 INFO 3739 [egg-multipart] stream mode enable
+2021-03-28 13:42:39,400 INFO 3739 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:42:39,402 INFO 3739 [egg-security] use methodnoallow middleware
+2021-03-28 13:42:39,402 INFO 3739 [egg-security] use noopen middleware
+2021-03-28 13:42:39,402 INFO 3739 [egg-security] use nosniff middleware
+2021-03-28 13:42:39,402 INFO 3739 [egg-security] use xssProtection middleware
+2021-03-28 13:42:39,403 INFO 3739 [egg-security] use xframe middleware
+2021-03-28 13:42:39,403 INFO 3739 [egg-security] use dta middleware
+2021-03-28 13:42:39,403 INFO 3739 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:42:41,398 INFO 3739 [egg:core] dump config after load, 4ms
+2021-03-28 13:42:41,413 INFO 3739 [egg-watcher:application] watcher start success
+2021-03-28 13:42:41,440 INFO 3739 [egg:core] dump config after ready, 5ms
+2021-03-28 13:43:16,898 INFO 3771 [egg:logger] init all loggers with options: {"dir":"/Volumes/开发/www/stars/api.stars.io/logs/api.stars.io","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"api.stars.io-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-28 13:43:16,927 INFO 3771 [egg-multipart] stream mode enable
+2021-03-28 13:43:17,171 INFO 3771 [egg-static] starting static serve /public/ -> /Volumes/开发/www/stars/api.stars.io/app/public
+2021-03-28 13:43:17,173 INFO 3771 [egg-security] use methodnoallow middleware
+2021-03-28 13:43:17,173 INFO 3771 [egg-security] use noopen middleware
+2021-03-28 13:43:17,173 INFO 3771 [egg-security] use nosniff middleware
+2021-03-28 13:43:17,174 INFO 3771 [egg-security] use xssProtection middleware
+2021-03-28 13:43:17,174 INFO 3771 [egg-security] use xframe middleware
+2021-03-28 13:43:17,174 INFO 3771 [egg-security] use dta middleware
+2021-03-28 13:43:17,174 INFO 3771 [egg-security] compose 6 middlewares into one security middleware
+2021-03-28 13:43:19,150 INFO 3771 [egg:core] dump config after load, 4ms
+2021-03-28 13:43:19,162 INFO 3771 [egg-watcher:application] watcher start success
+2021-03-28 13:43:19,192 INFO 3771 [egg:core] dump config after ready, 5ms

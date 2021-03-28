@@ -5,9 +5,7 @@ export default (appInfo: EggAppInfo) => {
 
   config.cluster = {
     listen: {
-      path: '',
-      port: 7070,
-      hostname: '127.0.0.1',
+      port: 7006,
     }
   };
   // override config from framework / plugin

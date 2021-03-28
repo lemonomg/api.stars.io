@@ -1,460 +1,295 @@
-2021-03-27 21:46:17,551 INFO 3591 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:46:18,498 WARN 3591 A client (::ffff:127.0.0.1:59726) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:19,513 WARN 3591 A client (::ffff:127.0.0.1:59781) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:20,530 WARN 3591 A client (::ffff:127.0.0.1:59840) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:21,546 WARN 3591 A client (::ffff:127.0.0.1:59895) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:22,565 WARN 3591 A client (::ffff:127.0.0.1:59950) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:23,583 WARN 3591 A client (::ffff:127.0.0.1:60005) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:24,601 WARN 3591 A client (::ffff:127.0.0.1:60060) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:25,617 WARN 3591 A client (::ffff:127.0.0.1:60115) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:26,631 WARN 3591 A client (::ffff:127.0.0.1:60170) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:27,649 WARN 3591 A client (::ffff:127.0.0.1:60225) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:28,668 WARN 3591 A client (::ffff:127.0.0.1:60280) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:29,681 WARN 3591 A client (::ffff:127.0.0.1:60335) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:30,700 WARN 3591 A client (::ffff:127.0.0.1:60390) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:31,715 WARN 3591 A client (::ffff:127.0.0.1:60445) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:32,731 WARN 3591 A client (::ffff:127.0.0.1:60500) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:33,752 WARN 3591 A client (::ffff:127.0.0.1:60555) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:34,767 WARN 3591 A client (::ffff:127.0.0.1:60610) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:35,783 WARN 3591 A client (::ffff:127.0.0.1:60665) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:36,798 WARN 3591 A client (::ffff:127.0.0.1:60720) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:37,812 WARN 3591 A client (::ffff:127.0.0.1:60775) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:38,832 WARN 3591 A client (::ffff:127.0.0.1:60830) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:39,846 WARN 3591 A client (::ffff:127.0.0.1:60885) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:40,859 WARN 3591 A client (::ffff:127.0.0.1:60940) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:41,786 INFO 3766 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:46:41,876 WARN 3766 A client (::ffff:127.0.0.1:60999) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:42,889 WARN 3766 A client (::ffff:127.0.0.1:61054) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:43,904 WARN 3766 A client (::ffff:127.0.0.1:61109) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:44,922 WARN 3766 A client (::ffff:127.0.0.1:61165) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:45,940 WARN 3766 A client (::ffff:127.0.0.1:61220) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:46,955 WARN 3766 A client (::ffff:127.0.0.1:61275) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:47,973 WARN 3766 A client (::ffff:127.0.0.1:61330) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:48,987 WARN 3766 A client (::ffff:127.0.0.1:61385) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:50,006 WARN 3766 A client (::ffff:127.0.0.1:61440) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:51,024 WARN 3766 A client (::ffff:127.0.0.1:61495) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:52,041 WARN 3766 A client (::ffff:127.0.0.1:61550) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:53,060 WARN 3766 A client (::ffff:127.0.0.1:61605) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:54,078 WARN 3766 A client (::ffff:127.0.0.1:61661) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:55,092 WARN 3766 A client (::ffff:127.0.0.1:61716) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:56,107 WARN 3766 A client (::ffff:127.0.0.1:61771) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:57,122 WARN 3766 A client (::ffff:127.0.0.1:61826) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:58,137 WARN 3766 A client (::ffff:127.0.0.1:61881) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:46:59,152 WARN 3766 A client (::ffff:127.0.0.1:61937) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:00,165 WARN 3766 A client (::ffff:127.0.0.1:61991) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:01,180 WARN 3766 A client (::ffff:127.0.0.1:62054) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:01,162 INFO 3832 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:47:02,196 WARN 3832 A client (::ffff:127.0.0.1:62110) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:03,205 WARN 3832 A client (::ffff:127.0.0.1:62164) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:04,220 WARN 3832 A client (::ffff:127.0.0.1:62218) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:05,236 WARN 3832 A client (::ffff:127.0.0.1:62275) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:06,252 WARN 3832 A client (::ffff:127.0.0.1:62330) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:07,268 WARN 3832 A client (::ffff:127.0.0.1:62385) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:08,285 WARN 3832 A client (::ffff:127.0.0.1:62440) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:09,300 WARN 3832 A client (::ffff:127.0.0.1:62495) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:10,316 WARN 3832 A client (::ffff:127.0.0.1:62550) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:11,334 WARN 3832 A client (::ffff:127.0.0.1:62606) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:12,351 WARN 3832 A client (::ffff:127.0.0.1:62661) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:13,368 WARN 3832 A client (::ffff:127.0.0.1:62716) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:14,383 WARN 3832 A client (::ffff:127.0.0.1:62769) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:15,397 WARN 3832 A client (::ffff:127.0.0.1:62826) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:16,415 WARN 3832 A client (::ffff:127.0.0.1:62880) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:17,433 WARN 3832 A client (::ffff:127.0.0.1:62936) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:18,446 WARN 3832 A client (::ffff:127.0.0.1:62993) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:19,460 WARN 3832 A client (::ffff:127.0.0.1:63047) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:20,475 WARN 3832 A client (::ffff:127.0.0.1:63104) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:21,489 WARN 3832 A client (::ffff:127.0.0.1:63158) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:22,504 WARN 3832 A client (::ffff:127.0.0.1:63214) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:23,518 WARN 3832 A client (::ffff:127.0.0.1:63270) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:24,531 WARN 3832 A client (::ffff:127.0.0.1:63323) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:25,545 WARN 3832 A client (::ffff:127.0.0.1:63378) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:26,558 WARN 3832 A client (::ffff:127.0.0.1:63435) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:27,572 WARN 3832 A client (::ffff:127.0.0.1:63488) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:28,587 WARN 3832 A client (::ffff:127.0.0.1:63545) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:29,602 WARN 3832 A client (::ffff:127.0.0.1:63600) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:30,627 WARN 3832 A client (::ffff:127.0.0.1:63655) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:31,632 WARN 3832 A client (::ffff:127.0.0.1:63710) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:32,647 WARN 3832 A client (::ffff:127.0.0.1:63765) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:33,665 WARN 3832 A client (::ffff:127.0.0.1:63821) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:34,680 WARN 3832 A client (::ffff:127.0.0.1:63876) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:35,694 WARN 3832 A client (::ffff:127.0.0.1:63932) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:36,708 WARN 3832 A client (::ffff:127.0.0.1:63987) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:37,721 WARN 3832 A client (::ffff:127.0.0.1:64045) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:38,738 WARN 3832 A client (::ffff:127.0.0.1:64100) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:39,751 WARN 3832 A client (::ffff:127.0.0.1:64155) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:40,766 WARN 3832 A client (::ffff:127.0.0.1:64210) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:41,785 WARN 3832 A client (::ffff:127.0.0.1:64265) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:42,801 WARN 3832 A client (::ffff:127.0.0.1:64322) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:43,816 WARN 3832 A client (::ffff:127.0.0.1:64381) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:44,831 WARN 3832 A client (::ffff:127.0.0.1:64437) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:45,849 WARN 3832 A client (::ffff:127.0.0.1:64492) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:46,864 WARN 3832 A client (::ffff:127.0.0.1:64547) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:47,878 WARN 3832 A client (::ffff:127.0.0.1:64602) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:48,889 WARN 3832 A client (::ffff:127.0.0.1:64657) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:49,902 WARN 3832 A client (::ffff:127.0.0.1:64712) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:49,956 INFO 4096 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:47:50,918 WARN 4096 A client (::ffff:127.0.0.1:64771) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:51,935 WARN 4096 A client (::ffff:127.0.0.1:64826) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:52,949 WARN 4096 A client (::ffff:127.0.0.1:64881) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:53,966 WARN 4096 A client (::ffff:127.0.0.1:64936) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:54,983 WARN 4096 A client (::ffff:127.0.0.1:64992) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:56,002 WARN 4096 A client (::ffff:127.0.0.1:65047) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:57,022 WARN 4096 A client (::ffff:127.0.0.1:65102) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:58,043 WARN 4096 A client (::ffff:127.0.0.1:65158) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:47:59,062 WARN 4096 A client (::ffff:127.0.0.1:65213) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:00,082 WARN 4096 A client (::ffff:127.0.0.1:65268) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:01,103 WARN 4096 A client (::ffff:127.0.0.1:65323) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:02,120 WARN 4096 A client (::ffff:127.0.0.1:65378) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:03,139 WARN 4096 A client (::ffff:127.0.0.1:65434) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:04,157 WARN 4096 A client (::ffff:127.0.0.1:65496) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:05,177 WARN 4096 A client (::ffff:127.0.0.1:49167) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:06,198 WARN 4096 A client (::ffff:127.0.0.1:49222) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:07,217 WARN 4096 A client (::ffff:127.0.0.1:49277) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:08,234 WARN 4096 A client (::ffff:127.0.0.1:49332) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:09,253 WARN 4096 A client (::ffff:127.0.0.1:49388) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:10,268 WARN 4096 A client (::ffff:127.0.0.1:49444) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:11,285 WARN 4096 A client (::ffff:127.0.0.1:49499) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:12,302 WARN 4096 A client (::ffff:127.0.0.1:49554) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:13,320 WARN 4096 A client (::ffff:127.0.0.1:49609) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:14,340 WARN 4096 A client (::ffff:127.0.0.1:49664) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:15,357 WARN 4096 A client (::ffff:127.0.0.1:49719) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:16,375 WARN 4096 A client (::ffff:127.0.0.1:49774) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:17,391 WARN 4096 A client (::ffff:127.0.0.1:49829) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:18,411 WARN 4096 A client (::ffff:127.0.0.1:49885) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:19,431 WARN 4096 A client (::ffff:127.0.0.1:49940) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:20,448 WARN 4096 A client (::ffff:127.0.0.1:49996) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:21,465 WARN 4096 A client (::ffff:127.0.0.1:50051) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:22,483 WARN 4096 A client (::ffff:127.0.0.1:50106) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:23,502 WARN 4096 A client (::ffff:127.0.0.1:50161) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:24,523 WARN 4096 A client (::ffff:127.0.0.1:50216) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:25,541 WARN 4096 A client (::ffff:127.0.0.1:50271) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:26,559 WARN 4096 A client (::ffff:127.0.0.1:50326) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:27,578 WARN 4096 A client (::ffff:127.0.0.1:50381) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:28,596 WARN 4096 A client (::ffff:127.0.0.1:50436) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:29,613 WARN 4096 A client (::ffff:127.0.0.1:50491) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:30,631 WARN 4096 A client (::ffff:127.0.0.1:50547) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:31,646 WARN 4096 A client (::ffff:127.0.0.1:50602) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:32,664 WARN 4096 A client (::ffff:127.0.0.1:50657) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:33,683 WARN 4096 A client (::ffff:127.0.0.1:50712) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:34,700 WARN 4096 A client (::ffff:127.0.0.1:50767) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:35,720 WARN 4096 A client (::ffff:127.0.0.1:50822) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:36,741 WARN 4096 A client (::ffff:127.0.0.1:50877) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:37,759 WARN 4096 A client (::ffff:127.0.0.1:50935) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:38,779 WARN 4096 A client (::ffff:127.0.0.1:50989) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:39,795 WARN 4096 A client (::ffff:127.0.0.1:51047) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:40,813 WARN 4096 A client (::ffff:127.0.0.1:51102) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:41,828 WARN 4096 A client (::ffff:127.0.0.1:51156) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:42,840 WARN 4096 A client (::ffff:127.0.0.1:51209) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:43,859 WARN 4096 A client (::ffff:127.0.0.1:51264) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:44,874 WARN 4096 A client (::ffff:127.0.0.1:51321) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:45,892 WARN 4096 A client (::ffff:127.0.0.1:51378) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:46,908 WARN 4096 A client (::ffff:127.0.0.1:51434) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:47,924 WARN 4096 A client (::ffff:127.0.0.1:51487) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:48,943 WARN 4096 A client (::ffff:127.0.0.1:51542) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:49,962 WARN 4096 A client (::ffff:127.0.0.1:51599) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:50,979 WARN 4096 A client (::ffff:127.0.0.1:51654) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:51,996 WARN 4096 A client (::ffff:127.0.0.1:51709) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:53,017 WARN 4096 A client (::ffff:127.0.0.1:51764) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:54,034 WARN 4096 A client (::ffff:127.0.0.1:51818) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:55,049 WARN 4096 A client (::ffff:127.0.0.1:51874) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:56,063 WARN 4096 A client (::ffff:127.0.0.1:51931) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:57,080 WARN 4096 A client (::ffff:127.0.0.1:51988) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:58,095 WARN 4096 A client (::ffff:127.0.0.1:52043) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:48:59,110 WARN 4096 A client (::ffff:127.0.0.1:52094) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:00,123 WARN 4096 A client (::ffff:127.0.0.1:52151) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:01,143 WARN 4096 A client (::ffff:127.0.0.1:52208) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:02,158 WARN 4096 A client (::ffff:127.0.0.1:52263) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:03,171 WARN 4096 A client (::ffff:127.0.0.1:52316) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:04,185 WARN 4096 A client (::ffff:127.0.0.1:52370) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:05,200 WARN 4096 A client (::ffff:127.0.0.1:52426) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:06,215 WARN 4096 A client (::ffff:127.0.0.1:52484) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:07,231 WARN 4096 A client (::ffff:127.0.0.1:52537) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:08,249 WARN 4096 A client (::ffff:127.0.0.1:52594) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:09,266 WARN 4096 A client (::ffff:127.0.0.1:52648) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:10,285 WARN 4096 A client (::ffff:127.0.0.1:52702) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:11,308 WARN 4096 A client (::ffff:127.0.0.1:52759) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:12,327 WARN 4096 A client (::ffff:127.0.0.1:52814) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:13,345 WARN 4096 A client (::ffff:127.0.0.1:52868) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:14,365 WARN 4096 A client (::ffff:127.0.0.1:52924) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:15,384 WARN 4096 A client (::ffff:127.0.0.1:52986) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:16,403 WARN 4096 A client (::ffff:127.0.0.1:53054) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:17,421 WARN 4096 A client (::ffff:127.0.0.1:53109) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:18,439 WARN 4096 A client (::ffff:127.0.0.1:53163) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:19,457 WARN 4096 A client (::ffff:127.0.0.1:53220) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:20,471 WARN 4096 A client (::ffff:127.0.0.1:53272) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:21,487 WARN 4096 A client (::ffff:127.0.0.1:53330) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:22,503 WARN 4096 A client (::ffff:127.0.0.1:53386) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:23,518 WARN 4096 A client (::ffff:127.0.0.1:53440) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:24,536 WARN 4096 A client (::ffff:127.0.0.1:53495) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:25,553 WARN 4096 A client (::ffff:127.0.0.1:53551) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:26,567 WARN 4096 A client (::ffff:127.0.0.1:53606) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:27,581 WARN 4096 A client (::ffff:127.0.0.1:53657) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:28,598 WARN 4096 A client (::ffff:127.0.0.1:53715) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:29,615 WARN 4096 A client (::ffff:127.0.0.1:53769) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:30,631 WARN 4096 A client (::ffff:127.0.0.1:53825) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:31,647 WARN 4096 A client (::ffff:127.0.0.1:53881) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:32,660 WARN 4096 A client (::ffff:127.0.0.1:53934) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:33,675 WARN 4096 A client (::ffff:127.0.0.1:53992) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:34,690 WARN 4096 A client (::ffff:127.0.0.1:54048) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:35,704 WARN 4096 A client (::ffff:127.0.0.1:54099) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:36,720 WARN 4096 A client (::ffff:127.0.0.1:54156) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:37,735 WARN 4096 A client (::ffff:127.0.0.1:54213) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:38,750 WARN 4096 A client (::ffff:127.0.0.1:54266) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:39,764 WARN 4096 A client (::ffff:127.0.0.1:54320) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:40,782 WARN 4096 A client (::ffff:127.0.0.1:54376) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:41,798 WARN 4096 A client (::ffff:127.0.0.1:54433) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:42,816 WARN 4096 A client (::ffff:127.0.0.1:54487) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:43,854 WARN 4096 A client (::ffff:127.0.0.1:54544) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:44,876 WARN 4096 A client (::ffff:127.0.0.1:54600) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:45,897 WARN 4096 A client (::ffff:127.0.0.1:54657) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:46,923 WARN 4096 A client (::ffff:127.0.0.1:54712) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:47,948 WARN 4096 A client (::ffff:127.0.0.1:54767) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:48,971 WARN 4096 A client (::ffff:127.0.0.1:54822) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:49,995 WARN 4096 A client (::ffff:127.0.0.1:54876) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:51,019 WARN 4096 A client (::ffff:127.0.0.1:54932) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:52,043 WARN 4096 A client (::ffff:127.0.0.1:54986) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:53,066 WARN 4096 A client (::ffff:127.0.0.1:55040) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:54,092 WARN 4096 A client (::ffff:127.0.0.1:55098) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:55,113 WARN 4096 A client (::ffff:127.0.0.1:55154) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:56,141 WARN 4096 A client (::ffff:127.0.0.1:55209) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:57,163 WARN 4096 A client (::ffff:127.0.0.1:55276) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:49:58,175 WARN 4096 A client (::ffff:127.0.0.1:55331) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:29,083 INFO 4662 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:50:29,599 WARN 4662 A client (::ffff:127.0.0.1:57058) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:30,605 WARN 4662 A client (::ffff:127.0.0.1:57115) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:31,620 WARN 4662 A client (::ffff:127.0.0.1:57170) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:32,635 WARN 4662 A client (::ffff:127.0.0.1:57225) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:33,650 WARN 4662 A client (::ffff:127.0.0.1:57277) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:34,665 WARN 4662 A client (::ffff:127.0.0.1:57334) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:35,676 WARN 4662 A client (::ffff:127.0.0.1:57394) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:36,690 WARN 4662 A client (::ffff:127.0.0.1:57452) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:37,703 WARN 4662 A client (::ffff:127.0.0.1:57507) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:38,714 WARN 4662 A client (::ffff:127.0.0.1:57562) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:39,728 WARN 4662 A client (::ffff:127.0.0.1:57617) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:40,741 WARN 4662 A client (::ffff:127.0.0.1:57669) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:41,753 WARN 4662 A client (::ffff:127.0.0.1:57725) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:42,768 WARN 4662 A client (::ffff:127.0.0.1:57779) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:43,781 WARN 4662 A client (::ffff:127.0.0.1:57837) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:44,795 WARN 4662 A client (::ffff:127.0.0.1:57892) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:45,805 WARN 4662 A client (::ffff:127.0.0.1:57947) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:46,821 WARN 4662 A client (::ffff:127.0.0.1:58002) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:47,836 WARN 4662 A client (::ffff:127.0.0.1:58054) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:48,850 WARN 4662 A client (::ffff:127.0.0.1:58112) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:49,868 WARN 4662 A client (::ffff:127.0.0.1:58167) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:50,883 WARN 4662 A client (::ffff:127.0.0.1:58222) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:51,896 WARN 4662 A client (::ffff:127.0.0.1:58277) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:52,908 WARN 4662 A client (::ffff:127.0.0.1:58330) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:53,920 WARN 4662 A client (::ffff:127.0.0.1:58384) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:54,933 WARN 4662 A client (::ffff:127.0.0.1:58440) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:55,947 WARN 4662 A client (::ffff:127.0.0.1:58497) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:56,959 WARN 4662 A client (::ffff:127.0.0.1:58548) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:57,971 WARN 4662 A client (::ffff:127.0.0.1:58607) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:58,985 WARN 4662 A client (::ffff:127.0.0.1:58659) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:50:59,999 WARN 4662 A client (::ffff:127.0.0.1:58717) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:01,011 WARN 4662 A client (::ffff:127.0.0.1:58769) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:02,025 WARN 4662 A client (::ffff:127.0.0.1:58827) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:03,036 WARN 4662 A client (::ffff:127.0.0.1:58880) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:04,050 WARN 4662 A client (::ffff:127.0.0.1:58935) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:05,064 WARN 4662 A client (::ffff:127.0.0.1:58989) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:06,077 WARN 4662 A client (::ffff:127.0.0.1:59047) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:07,090 WARN 4662 A client (::ffff:127.0.0.1:59099) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:08,104 WARN 4662 A client (::ffff:127.0.0.1:59155) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:09,118 WARN 4662 A client (::ffff:127.0.0.1:59211) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:10,130 WARN 4662 A client (::ffff:127.0.0.1:59263) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:11,142 WARN 4662 A client (::ffff:127.0.0.1:59320) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:12,156 WARN 4662 A client (::ffff:127.0.0.1:59374) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:13,167 WARN 4662 A client (::ffff:127.0.0.1:59429) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:14,179 WARN 4662 A client (::ffff:127.0.0.1:59486) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:15,193 WARN 4662 A client (::ffff:127.0.0.1:59543) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:16,206 WARN 4662 A client (::ffff:127.0.0.1:59595) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:17,217 WARN 4662 A client (::ffff:127.0.0.1:59653) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:18,230 WARN 4662 A client (::ffff:127.0.0.1:59706) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:19,242 WARN 4662 A client (::ffff:127.0.0.1:59761) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:20,257 WARN 4662 A client (::ffff:127.0.0.1:59818) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:21,268 WARN 4662 A client (::ffff:127.0.0.1:59870) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:22,282 WARN 4662 A client (::ffff:127.0.0.1:59926) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:23,294 WARN 4662 A client (::ffff:127.0.0.1:59981) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:24,307 WARN 4662 A client (::ffff:127.0.0.1:60038) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:25,320 WARN 4662 A client (::ffff:127.0.0.1:60093) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:26,331 WARN 4662 A client (::ffff:127.0.0.1:60146) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:27,344 WARN 4662 A client (::ffff:127.0.0.1:60202) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:28,357 WARN 4662 A client (::ffff:127.0.0.1:60258) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:29,371 WARN 4662 A client (::ffff:127.0.0.1:60311) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:30,384 WARN 4662 A client (::ffff:127.0.0.1:60368) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:31,399 WARN 4662 A client (::ffff:127.0.0.1:60423) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:32,412 WARN 4662 A client (::ffff:127.0.0.1:60478) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:33,424 WARN 4662 A client (::ffff:127.0.0.1:60533) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:34,436 WARN 4662 A client (::ffff:127.0.0.1:60584) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:35,451 WARN 4662 A client (::ffff:127.0.0.1:60643) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:36,467 WARN 4662 A client (::ffff:127.0.0.1:60698) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:37,487 WARN 4662 A client (::ffff:127.0.0.1:60753) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:38,505 WARN 4662 A client (::ffff:127.0.0.1:60808) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:39,517 WARN 4662 A client (::ffff:127.0.0.1:60859) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:40,531 WARN 4662 A client (::ffff:127.0.0.1:60915) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:41,545 WARN 4662 A client (::ffff:127.0.0.1:60972) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:42,561 WARN 4662 A client (::ffff:127.0.0.1:61033) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:43,576 WARN 4662 A client (::ffff:127.0.0.1:61089) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:44,591 WARN 4662 A client (::ffff:127.0.0.1:61144) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:45,605 WARN 4662 A client (::ffff:127.0.0.1:61199) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:46,617 WARN 4662 A client (::ffff:127.0.0.1:61254) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:47,634 WARN 4662 A client (::ffff:127.0.0.1:61313) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:48,650 WARN 4662 A client (::ffff:127.0.0.1:61368) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:49,665 WARN 4662 A client (::ffff:127.0.0.1:61424) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:50,680 WARN 4662 A client (::ffff:127.0.0.1:61479) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:51,695 WARN 4662 A client (::ffff:127.0.0.1:61534) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:52,710 WARN 4662 A client (::ffff:127.0.0.1:61589) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:53,730 WARN 4662 A client (::ffff:127.0.0.1:61644) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:54,745 WARN 4662 A client (::ffff:127.0.0.1:61699) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:55,761 WARN 4662 A client (::ffff:127.0.0.1:61754) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:56,778 WARN 4662 A client (::ffff:127.0.0.1:61809) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:57,796 WARN 4662 A client (::ffff:127.0.0.1:61864) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:58,813 WARN 4662 A client (::ffff:127.0.0.1:61920) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:51:59,830 WARN 4662 A client (::ffff:127.0.0.1:61975) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:00,847 WARN 4662 A client (::ffff:127.0.0.1:62030) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:01,865 WARN 4662 A client (::ffff:127.0.0.1:62085) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:02,882 WARN 4662 A client (::ffff:127.0.0.1:62140) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:03,898 WARN 4662 A client (::ffff:127.0.0.1:62195) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:04,913 WARN 4662 A client (::ffff:127.0.0.1:62250) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:05,931 WARN 4662 A client (::ffff:127.0.0.1:62305) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:06,949 WARN 4662 A client (::ffff:127.0.0.1:62360) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:07,968 WARN 4662 A client (::ffff:127.0.0.1:62415) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:08,986 WARN 4662 A client (::ffff:127.0.0.1:62470) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:10,004 WARN 4662 A client (::ffff:127.0.0.1:62525) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:11,024 WARN 4662 A client (::ffff:127.0.0.1:62580) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:12,043 WARN 4662 A client (::ffff:127.0.0.1:62635) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:13,060 WARN 4662 A client (::ffff:127.0.0.1:62690) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:14,078 WARN 4662 A client (::ffff:127.0.0.1:62745) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:15,097 WARN 4662 A client (::ffff:127.0.0.1:62800) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:16,116 WARN 4662 A client (::ffff:127.0.0.1:62855) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:17,134 WARN 4662 A client (::ffff:127.0.0.1:62910) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:18,151 WARN 4662 A client (::ffff:127.0.0.1:62967) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:19,166 WARN 4662 A client (::ffff:127.0.0.1:63022) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:20,180 WARN 4662 A client (::ffff:127.0.0.1:63077) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:21,196 WARN 4662 A client (::ffff:127.0.0.1:63134) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:22,210 WARN 4662 A client (::ffff:127.0.0.1:63189) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:23,225 WARN 4662 A client (::ffff:127.0.0.1:63242) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:24,239 WARN 4662 A client (::ffff:127.0.0.1:63301) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:25,254 WARN 4662 A client (::ffff:127.0.0.1:63354) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:26,268 WARN 4662 A client (::ffff:127.0.0.1:63409) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:27,283 WARN 4662 A client (::ffff:127.0.0.1:63467) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:28,298 WARN 4662 A client (::ffff:127.0.0.1:63522) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:29,309 WARN 4662 A client (::ffff:127.0.0.1:63574) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:30,325 WARN 4662 A client (::ffff:127.0.0.1:63631) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:31,340 WARN 4662 A client (::ffff:127.0.0.1:63686) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:32,355 WARN 4662 A client (::ffff:127.0.0.1:63739) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:33,371 WARN 4662 A client (::ffff:127.0.0.1:63797) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:34,384 WARN 4662 A client (::ffff:127.0.0.1:63850) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:35,400 WARN 4662 A client (::ffff:127.0.0.1:63907) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:36,416 WARN 4662 A client (::ffff:127.0.0.1:63963) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:37,431 WARN 4662 A client (::ffff:127.0.0.1:64018) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:38,445 WARN 4662 A client (::ffff:127.0.0.1:64073) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:39,459 WARN 4662 A client (::ffff:127.0.0.1:64125) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:40,473 WARN 4662 A client (::ffff:127.0.0.1:64183) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:41,488 WARN 4662 A client (::ffff:127.0.0.1:64238) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:42,503 WARN 4662 A client (::ffff:127.0.0.1:64292) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:43,518 WARN 4662 A client (::ffff:127.0.0.1:64348) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:44,531 WARN 4662 A client (::ffff:127.0.0.1:64400) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:45,547 WARN 4662 A client (::ffff:127.0.0.1:64457) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:46,562 WARN 4662 A client (::ffff:127.0.0.1:64513) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:47,577 WARN 4662 A client (::ffff:127.0.0.1:64568) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:48,592 WARN 4662 A client (::ffff:127.0.0.1:64623) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:49,606 WARN 4662 A client (::ffff:127.0.0.1:64678) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:50,620 WARN 4662 A client (::ffff:127.0.0.1:64731) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:51,636 WARN 4662 A client (::ffff:127.0.0.1:64789) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:52,649 WARN 4662 A client (::ffff:127.0.0.1:64843) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:53,665 WARN 4662 A client (::ffff:127.0.0.1:64899) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:54,680 WARN 4662 A client (::ffff:127.0.0.1:64952) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:55,694 WARN 4662 A client (::ffff:127.0.0.1:65008) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:56,709 WARN 4662 A client (::ffff:127.0.0.1:65063) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:57,725 WARN 4662 A client (::ffff:127.0.0.1:65119) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:58,738 WARN 4662 A client (::ffff:127.0.0.1:65174) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:52:59,751 WARN 4662 A client (::ffff:127.0.0.1:65229) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:00,764 WARN 4662 A client (::ffff:127.0.0.1:65283) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:01,778 WARN 4662 A client (::ffff:127.0.0.1:65337) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:02,792 WARN 4662 A client (::ffff:127.0.0.1:65394) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:03,806 WARN 4662 A client (::ffff:127.0.0.1:65446) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:04,820 WARN 4662 A client (::ffff:127.0.0.1:65502) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:05,836 WARN 4662 A client (::ffff:127.0.0.1:49175) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:06,851 WARN 4662 A client (::ffff:127.0.0.1:49230) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:07,867 WARN 4662 A client (::ffff:127.0.0.1:49285) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:08,880 WARN 4662 A client (::ffff:127.0.0.1:49337) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:09,896 WARN 4662 A client (::ffff:127.0.0.1:49393) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:10,911 WARN 4662 A client (::ffff:127.0.0.1:49448) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:11,925 WARN 4662 A client (::ffff:127.0.0.1:49506) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:12,940 WARN 4662 A client (::ffff:127.0.0.1:49560) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:13,954 WARN 4662 A client (::ffff:127.0.0.1:49613) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:14,967 WARN 4662 A client (::ffff:127.0.0.1:49673) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:15,983 WARN 4662 A client (::ffff:127.0.0.1:49728) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:16,998 WARN 4662 A client (::ffff:127.0.0.1:49785) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:18,015 WARN 4662 A client (::ffff:127.0.0.1:49841) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:19,028 WARN 4662 A client (::ffff:127.0.0.1:49894) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:20,042 WARN 4662 A client (::ffff:127.0.0.1:49949) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:21,058 WARN 4662 A client (::ffff:127.0.0.1:50005) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:22,070 WARN 4662 A client (::ffff:127.0.0.1:50061) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:23,084 WARN 4662 A client (::ffff:127.0.0.1:50113) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:24,100 WARN 4662 A client (::ffff:127.0.0.1:50170) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:25,116 WARN 4662 A client (::ffff:127.0.0.1:50226) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:26,129 WARN 4662 A client (::ffff:127.0.0.1:50280) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:27,143 WARN 4662 A client (::ffff:127.0.0.1:50334) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:28,158 WARN 4662 A client (::ffff:127.0.0.1:50390) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:29,171 WARN 4662 A client (::ffff:127.0.0.1:50444) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:30,187 WARN 4662 A client (::ffff:127.0.0.1:50501) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:31,201 WARN 4662 A client (::ffff:127.0.0.1:50553) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:32,214 WARN 4662 A client (::ffff:127.0.0.1:50609) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:33,229 WARN 4662 A client (::ffff:127.0.0.1:50665) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:34,244 WARN 4662 A client (::ffff:127.0.0.1:50721) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:35,259 WARN 4662 A client (::ffff:127.0.0.1:50776) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:36,274 WARN 4662 A client (::ffff:127.0.0.1:50830) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:37,288 WARN 4662 A client (::ffff:127.0.0.1:50884) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:38,302 WARN 4662 A client (::ffff:127.0.0.1:50939) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:39,316 WARN 4662 A client (::ffff:127.0.0.1:50995) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:40,332 WARN 4662 A client (::ffff:127.0.0.1:51054) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:41,347 WARN 4662 A client (::ffff:127.0.0.1:51108) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:42,362 WARN 4662 A client (::ffff:127.0.0.1:51161) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:43,376 WARN 4662 A client (::ffff:127.0.0.1:51216) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:44,393 WARN 4662 A client (::ffff:127.0.0.1:51274) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:45,406 WARN 4662 A client (::ffff:127.0.0.1:51326) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:46,420 WARN 4662 A client (::ffff:127.0.0.1:51384) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:47,433 WARN 4662 A client (::ffff:127.0.0.1:51439) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:48,443 WARN 4662 A client (::ffff:127.0.0.1:51492) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:49,455 WARN 4662 A client (::ffff:127.0.0.1:51549) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:50,467 WARN 4662 A client (::ffff:127.0.0.1:51604) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:50,500 INFO 4856 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:53:51,482 WARN 4856 A client (::ffff:127.0.0.1:51661) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:52,494 WARN 4856 A client (::ffff:127.0.0.1:51718) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:53,506 WARN 4856 A client (::ffff:127.0.0.1:51770) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:54,518 WARN 4856 A client (::ffff:127.0.0.1:51826) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:55,065 INFO 4868 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:53:55,536 WARN 4868 A client (::ffff:127.0.0.1:51886) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:56,545 WARN 4868 A client (::ffff:127.0.0.1:51942) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:57,556 WARN 4868 A client (::ffff:127.0.0.1:51996) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:58,337 INFO 4869 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:53:58,569 WARN 4869 A client (::ffff:127.0.0.1:52053) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:53:59,581 WARN 4869 A client (::ffff:127.0.0.1:52108) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:00,598 WARN 4869 A client (::ffff:127.0.0.1:52164) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:43,903 INFO 4902 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:54:44,282 WARN 4902 A client (::ffff:127.0.0.1:54600) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:45,285 WARN 4902 A client (::ffff:127.0.0.1:54651) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:46,299 WARN 4902 A client (::ffff:127.0.0.1:54710) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:47,312 WARN 4902 A client (::ffff:127.0.0.1:54757) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:48,330 WARN 4902 A client (::ffff:127.0.0.1:54818) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:49,343 WARN 4902 A client (::ffff:127.0.0.1:54873) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:50,357 WARN 4902 A client (::ffff:127.0.0.1:54928) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:51,372 WARN 4902 A client (::ffff:127.0.0.1:54980) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:52,383 WARN 4902 A client (::ffff:127.0.0.1:55036) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:53,397 WARN 4902 A client (::ffff:127.0.0.1:55093) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:54,413 WARN 4902 A client (::ffff:127.0.0.1:55146) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:55,429 WARN 4902 A client (::ffff:127.0.0.1:55204) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:56,444 WARN 4902 A client (::ffff:127.0.0.1:55262) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:57,455 WARN 4902 A client (::ffff:127.0.0.1:55314) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:58,468 WARN 4902 A client (::ffff:127.0.0.1:55371) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:54:59,483 WARN 4902 A client (::ffff:127.0.0.1:55430) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:55:00,497 WARN 4902 A client (::ffff:127.0.0.1:55486) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:55:01,510 WARN 4902 A client (::ffff:127.0.0.1:55541) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:55:02,522 WARN 4902 A client (::ffff:127.0.0.1:55597) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:55:03,534 WARN 4902 A client (::ffff:127.0.0.1:55650) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:55:04,550 WARN 4902 A client (::ffff:127.0.0.1:55706) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:55:05,564 WARN 4902 A client (::ffff:127.0.0.1:55758) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
-2021-03-27 21:56:42,115 INFO 4988 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:57:13,302 INFO 5026 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-03-27 21:58:04,316 INFO 5088 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:38:16,594 INFO 6771 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:38:36,807 INFO 6797 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:40:26,298 INFO 6851 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:41:24,197 INFO 6851 [egg-sequelize](36ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:04,596 INFO 6941 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:42:16,750 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:42:30,083 INFO 6979 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:35,816 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:36,850 INFO 6979 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:37,865 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:38,277 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:38,438 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:38,593 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:38,755 INFO 6979 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:38,900 INFO 6979 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:39,045 INFO 6979 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:42:39,191 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:43:08,930 INFO 6979 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon12345' LIMIT 1;
+2021-03-28 09:43:08,938 INFO 6979 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 09:45:34,416 INFO 7063 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:45:54,869 INFO 7089 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:47:30,891 INFO 7110 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:47:58,500 INFO 7133 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:48:07,305 INFO 7147 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:49:47,599 INFO 7206 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:49:54,812 INFO 7222 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:50:34,763 INFO 7222 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon12345' LIMIT 1;
+2021-03-28 09:50:34,773 INFO 7222 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'my0930@163.com' LIMIT 1;
+2021-03-28 09:52:16,028 INFO 7222 [egg-sequelize](4ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:52:16,037 INFO 7222 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 09:53:04,747 INFO 7319 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:53:21,153 INFO 7340 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:53:30,175 INFO 7340 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:53:30,181 INFO 7340 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 09:54:58,288 INFO 7381 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:55:05,265 INFO 7381 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:55:05,271 INFO 7381 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 09:56:00,852 ERROR 7381 [-/192.168.1.7/-/47496ms POST /api/user/register] nodejs.Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down
+    at Cluster.handleError (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/cluster/index.js:604:38)
+    at Command.command.reject (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/cluster/index.js:481:23)
+    at Redis.handleReconnection (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/redis/index.js:432:26)
+    at DataHandler.returnError (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/DataHandler.js:41:20)
+    at JavascriptRedisParser.returnError (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/DataHandler.js:15:22)
+    at JavascriptRedisParser.execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_redis-parser@3.0.0@redis-parser/lib/parser.js:542:14)
+    at Socket.<anonymous> (/Volumes/开发/www/stars/api.stars.io/node_modules/_ioredis@4.24.5@ioredis/built/DataHandler.js:25:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 7381
+hostname: maoyuxindembp
+
+2021-03-28 09:56:22,233 INFO 7453 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 09:56:53,906 INFO 7453 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:56:53,912 INFO 7453 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 09:57:33,554 INFO 7453 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 09:57:33,560 INFO 7453 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:00:29,077 INFO 893 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 10:00:57,340 INFO 893 [egg-sequelize](18ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:00:57,345 INFO 893 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:02:19,858 INFO 1411 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 10:02:20,704 INFO 1418 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 10:02:27,267 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:02:27,272 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:02:42,538 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:02:42,543 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:02:42,558 INFO 1418 [egg-sequelize](6ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:04:32,279 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:04:32,287 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:04:39,319 INFO 1418 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:04:39,325 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:04:39,339 INFO 1418 [egg-sequelize](6ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:13:01,660 INFO 1418 [egg-sequelize](5ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:13:09,791 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:13:09,797 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:13:31,233 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:13:31,240 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:13:31,246 INFO 1418 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:14:20,221 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:16:39,383 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:16:39,389 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:16:48,291 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:16:48,299 INFO 1418 [egg-sequelize](4ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:16:48,308 INFO 1418 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:16:48,342 ERROR 1418 [-/192.168.1.7/-/67ms POST /api/user/register] nodejs.SequelizeDatabaseError: Field 'id' doesn't have a default value
+    at Query.formatError (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/connection.js:425:32)
+    at PacketParser.onPacket (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Volumes/开发/www/stars/api.stars.io/node_modules/_mysql2@2.2.5@mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Promise._then (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:261:17)
+    at Promise.then (/Volumes/开发/www/stars/api.stars.io/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:154:17)
+    at User.save (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/model.js:3661:8)
+    at Function.create (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize@4.44.4@sequelize/lib/model.js:2023:8)
+    at Function._target.<computed> [as create] (/Volumes/开发/www/stars/api.stars.io/node_modules/_sequelize-typescript@0.6.11@sequelize-typescript/lib/models/BaseModel.js:36:41)
+    at UserService.register (/Volumes/开发/www/stars/api.stars.io/app/service/users.ts:37:48)
+    at UserController.register (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:29:21)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);"}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);"}
+sql: "INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1418
+hostname: maoyuxindembp
+
+2021-03-28 10:17:01,520 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:17:01,526 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:17:01,531 INFO 1418 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:23:40,484 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:23:40,492 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:23:56,545 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:23:56,550 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:23:56,568 INFO 1418 [egg-sequelize](13ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:25:06,927 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:25:06,932 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:25:15,666 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:25:15,673 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:25:15,679 INFO 1418 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:28:36,845 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:28:49,947 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:28:49,951 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:28:56,183 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:28:56,187 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:28:56,195 INFO 1418 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:33:12,461 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:33:12,468 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:33:22,452 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:33:22,461 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:33:22,468 INFO 1418 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:34:14,904 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:34:14,911 INFO 1418 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:34:21,952 INFO 1418 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:34:21,957 INFO 1418 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:34:21,967 INFO 1418 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 10:35:04,675 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:35:04,681 INFO 1418 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:35:13,544 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 10:35:13,549 INFO 1418 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 10:35:13,556 INFO 1418 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 11:00:47,348 INFO 2384 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:44:57,986 INFO 2680 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:45:01,477 INFO 2694 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:45:04,395 INFO 2694 [egg-sequelize](29ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = NULL LIMIT 1;
+2021-03-28 12:45:40,316 INFO 2716 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:45:44,968 INFO 2716 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'aaaaaa' LIMIT 1;
+2021-03-28 12:51:41,712 INFO 2716 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 12:51:41,717 INFO 2716 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 12:51:50,964 INFO 2716 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 12:51:50,968 INFO 2716 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`email` = 'myx0930@163.com' LIMIT 1;
+2021-03-28 12:51:50,986 INFO 2716 [egg-sequelize](9ms) Executed (default): INSERT INTO `users` (`id`,`account`,`password`,`nickname`,`email`,`group_id`) VALUES (DEFAULT,'lemon1234','8RQ+VeyOD8G/hfuQeZDxdQ==','lemon123','myx0930@163.com',1);
+2021-03-28 12:52:07,814 INFO 2716 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 12:52:36,976 INFO 2780 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:52:39,609 INFO 2780 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 12:53:23,883 INFO 2808 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:53:28,533 INFO 2808 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 12:53:43,469 INFO 2814 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:54:04,172 INFO 2814 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 12:54:16,499 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 12:54:18,070 INFO 2818 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:01:14,934 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:15,918 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:16,447 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:16,770 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:16,954 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:17,112 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:17,267 INFO 2818 [egg-sequelize](0ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:17,419 INFO 2818 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:17,573 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:17,727 INFO 2818 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:30,507 INFO 2818 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon13' LIMIT 1;
+2021-03-28 13:01:59,660 INFO 2947 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:02:22,873 INFO 2947 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:02:32,737 INFO 2947 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:05:26,979 INFO 2947 [egg-sequelize](2ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:06:02,615 INFO 2947 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:06:12,300 INFO 2947 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:07:13,291 INFO 3057 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:07:18,379 INFO 3060 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:25:42,688 INFO 3280 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:27:35,118 INFO 3353 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:27:54,390 INFO 3372 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:28:09,582 INFO 3394 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:28:51,554 INFO 3441 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:29:38,361 INFO 3453 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:33:20,229 INFO 3532 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:34:08,449 INFO 3544 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:34:35,727 INFO 3544 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:34:35,755 ERROR 3544 [-/192.168.1.7/-/53ms POST /api/user/login] nodejs.RangeError: Maximum call stack size exceeded
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3544
+hostname: maoyuxindembp
+
+2021-03-28 13:34:59,797 INFO 3544 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:34:59,811 ERROR 3544 [-/192.168.1.7/-/24ms POST /api/user/login] nodejs.RangeError: Maximum call stack size exceeded
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+    at UserController.get userInfo [as userInfo] (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:11:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3544
+hostname: maoyuxindembp
+
+2021-03-28 13:40:39,967 INFO 3673 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:42:34,616 INFO 3720 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:42:41,432 INFO 3739 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:42:49,192 INFO 3739 [egg-sequelize](3ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
+2021-03-28 13:42:49,213 ERROR 3739 [-/192.168.1.7/-/39ms POST /api/user/login] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Volumes/开发/www/stars/api.stars.io/app/utils/private_key.pem'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Jwt.generateToken (/Volumes/开发/www/stars/api.stars.io/app/utils/jwt.ts:17:22)
+    at UserController.login (/Volumes/开发/www/stars/api.stars.io/app/controller/user.ts:64:43)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at bodyParser (/Volumes/开发/www/stars/api.stars.io/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at /Volumes/开发/www/stars/api.stars.io/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at notfound (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/notfound.js:5:5)
+    at meta (/Volumes/开发/www/stars/api.stars.io/node_modules/_egg@2.29.3@egg/app/middleware/meta.js:17:5)
+    at cors (/Volumes/开发/www/stars/api.stars.io/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:98:16)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/开发/www/stars/api.stars.io/app/utils/private_key.pem"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ENOENTError"
+pid: 3739
+hostname: maoyuxindembp
+
+2021-03-28 13:43:19,183 INFO 3771 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-03-28 13:43:21,456 INFO 3771 [egg-sequelize](1ms) Executed (default): SELECT `id`, `account`, `password`, `nickname`, `avatar`, `email`, `group_id` FROM `users` AS `user` WHERE `user`.`account` = 'lemon1234' LIMIT 1;
